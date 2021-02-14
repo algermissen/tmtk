@@ -1,0 +1,67 @@
+* How to handle basenames with linebreaks in input? in output?
+* Nest view components somehow (hitlist/topic)
+* Wrong calculation of index size!
+
+* In src/base/topicmap.c IS13250 is loaded to create properties of assertion
+  structure. Can we remove this hardcoded stuff?
+
+* Provide a way for error handling in value type functions, such as parsing
+  from string (this propably requires a global handle to be present on
+  most data structures such as value type, topic map, property etc.
+
+* Enable parsing of multiple elements in TextSet parsing from string. Also
+  enable list format like this:  ["text 1","text 2", "text \"3\""]
+  Currently no commas are allowed in text!
+
+* Dynamically extending expat's char data buffer:
+
+  "tm: src/base/omnivore.c:980: expat_char_data: Assertion `space_available > len' failed.
+   Aborted (core dumped)"
+
+* improvove/cleanup Omnivore in general -> better performance
+
+* Remove checking code in _pstore_vput(). It does and immediate lookup
+  of a VID after a new value has been inserted.
+
+
+* Beware that textsetstore relies on the disjointness of the sets. This was
+  a simplification to save some time, but it needs to be fixed if the setstore
+  is to be used with a non-sir-like property.
+
+* Add a flag to tm_topicmap_require_model() to control if the model is
+  to be loaded or not. That way, this can be used for merely testing if
+  a model is loaded. Is that a good idea?
+
+* Free objects on error return in tm app.
+
+* Keep track of models, proc models and the like on each handle and free
+  on cleanup!
+
+* Index for HAS_PLAYER_PAIR in memstore/asidp.c
+
+* Stores for Integer, Date, etc.
+
+* add method to omnivore to retrieve parser's line and position that can be
+  called by proc models.
+
+* make order of options in tm irrelevant! Currently, -t must be the first
+  one to trace really everything!
+
+Future:
+
+* Propably pass transaction handle to each layer (from TM to storage) to control
+  allocation (e.g. value_store_get_value()) and concurrency etc.
+  Yes, that is a good idea. We can also use pooling etc. then.
+
+* New query language:
+
+SELECT OCCURRENCES
+ WHERE SAM::BaseName INCLUDES "booboo"
+  WITH OCCURRENCES AS 
+
+DEFINE VIEW topic
+ PARAM topic Topic
+
+Result: set of topics with properties (all equaly structured?
+
+

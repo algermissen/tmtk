@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<rdf:RDF 
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/" 
+xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+xmlns="http://purl.org/rss/1.0/"
+xmlns:admin="http://webns.net/mvcb/"
+xmlns:annotate="http://purl.org/rss/1.0/modules/annotate/"
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:cc="http://web.resource.org/cc/"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:foaf="http://xmlns.com/foaf/0.1/"
+xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+>
+
+<channel rdf:about="http://www.benhammersley.com/">
+<title>Ben Hammersley.com</title>
+<link>http://www.benhammersley.com/</link>
+<description>Scaring the Straights Since 1976</description>
+<dc:language>en-us</dc:language>
+<dc:creator>Ben Hammersley</dc:creator>
+<dc:date>2003-03-27T19:57:37+01:00</dc:date>
+<admin:generatorAgent rdf:resource="http://www.movabletype.org/?v=2.6" />
+<admin:errorReportsTo rdf:resource="mailto:ben@benhammersley.com"/>
+
+
+
+<items>
+<rdf:Seq><rdf:li rdf:resource="http://www.benhammersley.com/archives/004370.html" />
+<rdf:li rdf:resource="http://www.benhammersley.com/archives/004369.html" />
+<rdf:li rdf:resource="http://www.benhammersley.com/archives/004367.html" />
+<rdf:li rdf:resource="http://www.benhammersley.com/archives/004366.html" />
+<rdf:li rdf:resource="http://www.benhammersley.com/archives/004365.html" />
+<rdf:li rdf:resource="http://www.benhammersley.com/archives/004363.html" />
+<rdf:li rdf:resource="http://www.benhammersley.com/archives/004361.html" />
+<rdf:li rdf:resource="http://www.benhammersley.com/archives/004358.html" />
+<rdf:li rdf:resource="http://www.benhammersley.com/archives/004357.html" />
+<rdf:li rdf:resource="http://www.benhammersley.com/archives/004355.html" />
+<rdf:li rdf:resource="http://www.benhammersley.com/archives/004349.html" />
+<rdf:li rdf:resource="http://www.benhammersley.com/archives/004348.html" />
+<rdf:li rdf:resource="http://www.benhammersley.com/archives/004346.html" />
+<rdf:li rdf:resource="http://www.benhammersley.com/archives/004345.html" />
+<rdf:li rdf:resource="http://www.benhammersley.com/archives/004344.html" />
+</rdf:Seq>
+</items>
+
+</channel>
+
+<item rdf:about="http://www.benhammersley.com/archives/004370.html">
+<title>Gsm? Non!</title>
+<link>http://www.benhammersley.com/archives/004370.html</link>
+<description>Ok, so now I&apos;ve heard it all. According to The Register, Congressman Darrell Issa (R., San Diego) is attempting to...</description>
+<dc:subject></dc:subject>
+<dc:creator>Ben Hammersley</dc:creator>
+<dc:date>2003-03-27T19:57:37+01:00</dc:date>
+<annotate:reference rdf:resource="http://www.benhammersley.com/archives/004370.html" />
+<content:encoded><![CDATA[<p>Ok, so now I've heard it all. <a href="http://www.theregister.co.uk/content/59/29974.html">According to The Register</a>, Congressman Darrell Issa (R., San Diego) is attempting to get Donald Rumsfeld to ensure that the Iraqi mobile phone network is rebuilt with CDMA gear, rather than the GSM stuff that the rest of the region, indeed the world (apart from most of the US, Japan and Korea) uses. Why? <em>Because GSM is French</em>.</p>
+
+<p>(Except that it isn't, it's only the name. Issa's an idiot: read the article.)</p>
+
+<p>Still, <a href="http://www.themorningnews.org/archives/personalities/a_good_day_to_be_alive.shtml">It's a Good Day to be alive</a>.</p>]]></content:encoded>
+
+
+
+<dc:contributor>
+<foaf:person foaf:name="Jimnice">
+<foaf:homepage rdf:resource="http://polynomia.com" />
+<foaf:email rdf:resource="jimnice@polynomia.com" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Mark Eichin">
+<foaf:homepage rdf:resource="http://www.thok.org/" />
+<foaf:email rdf:resource="eichin@thok.org" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="noel">
+<foaf:homepage rdf:resource="http://noeljackson.com" />
+<foaf:email rdf:resource="noel@noeljackson.com" />
+</foaf:person>
+</dc:contributor>
+
+
+
+<trackback:ping rdf:resource="http://blog.mediacooperative.com/mt-tb.cgi/1698"/>
+
+
+
+</item>
+<item rdf:about="http://www.benhammersley.com/archives/004369.html">
+<title>Maps!</title>
+<link>http://www.benhammersley.com/archives/004369.html</link>
+<description>Damnation! You spend all afternoon trying to install something, and then you read that someone else had no problems at...</description>
+<dc:subject></dc:subject>
+<dc:creator>Ben Hammersley</dc:creator>
+<dc:date>2003-03-27T15:15:25+01:00</dc:date>
+<annotate:reference rdf:resource="http://www.benhammersley.com/archives/004369.html" />
+<content:encoded><![CDATA[<p>Damnation! You spend all afternoon trying to install something, and then you read that <a href="http://www.pollas.dk/blog/archives/000363.asp">someone else had no problems at all</a>. Gah.</p>
+
+<p>Still, <a href="http://geosketch.riptari.net/">the GeoSketch system</a> should be lovely, once I've got it working. <a href="http://geosketch.riptari.net/examples.html">check out these examples</a>...</p>]]></content:encoded>
+
+<trackback:about rdf:resource="http://www.geezer.dk/blog/mt-tb.cgi/365"/>
+
+
+<dc:contributor>
+<foaf:person foaf:name="Anders">
+<foaf:homepage rdf:resource="http://pollas.dk" />
+<foaf:email rdf:resource="anders@pollas.dk" />
+</foaf:person>
+</dc:contributor>
+
+
+
+<trackback:ping rdf:resource="http://blog.mediacooperative.com/mt-tb.cgi/1697"/>
+
+
+
+</item>
+<item rdf:about="http://www.benhammersley.com/archives/004367.html">
+<title>I wanna be Mena, too</title>
+<link>http://www.benhammersley.com/archives/004367.html</link>
+<description>Blogging has a theme tune, and it is beautiful. Steven Frank&apos;s new song: Ben and Mena. The MP3 is here....</description>
+<dc:subject>Weblogging</dc:subject>
+<dc:creator>Ben Hammersley</dc:creator>
+<dc:date>2003-03-27T13:25:36+01:00</dc:date>
+<annotate:reference rdf:resource="http://www.benhammersley.com/archives/004367.html" />
+<content:encoded><![CDATA[<p>Blogging has a theme tune, and it is beautiful. Steven Frank's new song: <a href="http://stevenf.com/mt/archives/000238.php#000238">Ben and Mena</a>. <a href="http://stevenf.com/downloads/ben-and-mena.mp3">The MP3 is here</a>. May be puzzling to many, but I laughed far too hard.</p>]]></content:encoded>
+
+<trackback:about rdf:resource="http://www.blogroots.com/tb_populi.blog?id=1"/>
+
+
+<dc:contributor>
+<foaf:person foaf:name="Latz">
+<foaf:homepage rdf:resource="" />
+<foaf:email rdf:resource="latz@elektroelch.de" />
+</foaf:person>
+</dc:contributor>
+
+
+
+<trackback:ping rdf:resource="http://blog.mediacooperative.com/mt-tb.cgi/1695"/>
+
+
+
+</item>
+<item rdf:about="http://www.benhammersley.com/archives/004366.html">
+<title>The Guardian: Giving it to you straight.</title>
+<link>http://www.benhammersley.com/archives/004366.html</link>
+<description>It&apos;s Thursday, so I&apos;m once again part of the liberal media conspiracy: The Guardian: Giving it to you straight. (and,...</description>
+<dc:subject>Newspaper Journalism</dc:subject>
+<dc:creator>Ben Hammersley</dc:creator>
+<dc:date>2003-03-27T12:49:53+01:00</dc:date>
+<annotate:reference rdf:resource="http://www.benhammersley.com/archives/004366.html" />
+<content:encoded><![CDATA[<p>It's Thursday, so I'm once again part of the liberal media conspiracy: <a href="http://www.guardian.co.uk/online/story/0,3605,922346,00.html">The Guardian: Giving it to you straight</a>. (and, as ever, reproduced below).</p>]]><![CDATA[<p>Giving it to you straight</p>
+
+<p>With its combination of intelligence gathering and live pictures, the net has come of age as a news source, argues Ben Hammersley</p>
+
+<p>Thursday March 27, 2003<br />
+The Guardian</p>
+
+<p>Could this be the first internet war? As the Spanish civil war brought us the first classic photojournalism, and the first Gulf war saw the heyday of CNN, and with it 24-hour rolling news, could this war be the birth of the internet as the primary source for news?</p>
+
+<p>The world's major news outlets are finding it so. The readership of their online versions, including this paper's, has increased dramatically since the start of hostilities. With multiple journalists filing frequent reports from the battlefield, the only outlet wide enough, and fast enough to keep up is the net.</p>
+
+<p>Gaining most attention are the weblogs. The weblogging community is proving adept at compiling and filtering news in a way never seen in previous conflicts. By comparing and contrasting reports from every news source in the theatre, the war-bloggers' adage that they will "fact-check your ass" is being played out with enthusiasm from both writer and reader.</p>
+
+<p>Although most of the coverage provided by the war-bloggers consists of links to, and commentary on, professional journalists in the field (the number of weblogs producing first-hand reportage can be counted on one hand, and those not produced by professional journalists in place for their employers are fewer still) the output of the armchair correspondents can provide, at its best, a more rounded perspective on the events.</p>
+
+<p>At its worst, however, the internet's immediacy allows for rumour and untruths and counter-spin to travel unimpeded and to reproduce at great speed across the net. This immediacy of information is double-edged. When it works, its military value is obvious to see. In a war where live pictures from the opposition's capital city are available as webcam streams, and where the sort of regional intelligence gathering only dreamt of not many decades ago is available to anyone armed with Google, the combination of military intelligence and the world's press can combine to great effect.</p>
+
+<p>Assessing the effect of your latest bombing sorties is all the easier for watching it live on the BBC. For the average viewer, however, such a torrent of information can distort the truth just as much as too little. Gauging the overall picture of a conflict's progress by piecing together live reports from "embedded" journalists is much like gauging the state of the national roads by having people look out of their window.</p>
+
+<p>What is true at a certain place at a certain time, might be completely different five minutes and five miles down the road. For a public unused to such fluidity, the constantly changing mood does not suggest the human difficulties in reporting from a warzone. Rather, it suggests that someone is lying.</p>
+
+<p>There is also a great change in the way the military and the media and the general public are related: for the first time ever, the same tools are being used to both fight and report the war. The GPS positioning units, the satellite internet connections, and the tiny digital video cameras used by the press depend on exactly the same infrastructure as that used by the military.</p>
+
+<p>Everyone, military and civilian alike, buys it from the same people. Only the GPS system is owned and run by the US military, and that system is used by press, coalition and Iraqi forces alike. The importance of this neutral infrastructure is not to be underestimated - the very reason that the Iraqi landlines, internet connections, and cell phone network haven't been targeted is that they wish to use it themselves upon arrival in Baghdad.</p>
+
+<p>That doesn't mean this infrastructure is without its own conflict. Websites belonging to coalition and Iraqi authorities have been under attack, and the past few weeks have seen email viruses being launched into cyberspace by authors representing all sides in the real conflict.</p>
+
+<p>The GPS system, too, is corruptible. Reports suggest that Russian-built jamming equipment may have been sold to the Iraqi authorities, allowing them to confuse coalition troops. They need not have bothered. The technical details and circuit board plans of such devices are available on the internet, in part published by the US navy. That anyone can find this stuff is indicative of the one thing that can be said definitively about the internet in this war. In the end, the biggest winner, of the war and the peace, may be Google. </p>]]></content:encoded>
+
+
+
+
+
+
+<trackback:ping rdf:resource="http://blog.mediacooperative.com/mt-tb.cgi/1694"/>
+
+
+
+</item>
+<item rdf:about="http://www.benhammersley.com/archives/004365.html">
+<title>Even More Comment Spam!</title>
+<link>http://www.benhammersley.com/archives/004365.html</link>
+<description>Comment Spam, it&apos;s the new black. This time, it&apos;s this: IP Address: 64.42.239.145 Name: Mr. Trusted Pharmacy Online Email Address:...</description>
+<dc:subject>Weblogging</dc:subject>
+<dc:creator>Ben Hammersley</dc:creator>
+<dc:date>2003-03-27T12:44:44+01:00</dc:date>
+<annotate:reference rdf:resource="http://www.benhammersley.com/archives/004365.html" />
+<content:encoded><![CDATA[<p>Comment Spam, it's the new black. This time, it's this:<br />
+<blockquote>IP Address: 64.42.239.145<br />
+Name: Mr. Trusted Pharmacy Online<br />
+Email Address: webmaster@trusted-pharmacy.com<br />
+URL: http://www.trusted-pharmacy.com</p>
+
+<p>Comments:</p>
+
+<p>I really enjoyed checking out your site, I will be back often.</blockquote></p>
+
+<p>So far, only myself and Sam Ruby appear to have been hit. so it might not be spam, it might just be someone really boring. Let's see if we can track this one.</p>]]></content:encoded>
+
+<trackback:about rdf:resource="http://www.blogroots.com/tb_populi.blog?id=1"/>
+
+
+<dc:contributor>
+<foaf:person foaf:name="Saxey">
+<foaf:homepage rdf:resource="http://www.livejournal.com/users/saxey" />
+<foaf:email rdf:resource="E.Saxey@sussex.ac.uk" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Stefan Smalla">
+<foaf:homepage rdf:resource="http://www.smalla.net/infofeed" />
+<foaf:email rdf:resource="stefan@smalla.net" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Sam Ruby">
+<foaf:homepage rdf:resource="http://www.intertwingly.net/blog/" />
+<foaf:email rdf:resource="rubys@intertwingly.net" />
+</foaf:person>
+</dc:contributor>
+
+
+
+<trackback:ping rdf:resource="http://blog.mediacooperative.com/mt-tb.cgi/1693"/>
+
+
+
+</item>
+<item rdf:about="http://www.benhammersley.com/archives/004363.html">
+<title>Slow-mo slashdotting</title>
+<link>http://www.benhammersley.com/archives/004363.html</link>
+<description>What is a boy to do? First of all he gets bombed, and then he finds that he&apos;s breaking the...</description>
+<dc:subject>Weblogging</dc:subject>
+<dc:creator>Ben Hammersley</dc:creator>
+<dc:date>2003-03-26T21:23:30+01:00</dc:date>
+<annotate:reference rdf:resource="http://www.benhammersley.com/archives/004363.html" />
+<content:encoded><![CDATA[<p>What is a boy to do? First of all he gets bombed, and then he finds that he's breaking the internet. <a href="http://dear_raed.blogspot.com">Salam Pax</a>, The Blogger of Baghdad (tm), is killing the little services he's using on his site: <a href="http://jason.defillippo.com/blog/archives/000364.phtml">Jason, of Blogrolling.com</a> and <a href="http://www.wired.com/news/culture/0,1284,58206,00.html">Taylor Suchan of Pyxz.com, who hosts his pictures</a> have both been slow-mo-slashdotted. <blockquote cite="http://www.wired.com/news/culture/0,1284,58206,00.html">Suchan said that at various points over several days his server usage topped 15 megabits.</blockquote></p>
+
+<p>This is quite a serious thing, actually. If the blogging world starts to get any bigger than it is now, and there's no reason why it shouldn't, all the really cool services, like Blogrolling.com, will start to face big problems of scale. Consider a site like Salam Pax's - it uses four free services: Blogger, Haloscan, Blogrolling and Pyxz. If all of those guys have to worry about paying much larger costs for something that now they're giving away for free, we may start to have problems.</p>
+
+<p>And on that note <a href="http://www.metafilter.com">Metafilter</a> just started taking text-ads from Google. <a href="http://metatalk.metafilter.com/mefi/3137#66033">Here's Matt's explanation</a>.</p>]]></content:encoded>
+
+<trackback:about rdf:resource="http://jason.defillippo.com/mt/mt-tb.cgi/364"/>
+<trackback:about rdf:resource="http://www.blogroots.com/tb_populi.blog?id=1"/>
+<trackback:about rdf:resource="http://www.blogroots.com/tb_populi.blog?id=1"/>
+
+
+<dc:contributor>
+<foaf:person foaf:name="Gavin">
+<foaf:homepage rdf:resource="http://www.estey.com" />
+<foaf:email rdf:resource="gavin@estey.com" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Ken MacLeod">
+<foaf:homepage rdf:resource="" />
+<foaf:email rdf:resource="ken@bitsko.slc.ut.us" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Seyed Razavi">
+<foaf:homepage rdf:resource="http://www.monkeyx.com/" />
+<foaf:email rdf:resource="seyed@monkeyx.com" />
+</foaf:person>
+</dc:contributor>
+
+
+
+<trackback:ping rdf:resource="http://blog.mediacooperative.com/mt-tb.cgi/1691"/>
+<dcterms:isReferencedBy rdf:resource="http://www.al3x.net/mt/archives/000104.html" />
+
+
+</item>
+<item rdf:about="http://www.benhammersley.com/archives/004361.html">
+<title>Professor!</title>
+<link>http://www.benhammersley.com/archives/004361.html</link>
+<description>I might be linking to him because he quoted the same Neal Pollack bit as I did today, or because...</description>
+<dc:subject></dc:subject>
+<dc:creator>Ben Hammersley</dc:creator>
+<dc:date>2003-03-26T19:12:28+01:00</dc:date>
+<annotate:reference rdf:resource="http://www.benhammersley.com/archives/004361.html" />
+<content:encoded><![CDATA[<p>I might be linking to him because <a href="http://dalekeiger.com/archives/cat_the_technopolis.html#000282">he quoted the same Neal Pollack bit as I did today</a>, or because <a href="http://dalekeiger.com/archives/cat_the_technopolis.html#000280">of his coverage of war-bloggers</a>, or <a href="http://dalekeiger.com/archives/cat_politics.html#000281">because between those two, he posts about Frida Kahlo</a>, but no. The real reason that <a href="http://dalekeiger.com/">Dale Keiger</a> is one of my top three favourite bloggers of all time is that on top of this, he posts the lyrics to the <a href="http://dalekeiger.com/archives/cat_.html#000283">Philosopher's Song</a>, the only ditty I can remember when I myself am two sheets to the wind.</p>
+
+<p>In other news, I just had 14 deer in the back garden, and the buggers have eaten the flowers. I'm having venison to tea just for karmic revenge. Warning: this could escalate.</p>]]></content:encoded>
+
+<trackback:about rdf:resource="http://dalekeiger.com/cgi-bin/mt/mt-tb.cgi/41"/>
+<trackback:about rdf:resource="http://dalekeiger.com/cgi-bin/mt/mt-tb.cgi/42"/>
+<trackback:about rdf:resource="http://dalekeiger.com/cgi-bin/mt/mt-tb.cgi/43"/>
+
+
+<dc:contributor>
+<foaf:person foaf:name="Tom McMahon">
+<foaf:homepage rdf:resource="" />
+<foaf:email rdf:resource="tommcmahon@musician.org" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="John">
+<foaf:homepage rdf:resource="http://www.enkil.demon.co.uk/blog.html" />
+<foaf:email rdf:resource="jvk@mak.kom" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Cat">
+<foaf:homepage rdf:resource="http://likebutter.net" />
+<foaf:email rdf:resource="cat@likebutter.net" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Mark">
+<foaf:homepage rdf:resource="http://www.londonmark.blogspot.com/" />
+<foaf:email rdf:resource="mwmc01@yahoo.co.uk" />
+</foaf:person>
+</dc:contributor>
+
+
+
+<trackback:ping rdf:resource="http://blog.mediacooperative.com/mt-tb.cgi/1689"/>
+
+
+
+</item>
+<item rdf:about="http://www.benhammersley.com/archives/004358.html">
+<title>Neal Pollock - WarBlogger</title>
+<link>http://www.benhammersley.com/archives/004358.html</link>
+<description>Neal Pollock: war-blogger extraordinaire... &quot;This war is complicated, and I fear that traditional media aren&apos;t up to the task of...</description>
+<dc:subject></dc:subject>
+<dc:creator>Ben Hammersley</dc:creator>
+<dc:date>2003-03-26T11:29:08+01:00</dc:date>
+<annotate:reference rdf:resource="http://www.benhammersley.com/archives/004358.html" />
+<content:encoded><![CDATA[<p><a href="http://www.nealpollack.com/cgi-bin/blog/do.cgi/200303252304/permalink">Neal Pollock: war-blogger extraordinaire...</a><br />
+<blockquote>"This war is complicated, and I fear that traditional media aren't up to the task of explaining its complex complexities. The embedded reporters are plagued by combat inexperience, night blindness, or, in the case of the turncoat Brits, anti-American Fifth Column traitor tendencies. Not so us bloggers. We see through the muck that fills our TV and computer screens as we monitor them obsessively, not "pathetically," as our detractors in the old media say, 24 hours a day. We see what no one else can, because no one else is looking in the same places that we are. Our minds are very sharp pencils, and we're poking the world in the collective eye."</blockquote></p>
+
+<p>Also, <a href="http://uber.nu/docs/do.cgi/20030319">Introducing BlogEditor</a> - Your Route to Writing Success.</p>]]></content:encoded>
+
+
+
+<dc:contributor>
+<foaf:person foaf:name="Damelon Kimbrough">
+<foaf:homepage rdf:resource="http://www.divagation.com/journal/" />
+<foaf:email rdf:resource="dkjournal@divagation.com" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Jez">
+<foaf:homepage rdf:resource="http://www.jezuk.co.uk/jez" />
+<foaf:email rdf:resource="jez@jezuk.co.uk" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Ben Hammersley">
+<foaf:homepage rdf:resource="http://www.benhammersley.com" />
+<foaf:email rdf:resource="ben@benhammersley.com" />
+</foaf:person>
+</dc:contributor>
+
+
+
+<trackback:ping rdf:resource="http://blog.mediacooperative.com/mt-tb.cgi/1686"/>
+<dcterms:isReferencedBy rdf:resource="http://www.prandial.com/archives/004356.html" /><dcterms:isReferencedBy rdf:resource="http://www.prandial.com/archives/004356.html" />
+
+
+</item>
+<item rdf:about="http://www.benhammersley.com/archives/004357.html">
+<title>soksoksoksok</title>
+<link>http://www.benhammersley.com/archives/004357.html</link>
+<description>My dear Watson. Curious happenings are to expected from the Japanese internet. Breast scarves and USB coffeecups not withstanding. So...</description>
+<dc:subject></dc:subject>
+<dc:creator>Ben Hammersley</dc:creator>
+<dc:date>2003-03-25T22:55:42+01:00</dc:date>
+<annotate:reference rdf:resource="http://www.benhammersley.com/archives/004357.html" />
+<content:encoded><![CDATA[<p>My dear Watson. Curious happenings are  to expected from the Japanese internet. Breast scarves and USB coffeecups not withstanding. So when my homeboy (as I believe one addresses one's contemporaries) <a href="http://www.barcablog.com">Andy</a> summons me to the Instant Messanger with an email proclaiming "much oddness", I am intrigued, but not overly optimistic for impending adventure.</p>
+
+<p>Oh how wrong can I be?</p>
+
+<p>Andy, he tells me, has been autoerotically googling himself, as young people are wont to do, and stumbled across this: <a href="http://pack.soksok.jp/y/.y7k3/barcablog/">http://pack.soksok.jp/y/.y7k3/barcablog/</a>. A complete mirroring of his own site, with the metadata stripped, and the additional of a <a href="http://c01.jp/cnt/65">link that diverts via various diversions</a> to the greatest diversion of all: <a href="http://pc.shirogane.fm/">crap japanese porn</a>.</p>
+
+<p>Further investigation brings us to <a href="http://pack.soksok.jp/">http://pack.soksok.jp/</a> - a page with Japanese text, and a box marked URL. Entering my own url into said box and hitting the button marked GO! brings us to <a href="http://pack.soksok.jp/x?u=http%3A%2F%2Fwww.benhammersley.com">a mirroring, apparently live, </a> but with the meta data, including CSS declaration removed, and all the links rewritten to point to other mirrors. <a href="http://pack.soksok.jp/">http://pack.soksok.jp/</a> also leads to <a href="http://erox.jp">http://erox.jp</a>, again some quite tame, and smiley for that matter, Japanese porn.</p>
+
+<p>And what's more, Andy is not the only one being mirrored: <a href="http://pack.soksok.jp/y/.ush/">Scripting News is mirrored</a>, and <a href="http://pack.soksok.jp/y/.nsw/">so is Boing Boing</a>. You might be too: search on Google for your blog name + "soksok". </p>
+
+<p>The stripping of meta tags also appears to be an issue for some people. <a href="http://www.chillingeffects.org/dmca512/notice.cgi?NoticeID=603">This letter to Chilling Effects</a> being one example.</p>
+
+<p>Curious, very curious. Are you mirrored? Can you read Japanese? What is this? Where's my pipe? </p>]]></content:encoded>
+
+
+
+<dc:contributor>
+<foaf:person foaf:name="Euan">
+<foaf:homepage rdf:resource="http://www.theobviousblog.net/blog/" />
+<foaf:email rdf:resource="blog@theobviousblog.net" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Nigel">
+<foaf:homepage rdf:resource="http://www.nigelhammersley.co.uk" />
+<foaf:email rdf:resource="nigel@nigelhammersley.co.uk" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Alex">
+<foaf:homepage rdf:resource="http://www.silverspider.com" />
+<foaf:email rdf:resource="alex_list@silverspider.com" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="David Raynes">
+<foaf:homepage rdf:resource="http://www.rayners.org" />
+<foaf:email rdf:resource="rayners@rayners.org" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Haiko Hebig">
+<foaf:homepage rdf:resource="http://www.hebig.org/blog/" />
+<foaf:email rdf:resource="h.hebig@gmx.net" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="miladus">
+<foaf:homepage rdf:resource="http://www.miladus.org/mt" />
+<foaf:email rdf:resource="miladus@miladus.org" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Mark A. Hershberger">
+<foaf:homepage rdf:resource="http://mah.everybody.org/weblog/" />
+<foaf:email rdf:resource="" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="maria">
+<foaf:homepage rdf:resource="http://www.ashladle.org" />
+<foaf:email rdf:resource="" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="maria">
+<foaf:homepage rdf:resource="http://www.ashladle.org" />
+<foaf:email rdf:resource="" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Nigel">
+<foaf:homepage rdf:resource="http://www.nigelhammersley.co.uk" />
+<foaf:email rdf:resource="nigel@nigelhammersley.co.uk" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Lisa">
+<foaf:homepage rdf:resource="http://nicelytoasted.net/burnt" />
+<foaf:email rdf:resource="yoyolise@yahoo.com" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Wild">
+<foaf:homepage rdf:resource="http://www.funjunkie.co.uk" />
+<foaf:email rdf:resource="richwild@funjunkie.co.uk" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Neil T.">
+<foaf:homepage rdf:resource="http://www.neilturner.me.uk/" />
+<foaf:email rdf:resource="neilturner@myrealbox.com" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Heiko Hebig">
+<foaf:homepage rdf:resource="http://www.hebig.com/" />
+<foaf:email rdf:resource="heiko@hebig.com" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Rainer Brockerhoff">
+<foaf:homepage rdf:resource="http://www.brockerhoff.net/bb/viewtopic.php" />
+<foaf:email rdf:resource="rainer@brockerhoff.net" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Heiko Hebig">
+<foaf:homepage rdf:resource="http://www.hebig.com/" />
+<foaf:email rdf:resource="heiko@hebig.com" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Wild">
+<foaf:homepage rdf:resource="http://www.funjunkie.co.uk" />
+<foaf:email rdf:resource="richwild@funjunkie.co.uk" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Steve Yost">
+<foaf:homepage rdf:resource="" />
+<foaf:email rdf:resource="syost@quicktopic.com" />
+</foaf:person>
+</dc:contributor>
+
+
+
+<trackback:ping rdf:resource="http://blog.mediacooperative.com/mt-tb.cgi/1685"/>
+<dcterms:isReferencedBy rdf:resource="http://www.roell.net/weblog/newsfeed/2003/03/26.shtml#001619" /><dcterms:isReferencedBy rdf:resource="http://www.submitresponse.co.uk/archives/whats_a_soksok.php" />
+
+
+</item>
+<item rdf:about="http://www.benhammersley.com/archives/004355.html">
+<title>Jamming GPS</title>
+<link>http://www.benhammersley.com/archives/004355.html</link>
+<description>Good morning Regime Changers! Want to know how to jam GPS? The US Navy will show you how. Oh, and...</description>
+<dc:subject></dc:subject>
+<dc:creator>Ben Hammersley</dc:creator>
+<dc:date>2003-03-25T12:51:05+01:00</dc:date>
+<annotate:reference rdf:resource="http://www.benhammersley.com/archives/004355.html" />
+<content:encoded><![CDATA[<p>Good morning Regime Changers! Want to know how to jam GPS? <a href="http://216.239.51.100/search?q=cache:ljL4UUQ_ZA8C:sirius.chinalake.navy.mil/pdf/labjam.pdf+jamming+GPS&hl=en&ie=UTF-8">The US Navy will show you how</a>. Oh, and the <a href="http://www.phrack.com/phrack/60/p60-0x0d.txt">circuit diagrams are here</a>.</p>
+
+<p><em>Update</em> Alright, for context, seeing as no one has read the papers yet, obviously. The US authorities <a href="http://news.bbc.co.uk/2/hi/europe/2882011.stm">have complained to the Russians</a> about Russian GPS jamming equipment being sold to the Iraqis. It's quite a diplomatic row, obviously. My point is, before complaining to Putin about the gear, perhaps people should check that said gear isn't based on information published unclassified by the US Navy and found in the first page of Google's results for 'GPS jamming'.<br />
+Here's <a href="http://www.washingtonpost.com/wp-dyn/articles/A22136-2003Mar25.html">the Washington Post</a>: <blockquote>U.S. officials went public with their allegations over the weekend after they discovered Russian company technicians in Baghdad aiding the Iraqis with the GPS-jamming devices after the war began.</blockquote></p>]]></content:encoded>
+
+
+
+<dc:contributor>
+<foaf:person foaf:name="Dave Winer">
+<foaf:homepage rdf:resource="http://www.scripting.com/" />
+<foaf:email rdf:resource="dave@userland.com" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Ben Hammersley">
+<foaf:homepage rdf:resource="http://www.benhammersley.com" />
+<foaf:email rdf:resource="ben@benhammersley.com" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Tom">
+<foaf:homepage rdf:resource="" />
+<foaf:email rdf:resource="" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Tom">
+<foaf:homepage rdf:resource="" />
+<foaf:email rdf:resource="" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Jacques Distler">
+<foaf:homepage rdf:resource="http://golem.ph.utexas.edu/~distler/blog/" />
+<foaf:email rdf:resource="distler@golem.ph.utexas.edu" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Tom McMahon">
+<foaf:homepage rdf:resource="" />
+<foaf:email rdf:resource="tommcmahon@musician.org" />
+</foaf:person>
+</dc:contributor>
+
+
+
+<trackback:ping rdf:resource="http://blog.mediacooperative.com/mt-tb.cgi/1683"/>
+<dcterms:isReferencedBy rdf:resource="http://www.horacio.tv/archives/000030.html" />
+
+
+</item>
+<item rdf:about="http://www.benhammersley.com/archives/004349.html">
+<title>the eyes have it</title>
+<link>http://www.benhammersley.com/archives/004349.html</link>
+<description> Sheesh, the SuperMacro focus on this thing is amazing. Click on this thumbnail and check it out. And while...</description>
+<dc:subject>Phototopicmapy</dc:subject>
+<dc:creator>Ben Hammersley</dc:creator>
+<dc:date>2003-03-24T16:08:50+01:00</dc:date>
+<annotate:reference rdf:resource="http://www.benhammersley.com/archives/004349.html" />
+<content:encoded><![CDATA[<p><a href="http://www.benhammersley.com/archives/eyes.html" onclick="window.open('http://www.benhammersley.com/archives/eyes.html','popup','width=1291,height=821,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false"><img src="http://www.benhammersley.com/archives/eyes-thumb.jpg" width="150" height="95" border="0" /></a><br />
+Sheesh, the SuperMacro focus on this thing is amazing. Click on this thumbnail and check it out. And while you're there, if anyone could give a definitive description of exactly what colour my eyes are, I'd be most grateful. (and I promise this is the last picture post today)</p>]]></content:encoded>
+
+
+
+<dc:contributor>
+<foaf:person foaf:name="Cat">
+<foaf:homepage rdf:resource="http://likebutter.net" />
+<foaf:email rdf:resource="cat@likebutter.net" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Ben Hammersley">
+<foaf:homepage rdf:resource="http://www.benhammersley.com" />
+<foaf:email rdf:resource="ben@benhammersley.com" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Johan S">
+<foaf:homepage rdf:resource="http://echo.ashpool.org/" />
+<foaf:email rdf:resource="johan@echo.ashpool.org" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Phil">
+<foaf:homepage rdf:resource="http://www.interalia.org/" />
+<foaf:email rdf:resource="phil@interalia.org" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Marishka">
+<foaf:homepage rdf:resource="" />
+<foaf:email rdf:resource="loebl@lineone.net" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Marishka">
+<foaf:homepage rdf:resource="" />
+<foaf:email rdf:resource="loebl@lineone.net" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Liza">
+<foaf:homepage rdf:resource="" />
+<foaf:email rdf:resource="Ppalliser@aohell.com" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="adrian">
+<foaf:homepage rdf:resource="http://www.spaghetti-factory.co.uk" />
+<foaf:email rdf:resource="" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Ryan">
+<foaf:homepage rdf:resource="http://www.spokesmanreview.com/iraq" />
+<foaf:email rdf:resource="ryanp@spokesman.com" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Cat">
+<foaf:homepage rdf:resource="http://likebutter.net" />
+<foaf:email rdf:resource="cat@likebutter.net" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Christine">
+<foaf:homepage rdf:resource="http://www.mirabilis.ca" />
+<foaf:email rdf:resource="" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Christine">
+<foaf:homepage rdf:resource="http://www.mirabilis.ca" />
+<foaf:email rdf:resource="" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Nigel">
+<foaf:homepage rdf:resource="http://www.nigelhammersley.co.uk" />
+<foaf:email rdf:resource="nigel@nigelhammersley.co.uk" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Ben Hammersley">
+<foaf:homepage rdf:resource="http://www.benhammersley.com" />
+<foaf:email rdf:resource="ben@benhammersley.com" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Cat">
+<foaf:homepage rdf:resource="http://likebutter.net" />
+<foaf:email rdf:resource="cat@likebutter.net" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Rodent of Unusual Size">
+<foaf:homepage rdf:resource="http://Ken.Coar.Org/burrow/" />
+<foaf:email rdf:resource="ROUS@Sourcery.Org" />
+</foaf:person>
+</dc:contributor>
+<dc:contributor>
+<foaf:person foaf:name="Liza">
+<foaf:homepage rdf:resource="" />
+<foaf:email rdf:resource="Ppalliser@aohell.com" />
+</foaf:person>
+</dc:contributor>
+
+
+
+<trackback:ping rdf:resource="http://blog.mediacooperative.com/mt-tb.cgi/1679"/>
+<dcterms:isReferencedBy rdf:resource="http://www.theobviousblog.net/blog/archives/000777.html" /><dcterms:isReferencedBy rdf:resource="http://www.slashdot.org/" />
+
+
+</item>
+<item rdf:about="http://www.benhammersley.com/archives/004348.html">
+<title>New Camera, yay!</title>
+<link>http://www.benhammersley.com/archives/004348.html</link>
+<description> My new camera just arrived via UPS. The lovely people at Olympus have let me borrow a c-5050 zoom...</description>
+<dc:subject>Phototopicmapy</dc:subject>
+<dc:creator>Ben Hammersley</dc:creator>
+<dc:date>2003-03-24T15:47:58+01:00</dc:date>
+<annotate:reference rdf:resource="http://www.benhammersley.com/archives/004348.html" />
+<content:encoded><![CDATA[<p><a href="http://www.benhammersley.com/archives/lucypoised.html" onclick="window.open('http://www.benhammersley.com/archives/lucypoised.html','popup','width=1000,height=750,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false"><img src="http://www.benhammersley.com/archives/lucypoised-thumb.jpg" width="150" height="112" border="0" /></a><br />
+My new camera just arrived via UPS. The lovely people at Olympus have let me borrow a c-5050 zoom for the next few months' shenenigans. I've not read the manual, or pressed any of the menu buttons as yet, but this picture here isn't too bad at all. Click on it for a larger version...</p>]]></content:encoded>
+
+
+
+
+
+
+<trackback:ping rdf:resource="http://blog.mediacooperative.com/mt-tb.cgi/1678"/>
+
+
+
+</item>
+<item rdf:about="http://www.benhammersley.com/archives/004346.html">
+<title>Cretin</title>
+<link>http://www.benhammersley.com/archives/004346.html</link>
+<description>From an interesting review of a guideline for politically correct writing, comes the origin of the word cretin: &quot;If the...</description>
+<dc:subject></dc:subject>
+<dc:creator>Ben Hammersley</dc:creator>
+<dc:date>2003-03-24T12:44:54+01:00</dc:date>
+<annotate:reference rdf:resource="http://www.benhammersley.com/archives/004346.html" />
+<content:encoded><![CDATA[<p>From an <a href="http://muse.jhu.edu/demo/philosophy_and_literature/20.2er_schwartz.html">interesting review of a guideline for politically correct writing</a>, comes the origin of the word <em>cretin</em>:<br />
+<blockquote>"If the Bias Persons don't like cretin, perhaps it is because they have heard it in a schoolyard as a term of abuse; yet the word has an honorable history, one worth pausing to consider. Cretin came into English in the eighteenth century from the Franco-Provençal creitin or crestin, similar to the French crétin, all derived ultimately from the Vulgate for Christian. The term was a way of acknowledging the essential humanity of a physically deformed or intellectually subnormal person, meaning human being, poor fellow, or Christian soul. Fancy that: ordinary people were demonstrating a humane regard for victims of hypothyroidism even before there were panels of university press editors to instruct them on the avoidance of offensive language..." </blockquote><br />
+Interesting, no?</p>]]></content:encoded>
+
+
+
+
+
+
+<trackback:ping rdf:resource="http://blog.mediacooperative.com/mt-tb.cgi/1676"/>
+
+
+
+</item>
+<item rdf:about="http://www.benhammersley.com/archives/004345.html">
+<title>In, like, leather as well?</title>
+<link>http://www.benhammersley.com/archives/004345.html</link>
+<description>The Simon: My Obsession with Monica Bellucci. Monica Bellucci is in the Matrix sequels? Help me someone, my brain has...</description>
+<dc:subject></dc:subject>
+<dc:creator>Ben Hammersley</dc:creator>
+<dc:date>2003-03-24T10:53:26+01:00</dc:date>
+<annotate:reference rdf:resource="http://www.benhammersley.com/archives/004345.html" />
+<content:encoded><![CDATA[<p><a href="http://www.thesimon.com/article_of_week/265/">The Simon: My Obsession with Monica Bellucci</a>. Monica Bellucci is in the Matrix sequels?</p>
+
+<p>Help me someone, my brain has turned to sherbet. They're unleashing the power of Monica on unsuspecting geek-kind? They know not what they meddle with. Nooooooo...</p>]]></content:encoded>
+
+
+
+
+
+
+<trackback:ping rdf:resource="http://blog.mediacooperative.com/mt-tb.cgi/1675"/>
+
+
+
+</item>
+<item rdf:about="http://www.benhammersley.com/archives/004344.html">
+<title>nntp//rss 0.3 - now with blogging APIs</title>
+<link>http://www.benhammersley.com/archives/004344.html</link>
+<description>It&apos;s time again for news of a pirate&apos;s favourite data transfer standard. Yes, it&apos;s aarrrrghSS. Emails just in from Jason...</description>
+<dc:subject>Content Syndication with RSS</dc:subject>
+<dc:creator>Ben Hammersley</dc:creator>
+<dc:date>2003-03-24T10:46:48+01:00</dc:date>
+<annotate:reference rdf:resource="http://www.benhammersley.com/archives/004344.html" />
+<content:encoded><![CDATA[<p>It's time again for news of a pirate's favourite data transfer standard. Yes, it's aarrrrghSS. Emails just in from Jason Brome tell me of release 0.3 of <a href="http://www.methodize.org/nntprss">nntp//rss</a>. It's getting a bit out of hand, frankly. I mean, reading RSS in the newsreader is cool and all, but:<br />
+<blockquote>* Posting - You can now post entries to your blog from within your newsreader.  nntp//rss has support for the popular Blogger, LiveJournal and MetaWeblog APIs.</blockquote><br />
+Well, that's just excessive. Anyway, it's all open sourced to the gills and runs in Java with a web interface for administration. </p>]]></content:encoded>
+
+
+
+
+
+
+<trackback:ping rdf:resource="http://blog.mediacooperative.com/mt-tb.cgi/1674"/>
+<dcterms:isReferencedBy rdf:resource="http://www.livejournal.com/talkread.bml?journal=loonyone" /><dcterms:isReferencedBy rdf:resource="http://www.andrewsw.com/news/index.php?p=189" />
+
+
+</item>
+
+
+</rdf:RDF>

@@ -1,0 +1,384 @@
+<topicMap>
+
+<topic id="r1">
+  <subjectIdentity>
+    <resourceRef xlink:href="http://www.w3.org/2001/Annotea/" />
+  </subjectIdentity>
+  <baseName>
+    <baseNameString>Annotea project</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="r2">
+  <subjectIdentity>
+    <resourceRef xlink:href="http://web.resource.org/rss/1.0/" />
+  </subjectIdentity>
+  <baseName>
+    <baseNameString>RDF Site Summary (RSS) 1.0</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="r3">
+  <subjectIdentity>
+    <resourceRef xlink:href="http://www.smeal.psu.edu/news/releases/mar03/kickoff.html?nf22" />
+  </subjectIdentity>
+  <baseName>
+    <baseNameString>Penn State Smeal: News - March 2003</baseNameString>
+  </baseName>
+  <occurrence>
+    <instanceOf>
+      <subjectIndicatorRef xlink:href="http://foo/anno" />
+    </instanceOf>
+    <resourceData>
+       wv erjepjbpre ber
+b erkb erjb;ej ;lerbe rbej b;ejb
+e berblje;bj ;lejb; lejrb; e
+erbkje ;jb;erb
+    </resourceData>
+  </occurrence>
+</topic>
+
+<topic id="r4">
+  <subjectIdentity>
+    <resourceRef xlink:href="http://der.verlag.com/books/funny_animals/cdrom/chap2/hausschwein.html#par2" />
+  </subjectIdentity>
+  <baseName>
+    <baseNameString>Das Hausschwein par2</baseNameString>
+  </baseName>
+  <occurrence>
+    <instanceOf>
+      <subjectIndicatorRef xlink:href="http://foo/anno" />
+    </instanceOf>
+    <resourceData>
+      kjg gugugiug iug iugui
+    </resourceData>
+  </occurrence>
+</topic>
+
+<topic id="r5">
+  <subjectIdentity>
+    <resourceRef xlink:href="http://der.verlag.com/books/funny_animals/cdrom/chap1/panther.html#par1" />
+  </subjectIdentity>
+  <baseName>
+    <baseNameString>Der Panther par1</baseNameString>
+  </baseName>
+  <occurrence>
+    <instanceOf>
+      <subjectIndicatorRef xlink:href="http://foo/anno" />
+    </instanceOf>
+    <resourceData>
+      wevwe rg te 
+    </resourceData>
+  </occurrence>
+  <occurrence>
+    <instanceOf>
+      <subjectIndicatorRef xlink:href="http://foo/anno" />
+    </instanceOf>
+    <resourceData>
+       ehgrth j rj rtjh rthrth rth 
+    </resourceData>
+  </occurrence>
+  <occurrence>
+    <instanceOf>
+      <subjectIndicatorRef xlink:href="http://foo/anno" />
+    </instanceOf>
+    <resourceData>
+      hrt hrth rth rth
+    </resourceData>
+  </occurrence>
+</topic>
+
+<topic id="r6">
+  <subjectIdentity>
+    <resourceRef xlink:href="http://der.verlag.com/books/funny_animals/cdrom/chap1/panther.html" />
+  </subjectIdentity>
+  <baseName>
+    <baseNameString>Der Panther</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="r7">
+  <subjectIdentity>
+    <resourceRef xlink:href="http://der.verlag.com/books/funny_animals/cdrom/chap1/jaguar.html#par1" />
+  </subjectIdentity>
+  <baseName>
+    <baseNameString>Der Jaguar par1</baseNameString>
+  </baseName>
+  <occurrence>
+    <instanceOf>
+      <subjectIndicatorRef xlink:href="http://foo/anno" />
+    </instanceOf>
+    <resourceData>
+      tyjtyjtyjty
+    </resourceData>
+  </occurrence>
+  <occurrence>
+    <instanceOf>
+      <subjectIndicatorRef xlink:href="http://foo/anno" />
+    </instanceOf>
+    <resourceData>
+      hm ghm tm tym
+    </resourceData>
+  </occurrence>
+  <occurrence>
+    <instanceOf>
+      <subjectIndicatorRef xlink:href="http://foo/anno" />
+    </instanceOf>
+    <resourceData>
+       tym tymt ym
+    </resourceData>
+  </occurrence>
+  <occurrence>
+    <instanceOf>
+      <subjectIndicatorRef xlink:href="http://foo/anno" />
+    </instanceOf>
+    <resourceData>
+      ukukyuk
+    </resourceData>
+  </occurrence>
+  <occurrence>
+    <instanceOf>
+      <subjectIndicatorRef xlink:href="http://foo/anno" />
+    </instanceOf>
+    <resourceData>
+      yukyukyukyuk
+    </resourceData>
+  </occurrence>
+  <occurrence>
+    <instanceOf>
+      <subjectIndicatorRef xlink:href="http://foo/anno" />
+    </instanceOf>
+    <resourceData>
+      yukyukyukyuk
+    </resourceData>
+  </occurrence>
+  <occurrence>
+    <instanceOf>
+      <subjectIndicatorRef xlink:href="http://foo/anno" />
+    </instanceOf>
+    <resourceData>
+      ukoj orjhp jtrhrthrth rtrt
+    </resourceData>
+  </occurrence>
+  <occurrence>
+    <instanceOf>
+      <subjectIndicatorRef xlink:href="http://foo/anno" />
+    </instanceOf>
+    <resourceData>
+      rth ;orjth jrt
+    </resourceData>
+  </occurrence>
+  <occurrence>
+    <instanceOf>
+      <subjectIndicatorRef xlink:href="http://foo/anno" />
+    </instanceOf>
+    <resourceData>
+      rthj rth rth rth
+    </resourceData>
+  </occurrence>
+  <occurrence>
+    <instanceOf>
+      <subjectIndicatorRef xlink:href="http://foo/anno" />
+    </instanceOf>
+    <resourceData>
+      rt hrthrt hrt hrth
+    </resourceData>
+  </occurrence>
+  <occurrence>
+    <instanceOf>
+      <subjectIndicatorRef xlink:href="http://foo/anno" />
+    </instanceOf>
+    <resourceData>
+       rth rth
+    </resourceData>
+  </occurrence>
+  <occurrence>
+    <instanceOf>
+      <subjectIndicatorRef xlink:href="http://foo/anno" />
+    </instanceOf>
+    <resourceData>
+      es hier. Ein Absatz is ein sehr guter Freund und ein toller Absatz. Auch
+noch was anderes hier. Ein Absatz is ein sehr guter Freund und ein toller Absatz. Auch noch was anderes hier. Ein Absatz is ein sehr
+guter Freund und ein toller Absatz. Auch noch was anderes hier. Ein Absatz is ein sehr guter Freund und ein toller Absatz. Auch noch
+was anderes hier. Ein Absatz is ein sehr guter Freund und ein toller Absa
+    </resourceData>
+  </occurrence>
+</topic>
+
+<topic id="r8">
+  <subjectIdentity>
+    <resourceRef xlink:href="http://localhost/index.html#def-topic-name" />
+  </subjectIdentity>
+  <baseName>
+    <baseNameString>XML Topic Maps (XTM) 1.0 def-topic-name</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="r9">
+  <subjectIdentity>
+    <resourceRef xlink:href="http://localhost/index.html#concepts" />
+  </subjectIdentity>
+  <baseName>
+    <baseNameString>XML Topic Maps (XTM) 1.0 concepts</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="r10">
+  <subjectIdentity>
+    <resourceRef xlink:href="http://localhost/index.html#desc-intro" />
+  </subjectIdentity>
+  <baseName>
+    <baseNameString>XML Topic Maps (XTM) 1.0 desc-intro</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="r11">
+  <subjectIdentity>
+    <resourceRef xlink:href="http://www.ontopia.net/topicmaps/materials/identitycrisis.html#N299" />
+  </subjectIdentity>
+  <baseName>
+    <baseNameString>Curing the Web's Identity Crisis N299</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="r12">
+  <subjectIdentity>
+    <resourceRef xlink:href="http://www.ontopia.net/topicmaps/materials/identitycrisis.html#N421" />
+  </subjectIdentity>
+  <baseName>
+    <baseNameString>Curing the Web's Identity Crisis N421</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="r13">
+  <subjectIdentity>
+    <resourceRef xlink:href="http://www.w3.org/TR/2001/REC-xmlbase-20010627/#matching" />
+  </subjectIdentity>
+  <baseName>
+    <baseNameString>XML Base matching</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="t1">
+  <baseName>
+    <baseNameString>annotations</baseNameString>
+  </baseName>
+  <occurrence>
+    <resourceRef xlink:href="http://www.w3.org/2001/Annotea/" />
+  </occurrence>
+  <occurrence>
+    <resourceRef xlink:href="http://der.verlag.com/books/funny_animals/cdrom/chap2/hausschwein.html#par2" />
+  </occurrence>
+</topic>
+
+<topic id="t2">
+  <baseName>
+    <baseNameString>FOO</baseNameString>
+  </baseName>
+  <occurrence>
+    <resourceRef xlink:href="http://www.w3.org/2001/Annotea/" />
+  </occurrence>
+  <occurrence>
+    <resourceRef xlink:href="http://der.verlag.com/books/funny_animals/cdrom/chap2/hausschwein.html#par2" />
+  </occurrence>
+  <occurrence>
+    <resourceRef xlink:href="http://der.verlag.com/books/funny_animals/cdrom/chap1/panther.html" />
+  </occurrence>
+  <occurrence>
+    <resourceRef xlink:href="http://der.verlag.com/books/funny_animals/cdrom/chap1/panther.html#par1" />
+  </occurrence>
+  <occurrence>
+    <resourceRef xlink:href="http://localhost/index.html#def-topic-name" />
+  </occurrence>
+  <occurrence>
+    <resourceRef xlink:href="http://www.ontopia.net/topicmaps/materials/identitycrisis.html#N299" />
+  </occurrence>
+</topic>
+
+<topic id="t3">
+  <baseName>
+    <baseNameString>RSS</baseNameString>
+  </baseName>
+  <occurrence>
+    <resourceRef xlink:href="http://web.resource.org/rss/1.0/" />
+  </occurrence>
+  <occurrence>
+    <resourceRef xlink:href="http://der.verlag.com/books/funny_animals/cdrom/chap1/panther.html" />
+  </occurrence>
+  <occurrence>
+    <resourceRef xlink:href="http://der.verlag.com/books/funny_animals/cdrom/chap1/panther.html#par1" />
+  </occurrence>
+  <occurrence>
+    <resourceRef xlink:href="http://der.verlag.com/books/funny_animals/cdrom/chap1/jaguar.html#par1" />
+  </occurrence>
+  <occurrence>
+    <resourceRef xlink:href="http://localhost/index.html#def-topic-name" />
+  </occurrence>
+</topic>
+
+<topic id="t4">
+  <baseName>
+    <baseNameString>schweine</baseNameString>
+  </baseName>
+  <occurrence>
+    <resourceRef xlink:href="http://der.verlag.com/books/funny_animals/cdrom/chap2/hausschwein.html#par2" />
+  </occurrence>
+</topic>
+
+<topic id="t5">
+  <baseName>
+    <baseNameString>  jaguare fressen gut</baseNameString>
+  </baseName>
+  <occurrence>
+    <resourceRef xlink:href="http://der.verlag.com/books/funny_animals/cdrom/chap1/jaguar.html#par1" />
+  </occurrence>
+</topic>
+
+<topic id="t6">
+  <baseName>
+    <baseNameString>topic name</baseNameString>
+  </baseName>
+  <occurrence>
+    <resourceRef xlink:href="http://localhost/index.html#def-topic-name" />
+  </occurrence>
+</topic>
+
+<topic id="t7">
+  <baseName>
+    <baseNameString>core TM concepts</baseNameString>
+  </baseName>
+  <occurrence>
+    <resourceRef xlink:href="http://localhost/index.html#concepts" />
+  </occurrence>
+  <occurrence>
+    <resourceRef xlink:href="http://www.ontopia.net/topicmaps/materials/identitycrisis.html#N299" />
+  </occurrence>
+</topic>
+
+<topic id="t8">
+  <baseName>
+    <baseNameString>TM introduction</baseNameString>
+  </baseName>
+  <occurrence>
+    <resourceRef xlink:href="http://localhost/index.html#desc-intro" />
+  </occurrence>
+</topic>
+
+<topic id="t9">
+  <baseName>
+    <baseNameString>scr/sir distinction</baseNameString>
+  </baseName>
+  <occurrence>
+    <resourceRef xlink:href="http://www.ontopia.net/topicmaps/materials/identitycrisis.html#N421" />
+  </occurrence>
+</topic>
+
+<topic id="t10">
+  <baseName>
+    <baseNameString>URIs and baseURIs</baseNameString>
+  </baseName>
+  <occurrence>
+    <resourceRef xlink:href="http://www.w3.org/TR/2001/REC-xmlbase-20010627/#matching" />
+  </occurrence>
+</topic>
+</topicMap>

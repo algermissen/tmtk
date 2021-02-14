@@ -1,0 +1,1174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns="http://purl.org/rss/1.0/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
+>
+
+<channel rdf:about="http://www.nature.com/cgi-taf/dynapage.taf?file=/nature/journal/v425/n6953/index.html">
+   <title>Nature</title>
+   <description>International weekly journal of science</description>
+   <link>http://www.nature.com/cgi-taf/dynapage.taf?file=/nature/journal/v425/n6953/index.html</link>
+   <dc:publisher>Nature Publishing Group</dc:publisher>
+   <dc:language>en-GB</dc:language>
+   <dc:rights>Copyright (C) 2003 Nature Publishing Group</dc:rights>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:issn>0028-0836</prism:issn>
+   <prism:publisher>Nature Publishing Group</prism:publisher>
+   <prism:copyright>Copyright (C) 2003 Nature Publishing Group</prism:copyright>
+   <prism:rightsAgent>permissions@nature.com</prism:rightsAgent>
+   <image rdf:resource="http://nurture.nature.com/rss/images/nature_rss_logo.gif"/>
+   <items>
+      <rdf:Seq>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/425001a"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/425010a"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature01896"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature01924"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature01952"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/nj6953-103a"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/nj6953-104a"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/425013a"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/425015a"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/425015b"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/425017a"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/425018a"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/425018b"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/425019a"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/425021a"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/425023a"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/425024a"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/425027a"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/425028a"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/425029a"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/425003a"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/425031a"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/425032a"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/425033a"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/425034a"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/425035a"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/425036a"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/425037a"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/425038a"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature01918"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/425004a"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/425004b"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature01881"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature01888"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/425005a"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature01842"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature01966"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature01923"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/425006a"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/425006b"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature01816"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature01904"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature01942"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/425007a"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/425007b"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature01906"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature01908"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature01931"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/425008a"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature01865"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature01909"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/425009a"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature01921"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature01905"/>
+         <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature01914"/>
+      </rdf:Seq>
+   </items>
+</channel>
+
+<image rdf:about="http://nurture.nature.com/rss/images/nature_rss_logo.gif">
+   <title>Nature</title>
+   <url>http://nurture.nature.com/rss/images/nature_rss_logo.gif</url>
+   <link>http://www.nature.com/nature/</link>
+</image>
+
+<item rdf:about="http://dx.doi.org/10.1038/425001a">
+   <title>Honesty and denial at NASA</title>
+   <link>http://dx.doi.org/10.1038/425001a</link>
+   <description>The world's leading space agency is suffering not only from managerial dysfunction, but also from a failure to address strategic issues. NASA and its stakeholders need to face up to the challenges ahead.</description>
+   <dc:title>Honesty and denial at NASA</dc:title>
+   <dc:identifier>doi:10.1038/425001a</dc:identifier>
+   <dc:source>Nature 425, 1 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#column"/>
+   <prism:section>Editorials</prism:section>
+   <prism:startingPage>1</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/425010a">
+   <title>Gene regulation: RNA to the rescue?</title>
+   <link>http://dx.doi.org/10.1038/425010a</link>
+   <description>Disease therapies based on a technique for gene silencing called RNA interference are racing towards the clinic. Erika Check investigates molecular medicine's next big thing.</description>
+   <dc:title>Gene regulation: RNA to the rescue?</dc:title>
+   <dc:creator>Erika Check</dc:creator>
+   <dc:identifier>doi:10.1038/425010a</dc:identifier>
+   <dc:source>Nature 425, 10 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#feature"/>
+   <prism:section>News Feature</prism:section>
+   <prism:startingPage>10</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/nature01896">
+   <title>corrigendum: Structure of the replicative helicase of the oncoprotein SV40 large tumour antigen</title>
+   <link>http://dx.doi.org/10.1038/nature01896</link>
+   <description>Dawei Li, Rui Zhao, Wayne Lilyestrom, Dahai Gai, Rongguang Zhang, James A. DeCaprio, Ellen Fanning, Andrzej Joachimiak, Gerda Szakonyi and Xiaojiang S. Chen</description>
+   <dc:title>corrigendum: Structure of the replicative helicase of the oncoprotein SV40 large tumour antigen</dc:title>
+   <dc:creator>Dawei Li</dc:creator>
+   <dc:creator>Rui Zhao</dc:creator>
+   <dc:creator>Wayne Lilyestrom</dc:creator>
+   <dc:creator>Dahai Gai</dc:creator>
+   <dc:creator>Rongguang Zhang</dc:creator>
+   <dc:creator>James A. DeCaprio</dc:creator>
+   <dc:creator>Ellen Fanning</dc:creator>
+   <dc:creator>Andrzej Joachimiak</dc:creator>
+   <dc:creator>Gerda Szakonyi</dc:creator>
+   <dc:creator>Xiaojiang S. Chen</dc:creator>
+   <dc:identifier>doi:10.1038/nature01896</dc:identifier>
+   <dc:source>Nature 425, 102 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Analysis"/>
+   <prism:section>Letters to Nature</prism:section>
+   <prism:startingPage>102</prism:startingPage>
+   <prism:isCorrectionOf>doi:10.1038/nature01691</prism:isCorrectionOf>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/nature01924">
+   <title>erratum: The expression domain of PHANTASTICA determines leaflet placement in compound leaves</title>
+   <link>http://dx.doi.org/10.1038/nature01924</link>
+   <description>Minsung Kim, Sheila McCormick, Marja Timmermans and Neelima Sinha</description>
+   <dc:title>erratum: The expression domain of PHANTASTICA determines leaflet placement in compound leaves</dc:title>
+   <dc:creator>Minsung Kim</dc:creator>
+   <dc:creator>Sheila McCormick</dc:creator>
+   <dc:creator>Marja Timmermans</dc:creator>
+   <dc:creator>Neelima Sinha</dc:creator>
+   <dc:identifier>doi:10.1038/nature01924</dc:identifier>
+   <dc:source>Nature 425, 102 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Analysis"/>
+   <prism:section>Letters to Nature</prism:section>
+   <prism:startingPage>102</prism:startingPage>
+   <prism:isCorrectionOf>doi:10.1038/nature01820</prism:isCorrectionOf>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/nature01952">
+   <title>corrigendum: Impact of urbanization and land-use change on climate</title>
+   <link>http://dx.doi.org/10.1038/nature01952</link>
+   <description>E. Kalnay and M. Cai</description>
+   <dc:title>corrigendum: Impact of urbanization and land-use change on climate</dc:title>
+   <dc:creator>E. Kalnay</dc:creator>
+   <dc:creator>M. Cai</dc:creator>
+   <dc:identifier>doi:10.1038/nature01952</dc:identifier>
+   <dc:source>Nature 425, 102 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Analysis"/>
+   <prism:section>Letters to Nature</prism:section>
+   <prism:startingPage>102</prism:startingPage>
+   <prism:isCorrectionOf>doi:10.1038/nature01675</prism:isCorrectionOf>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/nj6953-103a">
+   <title>Rental disagreements</title>
+   <link>http://dx.doi.org/10.1038/nj6953-103a</link>
+   <description>Paul Smaglik</description>
+   <dc:title>Rental disagreements</dc:title>
+   <dc:creator>Paul Smaglik</dc:creator>
+   <dc:identifier>doi:10.1038/nj6953-103a</dc:identifier>
+   <dc:source>Nature 425, 103 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#column"/>
+   <prism:section>Nature Jobs</prism:section>
+   <prism:startingPage>103</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/nj6953-104a">
+   <title>Investing to compete Ontario</title>
+   <link>http://dx.doi.org/10.1038/nj6953-104a</link>
+   <description>David Spurgeon</description>
+   <dc:title>Investing to compete Ontario</dc:title>
+   <dc:creator>David Spurgeon</dc:creator>
+   <dc:identifier>doi:10.1038/nj6953-104a</dc:identifier>
+   <dc:source>Nature 425, 104 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#feature"/>
+   <prism:section>Nature Jobs</prism:section>
+   <prism:startingPage>104</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/425013a">
+   <title>Hot tempers, hard core</title>
+   <link>http://dx.doi.org/10.1038/425013a</link>
+   <description>Were the last dinosaurs wiped out when interplanetary debris hit what is now the coast of Mexico? A drilling project that promised answers has been plagued by squabbles over access to samples. Rex Dalton reports.</description>
+   <dc:title>Hot tempers, hard core</dc:title>
+   <dc:creator>Rex Dalton</dc:creator>
+   <dc:identifier>doi:10.1038/425013a</dc:identifier>
+   <dc:source>Nature 425, 13 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#feature"/>
+   <prism:section>News Feature</prism:section>
+   <prism:startingPage>13</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/425015a">
+   <title>Breeding to tackle blight without copper or GM</title>
+   <link>http://dx.doi.org/10.1038/425015a</link>
+   <description>Gene mapping can help conventional breeders to focus efforts on building resistance.</description>
+   <dc:title>Breeding to tackle blight without copper or GM</dc:title>
+   <dc:creator>James M. Duncan</dc:creator>
+   <dc:identifier>doi:10.1038/425015a</dc:identifier>
+   <dc:source>Nature 425, 15 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#letterToEditor"/>
+   <prism:section>Correspondence</prism:section>
+   <prism:startingPage>15</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/425015b">
+   <title>Despite Franklin's work, Wilkins earned his Nobel</title>
+   <link>http://dx.doi.org/10.1038/425015b</link>
+   <dc:title>Despite Franklin's work, Wilkins earned his Nobel</dc:title>
+   <dc:creator>Doris T. Zallen</dc:creator>
+   <dc:identifier>doi:10.1038/425015b</dc:identifier>
+   <dc:source>Nature 425, 15 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#letterToEditor"/>
+   <prism:section>Correspondence</prism:section>
+   <prism:startingPage>15</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/425017a">
+   <title>Learning to teach</title>
+   <link>http://dx.doi.org/10.1038/425017a</link>
+   <description>Can studies of how people learn be put to use in the classroom?</description>
+   <dc:title>Learning to teach</dc:title>
+   <dc:creator>Peter Bryant</dc:creator>
+   <dc:identifier>doi:10.1038/425017a</dc:identifier>
+   <dc:source>Nature 425, 17 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Review"/>
+   <prism:section>Books and Arts</prism:section>
+   <prism:startingPage>17</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/425018a">
+   <title>Troubled waters</title>
+   <link>http://dx.doi.org/10.1038/425018a</link>
+   <description>Keith Thomson reviews FitzRoy: The Remarkable Story of Darwin's Captain and the Invention of the Weather Forecast by John  and Mary  Gribbin</description>
+   <dc:title>Troubled waters</dc:title>
+   <dc:creator>Keith Thomson</dc:creator>
+   <dc:identifier>doi:10.1038/425018a</dc:identifier>
+   <dc:source>Nature 425, 18 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Review"/>
+   <prism:section>Books and Arts</prism:section>
+   <prism:startingPage>18</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/425018b">
+   <title>The universal engineer</title>
+   <link>http://dx.doi.org/10.1038/425018b</link>
+   <description>Julio M. Ottino reviews Discussion of the Method: Conducting the Engineer's Approach to Problem Solving by Billy Vaughn  Koen</description>
+   <dc:title>The universal engineer</dc:title>
+   <dc:creator>Julio M. Ottino</dc:creator>
+   <dc:identifier>doi:10.1038/425018b</dc:identifier>
+   <dc:source>Nature 425, 18 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Review"/>
+   <prism:section>Books and Arts</prism:section>
+   <prism:startingPage>18</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/425019a">
+   <title>Sculpture: Breaking with tradition</title>
+   <link>http://dx.doi.org/10.1038/425019a</link>
+   <description>Alison Abbott</description>
+   <dc:title>Sculpture: Breaking with tradition</dc:title>
+   <dc:creator>Alison Abbott</dc:creator>
+   <dc:identifier>doi:10.1038/425019a</dc:identifier>
+   <dc:source>Nature 425, 19 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Review"/>
+   <prism:section>Books and Arts</prism:section>
+   <prism:startingPage>19</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/425021a">
+   <title>Cell plasticity: Flexible arrangement</title>
+   <link>http://dx.doi.org/10.1038/425021a</link>
+   <description>Elucidation of all of the mechanisms that regulate developmental potential will allow us to discover the true limits of cell differentiation.</description>
+   <dc:title>Cell plasticity: Flexible arrangement</dc:title>
+   <dc:creator>Neil D. Theise</dc:creator>
+   <dc:creator>Ian Wilmut</dc:creator>
+   <dc:identifier>doi:10.1038/425021a</dc:identifier>
+   <dc:source>Nature 425, 21 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Review"/>
+   <prism:section>Concepts</prism:section>
+   <prism:startingPage>21</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/425023a">
+   <title>Palaeoanthropology: Tracking the first Americans</title>
+   <link>http://dx.doi.org/10.1038/425023a</link>
+   <description>A study of 33 ancient skulls excavated from Mexico invites us to reconsider our view of the ancestry of the early Americans. Unlike most other early American remains, the skulls resemble those from south Asian populations.</description>
+   <dc:title>Palaeoanthropology: Tracking the first Americans</dc:title>
+   <dc:creator>Tom D. Dillehay</dc:creator>
+   <dc:identifier>doi:10.1038/425023a</dc:identifier>
+   <dc:source>Nature 425, 23 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Review"/>
+   <prism:section>News and Views</prism:section>
+   <prism:startingPage>23</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/425024a">
+   <title>Earth science: Just add water</title>
+   <link>http://dx.doi.org/10.1038/425024a</link>
+   <description>A new model could explain why Earth's upper mantle is depleted of many trace elements. At a certain depth, minerals might release water, creating a molten filter that traps trace elements in the mantle beneath.</description>
+   <dc:title>Earth science: Just add water</dc:title>
+   <dc:creator>Albrecht W. Hofmann</dc:creator>
+   <dc:identifier>doi:10.1038/425024a</dc:identifier>
+   <dc:source>Nature 425, 24 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Review"/>
+   <prism:section>News and Views</prism:section>
+   <prism:startingPage>24</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/425027a">
+   <title>Cell biology: Join the crowd</title>
+   <link>http://dx.doi.org/10.1038/425027a</link>
+   <description>Cells are packed with large molecules. The ramifications of this 'crowding' for a wide range of intracellular processes are only now becoming more generally understood.</description>
+   <dc:title>Cell biology: Join the crowd</dc:title>
+   <dc:creator>R. John Ellis</dc:creator>
+   <dc:creator>Allen P. Minton</dc:creator>
+   <dc:identifier>doi:10.1038/425027a</dc:identifier>
+   <dc:source>Nature 425, 27 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Review"/>
+   <prism:section>News and Views</prism:section>
+   <prism:startingPage>27</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/425028a">
+   <title>Quantum physics: Entanglement hits the big time</title>
+   <link>http://dx.doi.org/10.1038/425028a</link>
+   <description>Entanglement is a quantum phenomenon usually associated with the microscopic world. Now it is clear that its effects are also relevant on macroscopic scales, such as in the magnetic properties of some solids.</description>
+   <dc:title>Quantum physics: Entanglement hits the big time</dc:title>
+   <dc:creator>Vlatko Vedral</dc:creator>
+   <dc:identifier>doi:10.1038/425028a</dc:identifier>
+   <dc:source>Nature 425, 28 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Review"/>
+   <prism:section>News and Views</prism:section>
+   <prism:startingPage>28</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/425029a">
+   <title>Genetics: A balancing act</title>
+   <link>http://dx.doi.org/10.1038/425029a</link>
+   <description>Mutations in model organisms are grist to the geneticists' mill: they help in assigning function to genes. Chromosome engineering in mice makes it easier to pinpoint the location of randomly induced mutations.</description>
+   <dc:title>Genetics: A balancing act</dc:title>
+   <dc:creator>Janet Rossant</dc:creator>
+   <dc:identifier>doi:10.1038/425029a</dc:identifier>
+   <dc:source>Nature 425, 29 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Review"/>
+   <prism:section>News and Views</prism:section>
+   <prism:startingPage>29</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/425003a">
+   <title>Experts fear network paralysis as computer worms blast Internet</title>
+   <link>http://dx.doi.org/10.1038/425003a</link>
+   <description>Declan Butler, Paris</description>
+   <dc:title>Experts fear network paralysis as computer worms blast Internet</dc:title>
+   <dc:creator>Declan Butler</dc:creator>
+   <dc:identifier>doi:10.1038/425003a</dc:identifier>
+   <dc:source>Nature 425, 3 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#newsBulletin"/>
+   <prism:section>News</prism:section>
+   <prism:startingPage>3</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/425031a">
+   <title>100 and 50 years ago</title>
+   <link>http://dx.doi.org/10.1038/425031a</link>
+   <dc:title>100 and 50 years ago</dc:title>
+   <dc:identifier>doi:10.1038/425031a</dc:identifier>
+   <dc:source>Nature 425, 31 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Review"/>
+   <prism:section>News and Views</prism:section>
+   <prism:startingPage>31</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/425032a">
+   <title>Climate change: Chilled out in the ice-age Atlantic</title>
+   <link>http://dx.doi.org/10.1038/425032a</link>
+   <description>A new reconstruction of temperatures in the Atlantic Ocean during the last ice age, 21,000 years ago, is the latest act in providing climate modellers with details of the past to help predict the future.</description>
+   <dc:title>Climate change: Chilled out in the ice-age Atlantic</dc:title>
+   <dc:creator>Alan C. Mix</dc:creator>
+   <dc:identifier>doi:10.1038/425032a</dc:identifier>
+   <dc:source>Nature 425, 32 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Review"/>
+   <prism:section>News and Views</prism:section>
+   <prism:startingPage>32</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/425033a">
+   <title>Reproductive biology: Forming an attachment</title>
+   <link>http://dx.doi.org/10.1038/425033a</link>
+   <dc:title>Reproductive biology: Forming an attachment</dc:title>
+   <dc:creator>Clare Thomas</dc:creator>
+   <dc:identifier>doi:10.1038/425033a</dc:identifier>
+   <dc:source>Nature 425, 33 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Review"/>
+   <prism:section>News and Views</prism:section>
+   <prism:startingPage>33</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/425034a">
+   <title>News and Views in Brief</title>
+   <link>http://dx.doi.org/10.1038/425034a</link>
+   <dc:title>News and Views in Brief</dc:title>
+   <dc:identifier>doi:10.1038/425034a</dc:identifier>
+   <dc:source>Nature 425, 34 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Review"/>
+   <prism:section>News and Views</prism:section>
+   <prism:startingPage>34</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/425035a">
+   <title>Prion disease: Horizontal prion transmission in mule deer</title>
+   <link>http://dx.doi.org/10.1038/425035a</link>
+   <description>The gathering of deer during winter may foster the spread of chronic wasting disease.</description>
+   <dc:title>Prion disease: Horizontal prion transmission in mule deer</dc:title>
+   <dc:creator>Michael W. Miller</dc:creator>
+   <dc:creator>Elizabeth S. Williams</dc:creator>
+   <dc:identifier>doi:10.1038/425035a</dc:identifier>
+   <dc:source>Nature 425, 35 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Analysis"/>
+   <prism:section>Brief Communications</prism:section>
+   <prism:startingPage>35</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/425036a">
+   <title>Nanotube electronics: Large-scale assembly of carbon nanotubes</title>
+   <link>http://dx.doi.org/10.1038/425036a</link>
+   <dc:title>Nanotube electronics: Large-scale assembly of carbon nanotubes</dc:title>
+   <dc:creator>Saleem G. Rao</dc:creator>
+   <dc:creator>Ling Huang</dc:creator>
+   <dc:creator>Wahyu Setyawan</dc:creator>
+   <dc:creator>Seunghun Hong</dc:creator>
+   <dc:identifier>doi:10.1038/425036a</dc:identifier>
+   <dc:source>Nature 425, 36 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Analysis"/>
+   <prism:section>Brief Communications</prism:section>
+   <prism:startingPage>36</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/425037a">
+   <title>Innate defence: Evidence for memory in invertebrate immunity</title>
+   <link>http://dx.doi.org/10.1038/425037a</link>
+   <dc:title>Innate defence: Evidence for memory in invertebrate immunity</dc:title>
+   <dc:creator>Joachim Kurtz</dc:creator>
+   <dc:creator>Karoline Franz</dc:creator>
+   <dc:identifier>doi:10.1038/425037a</dc:identifier>
+   <dc:source>Nature 425, 37 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Analysis"/>
+   <prism:section>Brief Communications</prism:section>
+   <prism:startingPage>37</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/425038a">
+   <title>Microfluidic systems: High radial acceleration in microvortices</title>
+   <link>http://dx.doi.org/10.1038/425038a</link>
+   <dc:title>Microfluidic systems: High radial acceleration in microvortices</dc:title>
+   <dc:creator>J. Patrick Shelby</dc:creator>
+   <dc:creator>David S.W. Lim</dc:creator>
+   <dc:creator>Jason S. Kuo</dc:creator>
+   <dc:creator>Daniel T. Chiu</dc:creator>
+   <dc:identifier>doi:10.1038/425038a</dc:identifier>
+   <dc:source>Nature 425, 38 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Analysis"/>
+   <prism:section>Brief Communications</prism:section>
+   <prism:startingPage>38</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/nature01918">
+   <title>Whole-mantle convection and the transition-zone water filter</title>
+   <link>http://dx.doi.org/10.1038/nature01918</link>
+   <description>David Bercovici and Shun-ichiro Karato</description>
+   <dc:title>Whole-mantle convection and the transition-zone water filter</dc:title>
+   <dc:creator>David Bercovici</dc:creator>
+   <dc:creator>Shun-ichiro Karato</dc:creator>
+   <dc:identifier>doi:10.1038/nature01918</dc:identifier>
+   <dc:source>Nature 425, 39 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Analysis"/>
+   <prism:section>Hypothesis</prism:section>
+   <prism:startingPage>39</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/425004a">
+   <title>Retraction ends furore over cancer vaccine</title>
+   <link>http://dx.doi.org/10.1038/425004a</link>
+   <description>Alison Abbott, Munich</description>
+   <dc:title>Retraction ends furore over cancer vaccine</dc:title>
+   <dc:creator>Alison Abbott</dc:creator>
+   <dc:identifier>doi:10.1038/425004a</dc:identifier>
+   <dc:source>Nature 425, 4 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#newsBulletin"/>
+   <prism:section>News</prism:section>
+   <prism:startingPage>4</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/425004b">
+   <title>Columbia inquiry prompts White House strategy review</title>
+   <link>http://dx.doi.org/10.1038/425004b</link>
+   <description>Tony Reichhardt, Washington</description>
+   <dc:title>Columbia inquiry prompts White House strategy review</dc:title>
+   <dc:creator>Tony Reichhardt</dc:creator>
+   <dc:identifier>doi:10.1038/425004b</dc:identifier>
+   <dc:source>Nature 425, 4 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#newsBulletin"/>
+   <prism:section>News</prism:section>
+   <prism:startingPage>4</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/nature01881">
+   <title>Violation of a Bell-like inequality in single-neutron interferometry</title>
+   <link>http://dx.doi.org/10.1038/nature01881</link>
+   <description>Yuji Hasegawa, Rudolf Loidl, Gerald Badurek, Matthias Baron and Helmut Rauch</description>
+   <dc:title>Violation of a Bell-like inequality in single-neutron interferometry</dc:title>
+   <dc:creator>Yuji Hasegawa</dc:creator>
+   <dc:creator>Rudolf Loidl</dc:creator>
+   <dc:creator>Gerald Badurek</dc:creator>
+   <dc:creator>Matthias Baron</dc:creator>
+   <dc:creator>Helmut Rauch</dc:creator>
+   <dc:identifier>doi:10.1038/nature01881</dc:identifier>
+   <dc:source>Nature 425, 45 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Analysis"/>
+   <prism:section>Letters to Nature</prism:section>
+   <prism:startingPage>45</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/nature01888">
+   <title>Entangled quantum state of magnetic dipoles</title>
+   <link>http://dx.doi.org/10.1038/nature01888</link>
+   <description>S. Ghosh, T. F. Rosenbaum, G. Aeppli and S. N. Coppersmith</description>
+   <dc:title>Entangled quantum state of magnetic dipoles</dc:title>
+   <dc:creator>S. Ghosh</dc:creator>
+   <dc:creator>T. F. Rosenbaum</dc:creator>
+   <dc:creator>G. Aeppli</dc:creator>
+   <dc:creator>S. N. Coppersmith</dc:creator>
+   <dc:identifier>doi:10.1038/nature01888</dc:identifier>
+   <dc:source>Nature 425, 48 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Analysis"/>
+   <prism:section>Letters to Nature</prism:section>
+   <prism:startingPage>48</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/425005a">
+   <title>Peers rally in support of accused scientist</title>
+   <link>http://dx.doi.org/10.1038/425005a</link>
+   <description>Erika Check, Washington</description>
+   <dc:title>Peers rally in support of accused scientist</dc:title>
+   <dc:creator>Erika Check</dc:creator>
+   <dc:identifier>doi:10.1038/425005a</dc:identifier>
+   <dc:source>Nature 425, 5 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#newsBulletin"/>
+   <prism:section>News</prism:section>
+   <prism:startingPage>5</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/nature01842">
+   <title>Magnetic enhancement of superconductivity from electron spin domains</title>
+   <link>http://dx.doi.org/10.1038/nature01842</link>
+   <description>H. A. Radovan, N. A. Fortune, T. P. Murphy, S. T. Hannahs, E. C. Palm, S. W. Tozer and D. Hall</description>
+   <dc:title>Magnetic enhancement of superconductivity from electron spin domains</dc:title>
+   <dc:creator>H. A. Radovan</dc:creator>
+   <dc:creator>N. A. Fortune</dc:creator>
+   <dc:creator>T. P. Murphy</dc:creator>
+   <dc:creator>S. T. Hannahs</dc:creator>
+   <dc:creator>E. C. Palm</dc:creator>
+   <dc:creator>S. W. Tozer</dc:creator>
+   <dc:creator>D. Hall</dc:creator>
+   <dc:identifier>doi:10.1038/nature01842</dc:identifier>
+   <dc:source>Nature 425, 51 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Analysis"/>
+   <prism:section>Letters to Nature</prism:section>
+   <prism:startingPage>51</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/nature01966">
+   <title>Geochemical evidence for efficient aquifer isolation over geological timeframes</title>
+   <link>http://dx.doi.org/10.1038/nature01966</link>
+   <description>Bernard Marty, Sarah Dewonck and Christian France-Lanord</description>
+   <dc:title>Geochemical evidence for efficient aquifer isolation over geological timeframes</dc:title>
+   <dc:creator>Bernard Marty</dc:creator>
+   <dc:creator>Sarah Dewonck</dc:creator>
+   <dc:creator>Christian France-Lanord</dc:creator>
+   <dc:identifier>doi:10.1038/nature01966</dc:identifier>
+   <dc:source>Nature 425, 55 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Analysis"/>
+   <prism:section>Letters to Nature</prism:section>
+   <prism:startingPage>55</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/nature01923">
+   <title>Laboratory models of the thermal evolution of the mantle during rollback subduction</title>
+   <link>http://dx.doi.org/10.1038/nature01923</link>
+   <description>C. Kincaid and R. W. Griffiths</description>
+   <dc:title>Laboratory models of the thermal evolution of the mantle during rollback subduction</dc:title>
+   <dc:creator>C. Kincaid</dc:creator>
+   <dc:creator>R. W. Griffiths</dc:creator>
+   <dc:identifier>doi:10.1038/nature01923</dc:identifier>
+   <dc:source>Nature 425, 58 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Analysis"/>
+   <prism:section>Letters to Nature</prism:section>
+   <prism:startingPage>58</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/425006a">
+   <title>Court ruling sounds note of caution for sonar system</title>
+   <link>http://dx.doi.org/10.1038/425006a</link>
+   <description>Rex Dalton, San Diego</description>
+   <dc:title>Court ruling sounds note of caution for sonar system</dc:title>
+   <dc:creator>Rex Dalton</dc:creator>
+   <dc:identifier>doi:10.1038/425006a</dc:identifier>
+   <dc:source>Nature 425, 6 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#newsBulletin"/>
+   <prism:section>News</prism:section>
+   <prism:startingPage>6</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/425006b">
+   <title>Statistical model leaves Peru counting the cost of civil war</title>
+   <link>http://dx.doi.org/10.1038/425006b</link>
+   <description>Jonathan Knight, San Francisco</description>
+   <dc:title>Statistical model leaves Peru counting the cost of civil war</dc:title>
+   <dc:creator>Jonathan Knight</dc:creator>
+   <dc:identifier>doi:10.1038/425006b</dc:identifier>
+   <dc:source>Nature 425, 6 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#newsBulletin"/>
+   <prism:section>News</prism:section>
+   <prism:startingPage>6</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/nature01816">
+   <title>Craniometric evidence for Palaeoamerican survival in Baja California</title>
+   <link>http://dx.doi.org/10.1038/nature01816</link>
+   <description>Rolando Gonzalez-Jose, Antonio Gonzalez-Martin, Miquel Hernandez, Hector M. Pucciarelli, Marina Sardi, Alfonso Rosales and Silvina Van der Molen</description>
+   <dc:title>Craniometric evidence for Palaeoamerican survival in Baja California</dc:title>
+   <dc:creator>Rolando Gonzalez-Jose</dc:creator>
+   <dc:creator>Antonio Gonzalez-Martin</dc:creator>
+   <dc:creator>Miquel Hernandez</dc:creator>
+   <dc:creator>Hector M. Pucciarelli</dc:creator>
+   <dc:creator>Marina Sardi</dc:creator>
+   <dc:creator>Alfonso Rosales</dc:creator>
+   <dc:creator>Silvina Van der Molen</dc:creator>
+   <dc:identifier>doi:10.1038/nature01816</dc:identifier>
+   <dc:source>Nature 425, 62 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Analysis"/>
+   <prism:section>Letters to Nature</prism:section>
+   <prism:startingPage>62</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/nature01904">
+   <title>A uniquely specialized ear in a very early tetrapod</title>
+   <link>http://dx.doi.org/10.1038/nature01904</link>
+   <description>J. A. Clack, P. E. Ahlberg, S. M. Finney, P. Dominguez Alonso, J. Robinson and R. A. Ketcham</description>
+   <dc:title>A uniquely specialized ear in a very early tetrapod</dc:title>
+   <dc:creator>J. A. Clack</dc:creator>
+   <dc:creator>P. E. Ahlberg</dc:creator>
+   <dc:creator>S. M. Finney</dc:creator>
+   <dc:creator>P. Dominguez Alonso</dc:creator>
+   <dc:creator>J. Robinson</dc:creator>
+   <dc:creator>R. A. Ketcham</dc:creator>
+   <dc:identifier>doi:10.1038/nature01904</dc:identifier>
+   <dc:source>Nature 425, 65 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Analysis"/>
+   <prism:section>Letters to Nature</prism:section>
+   <prism:startingPage>65</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/nature01942">
+   <title>Ecological and genetic spatial structuring in the Canadian lynx</title>
+   <link>http://dx.doi.org/10.1038/nature01942</link>
+   <description>Eli Knispel Rueness, Nils Chr. Stenseth, Mark O'Donoghue, Stan Boutin, Hans Ellegren and Kjetill S. Jakobsen</description>
+   <dc:title>Ecological and genetic spatial structuring in the Canadian lynx</dc:title>
+   <dc:creator>Eli Knispel Rueness</dc:creator>
+   <dc:creator>Nils Chr. Stenseth</dc:creator>
+   <dc:creator>Mark O'Donoghue</dc:creator>
+   <dc:creator>Stan Boutin</dc:creator>
+   <dc:creator>Hans Ellegren</dc:creator>
+   <dc:creator>Kjetill S. Jakobsen</dc:creator>
+   <dc:identifier>doi:10.1038/nature01942</dc:identifier>
+   <dc:source>Nature 425, 69 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Analysis"/>
+   <prism:section>Letters to Nature</prism:section>
+   <prism:startingPage>69</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/425007a">
+   <title>Lion man takes pride of place as oldest statue</title>
+   <link>http://dx.doi.org/10.1038/425007a</link>
+   <description>Rex Dalton, Reno</description>
+   <dc:title>Lion man takes pride of place as oldest statue</dc:title>
+   <dc:creator>Rex Dalton</dc:creator>
+   <dc:identifier>doi:10.1038/425007a</dc:identifier>
+   <dc:source>Nature 425, 7 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#newsBulletin"/>
+   <prism:section>News</prism:section>
+   <prism:startingPage>7</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/425007b">
+   <title>Britain set to pull plug on nuclear-fuel reprocessing</title>
+   <link>http://dx.doi.org/10.1038/425007b</link>
+   <description>Quirin Schiermeier</description>
+   <dc:title>Britain set to pull plug on nuclear-fuel reprocessing</dc:title>
+   <dc:creator>Quirin Schiermeier</dc:creator>
+   <dc:identifier>doi:10.1038/425007b</dc:identifier>
+   <dc:source>Nature 425, 7 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#newsBulletin"/>
+   <prism:section>News</prism:section>
+   <prism:startingPage>7</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/nature01906">
+   <title>Evolution of cooperation and conflict in experimental bacterial populations</title>
+   <link>http://dx.doi.org/10.1038/nature01906</link>
+   <description>Paul B. Rainey and Katrina Rainey</description>
+   <dc:title>Evolution of cooperation and conflict in experimental bacterial populations</dc:title>
+   <dc:creator>Paul B. Rainey</dc:creator>
+   <dc:creator>Katrina Rainey</dc:creator>
+   <dc:identifier>doi:10.1038/nature01906</dc:identifier>
+   <dc:source>Nature 425, 72 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Analysis"/>
+   <prism:section>Letters to Nature</prism:section>
+   <prism:startingPage>72</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/nature01908">
+   <title>Evolution of novel cooperative swarming in the bacterium Myxococcus xanthus</title>
+   <link>http://dx.doi.org/10.1038/nature01908</link>
+   <description>Gregory J. Velicer and Yuen-tsu N. Yu</description>
+   <dc:title>Evolution of novel cooperative swarming in the bacterium Myxococcus xanthus</dc:title>
+   <dc:creator>Gregory J. Velicer</dc:creator>
+   <dc:creator>Yuen-tsu N. Yu</dc:creator>
+   <dc:identifier>doi:10.1038/nature01908</dc:identifier>
+   <dc:source>Nature 425, 75 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Analysis"/>
+   <prism:section>Letters to Nature</prism:section>
+   <prism:startingPage>75</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/nature01931">
+   <title>Host sanctions and the legume-rhizobium mutualism</title>
+   <link>http://dx.doi.org/10.1038/nature01931</link>
+   <description>E. Toby Kiers, Robert A. Rousseau, Stuart A. West and R. Ford Denison</description>
+   <dc:title>Host sanctions and the legume-rhizobium mutualism</dc:title>
+   <dc:creator>E. Toby Kiers</dc:creator>
+   <dc:creator>Robert A. Rousseau</dc:creator>
+   <dc:creator>Stuart A. West</dc:creator>
+   <dc:creator>R. Ford Denison</dc:creator>
+   <dc:identifier>doi:10.1038/nature01931</dc:identifier>
+   <dc:source>Nature 425, 78 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Analysis"/>
+   <prism:section>Letters to Nature</prism:section>
+   <prism:startingPage>78</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/425008a">
+   <title>News in Brief</title>
+   <link>http://dx.doi.org/10.1038/425008a</link>
+   <dc:title>News in Brief</dc:title>
+   <dc:identifier>doi:10.1038/425008a</dc:identifier>
+   <dc:source>Nature 425, 8 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#newsBulletin"/>
+   <prism:section>News</prism:section>
+   <prism:startingPage>8</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/nature01865">
+   <title>Functional genetic analysis of mouse chromosome 11</title>
+   <link>http://dx.doi.org/10.1038/nature01865</link>
+   <description>Benjamin T. Kile, Kathryn E. Hentges, Amander T. Clark, Hisashi Nakamura, Andrew P. Salinger, Bin Liu, Neil Box, David W. Stockton, Randy L. Johnson, Richard R. Behringer, Allan Bradley and Monica J. Justice</description>
+   <dc:title>Functional genetic analysis of mouse chromosome 11</dc:title>
+   <dc:creator>Benjamin T. Kile</dc:creator>
+   <dc:creator>Kathryn E. Hentges</dc:creator>
+   <dc:creator>Amander T. Clark</dc:creator>
+   <dc:creator>Hisashi Nakamura</dc:creator>
+   <dc:creator>Andrew P. Salinger</dc:creator>
+   <dc:creator>Bin Liu</dc:creator>
+   <dc:creator>Neil Box</dc:creator>
+   <dc:creator>David W. Stockton</dc:creator>
+   <dc:creator>Randy L. Johnson</dc:creator>
+   <dc:creator>Richard R. Behringer</dc:creator>
+   <dc:creator>Allan Bradley</dc:creator>
+   <dc:creator>Monica J. Justice</dc:creator>
+   <dc:identifier>doi:10.1038/nature01865</dc:identifier>
+   <dc:source>Nature 425, 81 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Analysis"/>
+   <prism:section>Letters to Nature</prism:section>
+   <prism:startingPage>81</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/nature01909">
+   <title>The plastid clpP1 protease gene is essential for plant development</title>
+   <link>http://dx.doi.org/10.1038/nature01909</link>
+   <description>Hiroshi Kuroda and Pal Maliga</description>
+   <dc:title>The plastid clpP1 protease gene is essential for plant development</dc:title>
+   <dc:creator>Hiroshi Kuroda</dc:creator>
+   <dc:creator>Pal Maliga</dc:creator>
+   <dc:identifier>doi:10.1038/nature01909</dc:identifier>
+   <dc:source>Nature 425, 86 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Analysis"/>
+   <prism:section>Letters to Nature</prism:section>
+   <prism:startingPage>86</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/425009a">
+   <title>Correction</title>
+   <link>http://dx.doi.org/10.1038/425009a</link>
+   <dc:title>Correction</dc:title>
+   <dc:identifier>doi:10.1038/425009a</dc:identifier>
+   <dc:source>Nature 425, 9 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#newsBulletin"/>
+   <prism:section>News</prism:section>
+   <prism:startingPage>9</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/nature01921">
+   <title>Oleylethanolamide regulates feeding and body weight through activation of the nuclear receptor PPAR-alpha</title>
+   <link>http://dx.doi.org/10.1038/nature01921</link>
+   <description>Jin Fu, Silvana Gaetani, Fariba Oveisi, Jesse Lo Verme, Antonia Serrano, Fernando Rodriguez de Fonseca, Anja Rosengarth, Hartmut Luecke, Barbara Di Giacomo, Giorgio Tarzia and Daniele Piomelli</description>
+   <dc:title>Oleylethanolamide regulates feeding and body weight through activation of the nuclear receptor PPAR-alpha</dc:title>
+   <dc:creator>Jin Fu</dc:creator>
+   <dc:creator>Silvana Gaetani</dc:creator>
+   <dc:creator>Fariba Oveisi</dc:creator>
+   <dc:creator>Jesse Lo Verme</dc:creator>
+   <dc:creator>Antonia Serrano</dc:creator>
+   <dc:creator>Fernando Rodriguez de Fonseca</dc:creator>
+   <dc:creator>Anja Rosengarth</dc:creator>
+   <dc:creator>Hartmut Luecke</dc:creator>
+   <dc:creator>Barbara Di Giacomo</dc:creator>
+   <dc:creator>Giorgio Tarzia</dc:creator>
+   <dc:creator>Daniele Piomelli</dc:creator>
+   <dc:identifier>doi:10.1038/nature01921</dc:identifier>
+   <dc:source>Nature 425, 90 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Analysis"/>
+   <prism:section>Letters to Nature</prism:section>
+   <prism:startingPage>90</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/nature01905">
+   <title>Proton-sensing G-protein-coupled receptors</title>
+   <link>http://dx.doi.org/10.1038/nature01905</link>
+   <description>Marie-Gabrielle Ludwig, Miroslava Vanek, Danilo Guerini, Jurg A. Gasser, Carol E. Jones, Uwe Junker, Hans Hofstetter, Romain M. Wolf and Klaus Seuwen</description>
+   <dc:title>Proton-sensing G-protein-coupled receptors</dc:title>
+   <dc:creator>Marie-Gabrielle Ludwig</dc:creator>
+   <dc:creator>Miroslava Vanek</dc:creator>
+   <dc:creator>Danilo Guerini</dc:creator>
+   <dc:creator>Jurg A. Gasser</dc:creator>
+   <dc:creator>Carol E. Jones</dc:creator>
+   <dc:creator>Uwe Junker</dc:creator>
+   <dc:creator>Hans Hofstetter</dc:creator>
+   <dc:creator>Romain M. Wolf</dc:creator>
+   <dc:creator>Klaus Seuwen</dc:creator>
+   <dc:identifier>doi:10.1038/nature01905</dc:identifier>
+   <dc:source>Nature 425, 93 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Analysis"/>
+   <prism:section>Letters to Nature</prism:section>
+   <prism:startingPage>93</prism:startingPage>
+</item>
+
+<item rdf:about="http://dx.doi.org/10.1038/nature01914">
+   <title>Structure of the catalytic domain of human phosphodiesterase 5 with bound drug molecules</title>
+   <link>http://dx.doi.org/10.1038/nature01914</link>
+   <description>Byung-Je Sung, Kwang Yeon Hwang, Young Ho Jeon, Jae Il Lee, Yong-Seok Heo, Jin Hwan Kim, Jinho Moon, Jung Min Yoon, Young-Lan Hyun, Eunmi Kim, Sung Jin Eum, Sam-Yong Park, Jie-Oh Lee, Tae Gyu Lee, Seonggu Ro and Joong Myung Cho</description>
+   <dc:title>Structure of the catalytic domain of human phosphodiesterase 5 with bound drug molecules</dc:title>
+   <dc:creator>Byung-Je Sung</dc:creator>
+   <dc:creator>Kwang Yeon Hwang</dc:creator>
+   <dc:creator>Young Ho Jeon</dc:creator>
+   <dc:creator>Jae Il Lee</dc:creator>
+   <dc:creator>Yong-Seok Heo</dc:creator>
+   <dc:creator>Jin Hwan Kim</dc:creator>
+   <dc:creator>Jinho Moon</dc:creator>
+   <dc:creator>Jung Min Yoon</dc:creator>
+   <dc:creator>Young-Lan Hyun</dc:creator>
+   <dc:creator>Eunmi Kim</dc:creator>
+   <dc:creator>Sung Jin Eum</dc:creator>
+   <dc:creator>Sam-Yong Park</dc:creator>
+   <dc:creator>Jie-Oh Lee</dc:creator>
+   <dc:creator>Tae Gyu Lee</dc:creator>
+   <dc:creator>Seonggu Ro</dc:creator>
+   <dc:creator>Joong Myung Cho</dc:creator>
+   <dc:identifier>doi:10.1038/nature01914</dc:identifier>
+   <dc:source>Nature 425, 98 (2003)</dc:source>
+   <dc:date>2003-09-04</dc:date>
+   <prism:publicationName>Nature</prism:publicationName>
+   <prism:publicationDate>2003-09-04</prism:publicationDate>
+   <prism:volume>425</prism:volume>
+   <prism:number>6953</prism:number>
+   <prism:category rdf:resource="http://prismstandard.org/vocabularies/1.2/category.xml#Analysis"/>
+   <prism:section>Letters to Nature</prism:section>
+   <prism:startingPage>98</prism:startingPage>
+</item>
+
+</rdf:RDF>

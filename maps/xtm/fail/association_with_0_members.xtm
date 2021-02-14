@@ -1,0 +1,11 @@
+<topicMap>
+
+<topic id="Type" />
+
+<association id="a1">
+  <instanceOf>
+    <subjectIndicatorRef xlink:href="#Type" />
+  </instanceOf>
+</association>
+</topicMap>
+

@@ -1,0 +1,14 @@
+<topicMap>
+<topic id="t1">
+  <baseName>
+    <baseNameString>Hugo Hansen</baseNameString>
+  </baseName>
+  <property disclosure="file:///tmp/test.xml" name="Age">56</property>
+  </topic>
+<topic id="t2">
+  <property disclosure="http://www.gooseworks.org/disclosures/SAM.xml" name="BaseNames">[Hugo Hansen]</property>
+  <property disclosure="file:///tmp/test.xml" name="Age">53</property>
+  </topic>
+</topicMap>
+
+

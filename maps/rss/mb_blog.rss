@@ -1,0 +1,223 @@
+<?xml version="1.0"?>
+<!-- name="generator" content="blosxom/2.0rc2" -->
+<!DOCTYPE rss PUBLIC "-//Netscape Communications//DTD RSS 0.91//EN" "http://my.netscape.com/publish/formats/rss-0.91.dtd">
+
+<rss version="0.91">
+  <channel>
+    <title>Mark Baker, Tech Curmudgeon   </title>
+    <link>http://www.markbaker.ca/2002/09/Blog</link>
+    <description>Mark Baker, Tech Curmudgeon</description>
+    <language>en</language>
+
+  <item>
+    <title>More on Web services and distributed objects</title>
+    <link>http://www.markbaker.ca/2002/09/Blog/2003/08/28#2003-08-ws-oo</link>
+    <description>&lt;p&gt;I wanted to respond to some of the detail in Werner's article, in
+addition to
+&lt;a href=&quot;http://www.markbaker.ca/2002/09/Blog/2003/08/26#2003-08-document-misconceptions&quot;&gt;ranting about how document exchange was state transfer&lt;/a&gt;.
+So here goes ...&lt;/p&gt;
+
+&lt;p&gt;The first statement that really gave me pause was this;&lt;/p&gt;
+
+&lt;blockquote&gt;
+The goal of web services is to enable machine-to-machine communication at the same scale and using the same style of protocols as human interface centered World Wide Web.
+&lt;/blockquote&gt;
+
+&lt;p&gt;I don't believe that's the case, and it's certainly not been accomplished IMO.
+I think that if you asked anybody involved since the early days, that
+they'd say the goal is just the first part; to enable machine-to-machine
+communication over the Web (or perhaps Internet).  &quot;using the same style of
+protocols&quot; has never been a requirement or goal of this community that I've
+seen.&lt;/p&gt;
+
+&lt;p&gt;Consider what can be done with a Web services
+identifier versus a Web identifier.  Both are URIs, but because Web
+architecture uses late binding, I know what methods I can invoke when I
+see a URI (the URI scheme, specifically) and what they mean (because
+there's a path back to RFC 2616 from the URI scheme).  With an identifier
+for a Web service, I don't have sufficient information to know what the
+interface is and what it means, because Web services are early/statically
+bound (creating centralization dependencies, ala &lt;a href=&quot;http://www.uddi.org&quot;&gt;UDDI&lt;/a&gt;).
+I don't consider changing the architecture from late/dynamic binding
+to early/static binding to be &quot;using the same style of protocols&quot;.&lt;/p&gt;
+
+&lt;p&gt;I suppose I also take issue with the implicit definition of &quot;distributed
+objects&quot; as part of Misconception #1, when it says;&lt;/p&gt;
+
+&lt;blockquote&gt;
+An important aspect at the core of distributed object technology is the notion of the object life cycle: objects are instantiated by a factory upon request, a number of operations are performed on the object instance, and sometime later the instance will be released or garbage collected.
+&lt;/blockquote&gt;
+
+&lt;p&gt;I'll present my definition first; distributed objects are identifiable things encapsulating
+state and behaviour, which present an interface upon which operations can be invoked remotely.
+Obviously software objects, like all software, do have a lifecycle.  But it's primarily
+an implementation detail, and not exposed through the object's interface.  Some systems
+chose to tie the identifier to some particular in-memory instantiation of an object
+(rather than to an abstraction for which an object could be instantiated to proxy
+for, in effect), which created a real mess, but I don't consider that key to the
+definition.&lt;/p&gt;
+
+&lt;p&gt;Misconception #2 also seems prima facie incorrect to me, at least by my
+definition of &quot;RPC&quot;; an architectural style where the developer of each component
+is provided the latitude to define the interface for that component.  More
+concretely, I believe the statement &quot;there are no predefined semantics associated
+with the content of the XML document sent to the service&quot; to be incorrect because,
+as I mentioned in my last post, if there is a method name in the document, then
+that is an explicit request for &quot;predefined semantics&quot;.&lt;/p&gt;
+
+&lt;p&gt;I agree with the titles of Misconceptions #3 and #4; Web services don't need HTTP or
+Web servers.  But I disagree with the explanation provided.  That Web services are
+&lt;em&gt;transport&lt;/em&gt; agnostic is fine, but that does not at all imply that they should
+be &lt;em&gt;application&lt;/em&gt; protocol agnostic, although most people use them this way.
+The core of my disagreement is with this statement in the last paragraph of #4;&lt;/p&gt;
+
+&lt;blockquote&gt;
+The REST principles are relevant for the HTTP binding, and for the web server parsing of resource names, but are useless in the context of TCP or message queue bindings where the HTTP verbs do not apply.
+&lt;/blockquote&gt;
+
+&lt;p&gt;That is incorrect.  REST is protocol independent, and has applicability
+when used with other protocols, be they application or transport.  REST is
+an architectural style, and following its constraints guides the style of
+use of all technologies you might choose to work with.  For example, if you
+were using FTP RESTfully, then you would do things like identify files with
+URIs (rather than server/directory/file-name tuples), and interact with them
+via a single &quot;retrieve&quot; semantic (an abstract &quot;GET&quot;), rather than the
+chatty and stateful user/pass/binary/chdir/retr process (not-coincidentally,
+this is how browsers deal with FTP).  In essence (though
+drastically oversimplifying), what REST says is &quot;exchange documents in
+self-descriptive messages, and interpret them as representations of the
+state of the resource identified by the associated URI&quot;.  That philosophy can
+be applied to pretty much any protocol you might want to name, especially
+other transfer protocols (as the Web constitutes an &quot;uber architecture&quot;, of
+sorts, for data transfer).&lt;/p&gt;
+
+&lt;p&gt;That's most of the big issues as I see them.  Anyhow, that was an enjoyable
+and informative read.  Thanks!&lt;/p&gt;</description>
+  </item>
+  <item>
+    <title>Document misconceptions</title>
+    <link>http://www.markbaker.ca/2002/09/Blog/2003/08/26#2003-08-document-misconceptions</link>
+    <description>&lt;p&gt;Werner posted an article he wrote for IEEE Internet Computing titled
+&lt;a href=&quot;http://weblogs.cs.cornell.edu/AllThingsDistributed/archives/000120.html&quot;&gt;Web Services are not Distributed Objects: Common Misconceptions about Service Oriented Architectures&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;That article is very well written, and
+Werner makes his point loud and clear as always ... but ultimately, it makes
+some of the same misconceptions as so many others have before it.  In this
+case, I think I've boiled it down to one main misconception that I've
+&lt;a href=&quot;http://www.markbaker.ca/2002/09/Blog/2003/08/07#2003-08-on-documents&quot;&gt;talked about recently&lt;/a&gt;;&lt;/p&gt;
+
+&lt;blockquote&gt;
+Web services are based on XML documents and document exchange [...]
+&lt;/blockquote&gt;
+
+&lt;p&gt;No, they are not.  Just open your wallet and grab a cheque, or a credit card
+receipt, or your drivers license.  These things are what I know a &quot;document&quot; to be;
+state.  If a cop asks me for my drivers license and I hand it to her, I have
+performed &quot;state transfer&quot;, I haven't asked her to do anything in particular by
+transferring this document to her.  In contrast, the Web services view of a document
+includes a &quot;method&quot; which effects the semantics of the movement (aka transport)
+of that document.  So if I had a Web services document which I handed to
+somebody, I'm not merely submitting that document to them, I'm asking that they
+perform some explicit action for me as specified by the contained method.  This is
+a very very different thing than what &quot;document exchange&quot; is normally understood
+to mean.&lt;/p&gt;
+
+&lt;p&gt;I suggest that if you made the simple tweak to the big picture Web services
+vision to require that documents only contain state, then you'd have the
+Web, or at least a substantial part of it.  I consider the Web to be the epitome
+of large scale document-centric distributed computing architectures.&lt;/p&gt;</description>
+  </item>
+  <item>
+    <title>Rendezvous vs. LLMNR</title>
+    <link>http://www.markbaker.ca/2002/09/Blog/2003/08/26#2003-08-rendezvous-llmnr</link>
+    <description>&lt;p&gt;I've recently been coming up to speed on the whole
+&lt;a href=&quot;http://www.zeroconf.org&quot;&gt;Zeroconf&lt;/a&gt; space.  Boy,
+what a mess.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://saladwithsteve.com/2003_08_01_archive_index.html#b106049914798275598&quot;&gt;Earlier this summer it seems&lt;/a&gt;, the WG decided to go with a Microsoft
+lead approach to multicast name resolution, called
+&lt;a href=&quot;http://www.ietf.org/internet-drafts/draft-ietf-dnsext-mdns-22.txt&quot;&gt;LLMNR&lt;/a&gt;.
+This was in constrast to Apple's similar and &lt;em&gt;existing&lt;/em&gt;
+work on Rendezvous, which they published in both
+&lt;a href=&quot;http://files.multicastdns.org/draft-cheshire-dnsext-multicastdns.txt&quot;&gt;spec&lt;/a&gt; and
+&lt;a href=&quot;http://www.opensource.apple.com/projects/rendezvous&quot;&gt;code&lt;/a&gt; form.&lt;/p&gt;
+
+&lt;p&gt;So rather than start from a solution that works, with
+&lt;a href=&quot;http://www.swampwolf.com/products/&quot;&gt;multiple&lt;/a&gt;
+independent open source
+&lt;a href=&quot;http://www.strangeberry.com/java_rendevous.htm&quot;&gt;implementations&lt;/a&gt;
+available, they're starting from scratch with something new and unproven?
+Brilliant!&lt;/p&gt;
+
+&lt;p&gt;Oh, and there's also the issue that the applications area seems to
+be sitting on their duffs over the kind of transparency that LLMNR is
+forcing upon them by hiding the fact that the name resolution was
+performed via local multicast rather than via DNS-proper.  Keith Moore
+seems to be the only well known &quot;apps&quot; person
+&lt;a href=&quot;https://www1.ietf.org/mail-archive/working-groups/discuss/current/msg00048.html&quot;&gt;raising any objections&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Update; &lt;a href=&quot;http://www.stuartcheshire.org/&quot;&gt;Stuart Cheshire&lt;/a&gt;, main
+Apple guy on this stuff, just
+&lt;a href=&quot;http://ops.ietf.org/lists/namedroppers/namedroppers.2003/msg01571.html&quot;&gt;posted his review&lt;/a&gt;
+of the last call working draft of LLMNR last night.  Read it for yourself.&lt;/p&gt;</description>
+  </item>
+  <item>
+    <title>SOAPAction revisited</title>
+    <link>http://www.markbaker.ca/2002/09/Blog/2003/08/25#2003-08-soapaction</link>
+    <description>&lt;p&gt;Every day, I get somewhere around 20 hits for the
+&lt;a href=&quot;http://www.markbaker.ca/2001/12/draft-baker-soap-media-reg&quot;&gt;SOAP media type registration draft&lt;/a&gt;,
+referred from an old
+&lt;a href=&quot;http://www.oreillynet.com/cs/weblog/view/wlg/2331&quot;&gt;O'Reilly weblog entry of mine on SOAPAction&lt;/a&gt;.
+It turns out that this article is the first result returned when
+&lt;a href=&quot;http://www.google.com/search?q=soapaction&quot;&gt;Googling for &quot;SOAPAction&quot;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I feel a bit bad about this, because I only recently realized that the
+behaviour I described in that blog isn't per any of the specs (obviously I
+don't use SOAP at all 8-).  I was extrapolating about its semantics based
+on some investigations into self-description and previous attempts at SOAP-like
+technologies such as &lt;a href=&quot;http://www.ietf.org/rfc/rfc2774.txt&quot;&gt;RFC 2774&lt;/a&gt;
+and
+&lt;a href=&quot;http://www.w3.org/TR/WD-http-pep&quot;&gt;PEP&lt;/a&gt;
+(specifically, &lt;a href=&quot;http://www.w3.org/TR/WD-http-pep-971121.html#_Toc404743957&quot;&gt;this part&lt;/a&gt;,
+i.e. the 420 response code).&lt;/p&gt;
+
+&lt;p&gt;If SOAPAction/action were to be as I described there - and IMO, this
+would make it vastly more useful (i.e. make it useful at all 8-) - then the
+behaviour would have to have been specified to fault if the intent indicated
+by the &lt;em&gt;value&lt;/em&gt; of the SOAPAction field were not understood.
+Obviously that isn't the case today.&lt;/p&gt;
+
+&lt;p&gt;Sorry for the confusion.&lt;/p&gt;</description>
+  </item>
+  <item>
+    <title>Media type registration, decentralization, and RDF</title>
+    <link>http://www.markbaker.ca/2002/09/Blog/2003/08/24#2003-08-media-type-reg</link>
+    <description>&lt;p&gt;Mark Nottingham suggests the W3C should take it upon themselves to
+&lt;a href=&quot;http://www.mnot.net/blog/archives/000145.html#000145&quot;&gt;clean up the media type registration process&lt;/a&gt;.
+I sort of concur, in that the official
+&lt;a href=&quot;http://www.ietf.org/rfc/rfc2048.txt&quot;&gt;registration procedure&lt;/a&gt;
+doesn't explain in
+sufficient detail how the burden of managing the timeline is entirely
+registrant-driven.  This caused lots of delay during the
+registration of &lt;a href=&quot;http://www.ietf.org/rfc/rfc3236.txt&quot;&gt;RFC 3236&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;But on the other hand, I like it when centralized registries are
+difficult to use.  If there's really a need for a bazillion different
+data formats, then a centralized registry is the wrong approach, and
+the difficulty of using it - multipled by the number of people experiencing
+it - should provide sufficient impetus for somebody to suggest a change to
+a decentralized process.&lt;/p&gt;
+
+&lt;p&gt;Of course, I don't believe we need a bazillion different data formats.
+I think we have a perfectly good
+&lt;a href=&quot;http://www.w3.org/TR/rdf-syntax-grammar/&quot;&gt;80% solution&lt;/a&gt;,
+which is why I'm not spearheading any efforts in this direction - though
+I think it would still be &lt;em&gt;useful&lt;/em&gt; (just not &lt;em&gt;required&lt;/em&gt;) to
+decentralize media types.&lt;/p&gt;
+
+&lt;p&gt;P.S. here's an amusing data point, where Roy
+&lt;a href=&quot;http://lists.w3.org/Archives/Public/www-tag/2003Jul/0062.html&quot;&gt;takes the W3C to task&lt;/a&gt;
+over its inability to properly register media types.&lt;/p&gt;</description>
+  </item>
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<topicMap>
+  <topic id="t1">
+    <subjectIdentity>
+      <resourceRef xlink:href="http://www.docs.org/tales-of-babylon.html" />
+    </subjectIdentity>
+    <baseName>
+      <baseNameString>Tales of Babylon</baseNameString>
+    </baseName>
+  </topic>
+  <topic id="t2">
+    <subjectIdentity>
+      <resourceRef xlink:href="http://www.docs.org/tales-of-babylon.html" />
+    </subjectIdentity>
+    <baseName>
+      <baseNameString>Tales of Babylon</baseNameString>
+    </baseName>
+  </topic>
+
+</topicMap>
+

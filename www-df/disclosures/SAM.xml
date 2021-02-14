@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<!DOCTYPE tma
+[
+<!ENTITY SAM "http://www.gooseworks.org/disclosures/SAM.xml">
+<!ENTITY PSI "http://www.gooseworks.org/psi/">
+]>
+<tma>
+  <name>&SAM;</name>
+  <description>
+    This is an experimental version of a TMA definition for a subset of the
+    semantics of the Standard Application Model. 
+  </description>
+
+  <property>
+    <name>SubjectAddress</name>
+    <description>
+      This property exhibits a value for those topics that are surrogates
+      for information resources. The property value is the locator 
+      (e.g. URI) of the resource.
+    </description>
+    <valueType>Text</valueType>
+    <sidp>yes</sidp>
+  </property>
+
+  <property>
+    <name>SourceLocators</name>
+    <description>
+      FIXME 
+    </description>
+    <valueType>TextSet</valueType>
+    <sidp>yes</sidp>
+    <equality>NOT_DISJOINT</equality>
+    <combination>union</combination>
+  </property>
+
+  <property>
+    <name>SubjectIndicators</name>
+    <description>
+      FIXME 
+    </description>
+    <valueType>TextSet</valueType>
+    <sidp>yes</sidp>
+    <equality>NOT_DISJOINT</equality>
+    <combination>union</combination>
+  </property>
+
+  <property>
+    <name>BaseNames</name>
+    <description>
+      FIXME
+    </description>
+    <valueType>TextSet</valueType>
+    <sidp>yes</sidp>
+    <equality>NOT_DISJOINT</equality>
+    <combination>union</combination>
+  </property>
+
+  <property>
+    <name>SubjectData</name>
+    <description>
+      FIXME
+    </description>
+    <valueType>Text</valueType>
+    <sidp>no</sidp>
+  </property>
+
+  <property>
+    <name>IndicatorData</name>
+    <description>
+     FIXME
+    </description>
+    <valueType>Text</valueType>
+    <sidp>yes</sidp>
+  </property>
+
+  <property>
+    <name>SetMembers</name>
+    <description>
+     FIXME
+    </description>
+    <valueType>TopicSet</valueType>
+    <sidp>yes</sidp>
+  </property>
+
+
+  <assertionType>
+    <propval model="&SAM;" prop="SubjectIndicators">[&PSI;at-basenamed-basename]</propval>
+    <role>
+      <propval model="&SAM;" prop="SubjectIndicators">[&PSI;role-basenamed]</propval>
+    </role>
+    <role>
+      <propval model="&SAM;" prop="SubjectIndicators">[&PSI;role-basename]</propval>
+    </role>
+  </assertionType>
+  <assertionType>
+    <propval model="&SAM;" prop="SubjectIndicators">[&PSI;at-occurring-occurrence]</propval>
+    <role>
+      <propval model="&SAM;" prop="SubjectIndicators">[&PSI;role-occurring]</propval>
+    </role>
+    <role>
+      <propval model="&SAM;" prop="SubjectIndicators">[&PSI;role-occurrence]</propval>
+    </role>
+  </assertionType>
+  <assertionType>
+    <propval model="&SAM;" prop="SubjectIndicators">[&PSI;at-class-instance]</propval>
+    <role>
+      <propval model="&SAM;" prop="SubjectIndicators">[&PSI;role-class]</propval>
+    </role>
+    <role>
+      <propval model="&SAM;" prop="SubjectIndicators">[&PSI;role-instance]</propval>
+    </role>
+  </assertionType>
+  <assertionType>
+    <propval model="&SAM;" prop="SubjectIndicators">[&PSI;at-superclass-subclass]</propval>
+    <role>
+      <propval model="&SAM;" prop="SubjectIndicators">[&PSI;role-superclass]</propval>
+    </role>
+    <role>
+      <propval model="&SAM;" prop="SubjectIndicators">[&PSI;role-subclass]</propval>
+    </role>
+  </assertionType>
+</tma>

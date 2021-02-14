@@ -1,0 +1,219 @@
+
+# $Id: Makefile,v 1.10 2002/09/15 22:41:41 jan Exp $
+#
+
+PREFIX=@prefix@
+
+DOXYGEN=doxygen
+CC=gcc
+AR=ar -rc
+PERL=/usr/bin/perl -w
+
+#LIBOPT= -L /usr/local/lib -L ../libtm/lib -L ../expat/xmlparse -ltm -lm -lraptor -lexpat
+#LIBOPT= -L /usr/local/lib -L ../libtm/lib -L ../expat/xmlparse -ltm -lm -lexpat
+#LIBOPT= -L /usr/local/lib -L ./lib -lraptor -lexpat -ltm -lm 
+LIBOPT= -L /usr/local/lib -L ./lib  -ltm @LIBS@
+
+
+.SUFFIXES : .o .c 
+.c.o: 
+	$(CC) $(CFLAGS) -DPREFIX=\"$(PREFIX)\" $(INCOPT) -o $*.o -c $<
+
+INCOPT= -I src/
+
+CFLAGS= -ansi -pedantic -Wall
+#CFLAGS= -pg -ansi -pedantic -Wall -DNDEBUG
+#CFLAGS=-pg -ansi -pedantic -Wall 
+#CFLAGS=-pg -ansi -pedantic -Wall -O2 -DNDEBUG 
+
+F=\
+ src/base/except.o \
+ src/base/assert.o \
+
+OBJS_CORE=\
+ src/trace.o \
+ src/util.o \
+ src/match.o \
+ src/mem.o \
+ src/assert.o \
+ src/tm.o \
+ src/err.o \
+ src/list.o \
+ src/stack.o \
+ src/table.o \
+ src/topicset.o \
+ src/params.o \
+ src/valuetype.o \
+ src/storage.o \
+ src/disclosureframework.o \
+ src/topicmap.o \
+ src/model.o \
+ src/assertion.o \
+ src/topic.o \
+ src/integer.o \
+ src/vt_topicset.o \
+ src/text.o \
+ src/textset.o \
+ src/asidp.o \
+ src/coremodel.o \
+ src/omnivore.o \
+ src/cond.o \
+ src/procmodel.o \
+
+OBJS_WWW_DF=\
+ www-df/df.o \
+ www-df/tmadl_parse.o \
+ www-df/xtm_simple.o \
+ www-df/iso2788.o \
+ www-df/rdf_common.o \
+ www-df/view_topic.o \
+ www-df/view_index.o \
+ www-df/view_role_playings.o \
+ www-df/view_hitlist.o \
+
+
+
+OBJS_MEMSTORE=\
+ stores/memstore/descriptor.o \
+ stores/memstore/metastore.o \
+ stores/memstore/propertystore.o \
+ stores/memstore/textstore.o \
+ stores/memstore/integerstore.o \
+ stores/memstore/textsetstore.o \
+ stores/memstore/topicsetstore.o \
+ stores/memstore/asidp.o \
+
+OBJS_FILESTORE=\
+ src/stores/filestore/storage.o \
+ src/stores/filestore/tmfile.o \
+ src/stores/filestore/descriptor.o \
+ src/stores/filestore/metastore.o \
+ src/stores/filestore/page.o \
+ src/stores/filestore/metapage.o \
+
+OBJS_VIEWS=\
+ src/views/sam.o \
+ src/views/role_playings.o \
+ src/views/topic.o
+
+NO=\
+ src/base/tmadl_parse.o  \
+
+LIBOBJS=\
+ $(OBJS_CORE) \
+ $(OBJS_WWW_DF) \
+ $(OBJS_MEMSTORE) \
+
+FOO=\
+ $(OBJS_BASICTYPES) \
+ $(OBJS_FILESTORE) \
+ $(OBJS_PROCMODELS) \
+ $(OBJS_VIEWS) \
+
+
+NOW_NOT_IN_LIB=\
+ src/stores/memstore/assertionstore.o \
+ src/stores/memstore/locatorstore.o \
+ src/stores/memstore/djsetstore.o \
+ src/stores/memstore/setstore.o \
+ \
+ src/basictypes/text.o \
+ \
+ src/models/sam.o \
+ src/models/IS13250.o \
+ src/models/sx.o \
+ src/models/dc.o \
+ src/models/rss.o \
+ src/models/dc_rdf.o \
+ src/models/rss_rdf.o \
+ \
+ src/stores/memstore/descriptor.o \
+ src/stores/memstore/metastore.o \
+ src/stores/memstore/propertystore.o \
+ src/stores/memstore/assertionstore.o \
+ src/stores/memstore/locatorstore.o \
+ src/stores/memstore/textstore.o \
+ src/stores/memstore/djsetstore.o \
+ src/stores/memstore/setstore.o \
+  \
+ src/stores/filestore/tmfile.o \
+ src/stores/filestore/descriptor.o \
+ src/stores/filestore/storage.o \
+ src/stores/filestore/metastore.o \
+ src/stores/filestore/page.o \
+ src/stores/filestore/topicsetpage.o \
+ src/stores/filestore/lptpage.o \
+ src/stores/filestore/btreepage.o \
+ src/stores/filestore/topicspage.o \
+ src/stores/filestore/datapage.o \
+ src/stores/filestore/locatorstore.o \
+
+
+
+lib/libtm.a: $(LIBOBJS)
+	$(AR) lib/libtm.a $(LIBOBJS)
+
+# generate error handling source file from header file:
+src/err.c: src/tmerror.h helpers/make_err_c.pl
+	cat src/tmerror.h | $(PERL) helpers/make_err_c.pl \
+							> src/err.c
+bin/tm: $(LIBOBJS) apps/tm.c apps/view_callbacks.c
+	gcc $(CFLAGS) apps/tm.c -o bin/tm $(INCOPT) $(LIBOPT); 
+bin/test: $(LIBOBJS) apps/test.c
+	gcc $(CFLAGS) apps/test.c -o bin/test $(INCOPT) $(LIBOPT); 
+
+all: lib/libtm.a bin/tm
+
+clean: cleandoc
+	rm -f core; \
+	rm -f gmon.out; \
+	rm -f log out; \
+	rm -f src/err.c \
+	rm -f $(LIBOBJS); \
+	rm -f lib/* \
+	rm -f bin/tm
+
+cleandoc:
+	rm -rf doc
+
+distclean: clean
+	rm -f src/config.h;
+	rm -f config.status config.cache config.log Makefile;
+	rm -rf autom4te.cache
+
+
+
+install:
+	if [ ! -e @prefix@/tmtk ]; then \
+	  mkdir @prefix@/tmtk ; \
+	fi
+	if [ ! -e @prefix@/tmtk/bin ]; then \
+	  mkdir @prefix@/tmtk/bin ; \
+	fi
+	if [ ! -e @prefix@/tmtk/lib ]; then \
+	  mkdir @prefix@/tmtk/lib ; \
+	fi
+	if [ ! -e @prefix@/tmtk/www-df ]; then \
+	  mkdir @prefix@/tmtk/www-df ; \
+	fi
+	if [ ! -e @prefix@/tmtk/include ]; then \
+	  mkdir @prefix@/tmtk/include ; \
+	fi
+	#if [ ! -e @prefix@/tmtk/maps ]; then \
+	#  mkdir @prefix@/tmtk/maps ; \
+	#fi
+
+	cp lib/libtm.a @prefix@/tmtk/lib ;
+	cp src/*.h @prefix@/tmtk/include ;
+	cp -r www-df/disclosures  @prefix@/tmtk/www-df/ ;
+	#cp -r maps/* @prefix@/tmtk/maps ;
+	cp bin/tm @prefix@/tmtk/bin/ ;
+	cp bin/tm /usr/local/bin/ ;
+
+
+doc:
+	if [ ! -e doc ]; then \
+	  mkdir doc ; \
+	fi;
+	$(DOXYGEN) src/Doxyfile_CAPI
+	#$(DOXYGEN) Doxyfile_PyAPI

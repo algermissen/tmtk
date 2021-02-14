@@ -1,0 +1,1043 @@
+<?xml version="1.0"?>
+<!DOCTYPE topicMap PUBLIC "-//TopicMaps.Org//DTD XML Topic Map (XTM) V1.0//EN" 
+                          "xtm1.dtd">
+<topicMap id="xtm1.0-psi-language"
+    xmlns="http://www.topicmaps.org/xtm/1.0/"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xml:base="http://www.topicmaps.org/xtm/1.0/"> 
+<!--
+     ISO 639 2 letter Language Codes for XML Topic Maps (XTM)
+
+     Some of the technical contents of ISO 639:1988 (E/F) for the 
+     representation of names of languages. This topic map is intended
+     to be a machine-readable representation of the ISO language codes 
+     within the context of the topic map paradigm.
+
+     Copyright 2000 TopicMaps.Org, All Rights Reserved. 
+
+     Permission to use, copy, modify and distribute this XTM Topic Map and 
+     its accompanying materials for any purpose and without fee is hereby 
+     granted in perpetuity, provided that the above copyright notice and 
+     this paragraph appear in all copies. The copyright holders make no 
+     representation about the suitability of the DTD for any purpose. 
+     It is provided "as is" without expressed or implied warranty.
+
+       Editor:   Murray Altheim <altheim@eng.sun.com>
+       Revision: $Id: language.xtm,v 1.7 2001/03/03 17:07:07 altheim Exp $
+       Status:   Beta
+       PublicId: "-//TopicMaps.Org//DOCUMENT ISO-639 Language Codes for XTM 1.0//EN"
+       SystemId: "http://www.topicmaps.org/xtm/1.0/language.xtm"
+       Revisions:
+#2001-03-03: added xlink namespace declaration
+
+     Portions Copyright 1986 International Organization for Standardization. 
+     Permission to copy in any form is granted for use with conforming SGML 
+     systems and applications as defined in ISO 8879, provided this notice 
+     is included in all copies.
+
+     Source:
+        Keld.Simonsen@dkuug.dk   1990-11-30
+        Minor corrections        1992-09-08 by Keld Simonsen
+        Sundanese corrected      1992-11-11 by Keld Simonsen
+
+     The Registration Authority for ISO 639 is Infoterm, Osterreiches 
+     Normungsinstitut (ON), Postfach 130, A-1021, Vienna, Austria.
+-->
+
+  <topic id="lang-code">
+    <instanceOf><topicRef xlink:href="core.xtm#class"/></instanceOf>
+    <subjectIdentity>
+      <subjectIndicatorRef xlink:href="#language-code-desc"/>
+    </subjectIdentity>
+    <baseName>
+      <scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>ISO Language Code</baseNameString>
+      <variant>
+        <parameters>
+          <topicRef xlink:href="language.xtm#en"/>
+          <topicRef xlink:href="core.xtm#display"/>
+        </parameters>
+        <variantName>
+          <resourceRef xlink:href="#language-code-desc"/>
+        </variantName>
+      </variant>
+    </baseName>
+    <occurrence>
+      <resourceData id="language-code-desc">
+        ISO Language Code: A code representing a language, 
+        as listed in the ISO standard for language codes.
+      </resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="alpha2">
+    <instanceOf><topicRef xlink:href="core.xtm#class"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="language.xtm#en"/></scope>
+      <baseNameString>2 Letter ISO 639 Language Code</baseNameString>
+    </baseName>
+  </topic>
+
+  <topic id="alpha3">
+    <instanceOf><topicRef xlink:href="core.xtm#class"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="language.xtm#en"/></scope>
+      <baseNameString>3 Letter ISO 639 Language Code</baseNameString>
+    </baseName>
+  </topic>
+
+<!-- begin Language Codes .................... -->
+
+  <topic id="aa"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>aa</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Afar</baseNameString></baseName>
+  </topic> 
+  <topic id="ab"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>ab</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Abkhazian</baseNameString></baseName>
+  </topic> 
+  <topic id="af"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>af</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Afrikaans</baseNameString></baseName>
+  </topic> 
+  <topic id="am"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>am</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Amharic</baseNameString></baseName>
+  </topic> 
+  <topic id="ar"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>ar</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Arabic</baseNameString></baseName>
+  </topic> 
+  <topic id="as"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>as</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Assamese</baseNameString></baseName>
+  </topic> 
+  <topic id="ay"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>ay</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Aymara</baseNameString></baseName>
+  </topic> 
+  <topic id="az"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>az</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Azerbaijani</baseNameString></baseName>
+  </topic> 
+  <topic id="ba"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>ba</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Bashkir</baseNameString></baseName>
+  </topic> 
+  <topic id="be"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>be</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Byelorussian</baseNameString></baseName>
+  </topic> 
+  <topic id="bg"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>bg</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Bulgarian</baseNameString></baseName>
+  </topic> 
+  <topic id="bh"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>bh</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Bihari</baseNameString></baseName>
+  </topic> 
+  <topic id="bi"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>bi</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Bislama</baseNameString></baseName>
+  </topic> 
+  <topic id="bn"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>bn</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Bengali; Bangla</baseNameString></baseName>
+  </topic> 
+  <topic id="bo"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>bo</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Tibetan</baseNameString></baseName>
+  </topic> 
+  <topic id="br"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>br</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Breton</baseNameString></baseName>
+  </topic> 
+  <topic id="ca"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>ca</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Catalan</baseNameString></baseName>
+  </topic> 
+  <topic id="co"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>co</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Corsican</baseNameString></baseName>
+  </topic> 
+  <topic id="cs"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>cs</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Czech</baseNameString></baseName>
+  </topic> 
+  <topic id="cy"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>cy</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Welsh</baseNameString></baseName>
+  </topic> 
+  <topic id="da"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>da</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Danish</baseNameString></baseName>
+  </topic> 
+  <topic id="de"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>de</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>German</baseNameString></baseName>
+  </topic> 
+  <topic id="dz"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>dz</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Bhutani</baseNameString></baseName>
+  </topic> 
+  <topic id="el"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>el</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Greek</baseNameString></baseName>
+  </topic> 
+  <topic id="en"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>en</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>English</baseNameString></baseName>
+  </topic> 
+  <topic id="eo"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>eo</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Esperanto</baseNameString></baseName>
+  </topic> 
+  <topic id="es"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>es</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Spanish</baseNameString></baseName>
+  </topic> 
+  <topic id="et"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>et</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Estonian</baseNameString></baseName>
+  </topic> 
+  <topic id="eu"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>eu</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Basque</baseNameString></baseName>
+  </topic> 
+  <topic id="fa"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>fa</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Persian</baseNameString></baseName>
+  </topic> 
+  <topic id="fi"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>fi</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Finnish</baseNameString></baseName>
+  </topic> 
+  <topic id="fj"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>fj</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Fiji</baseNameString></baseName>
+  </topic> 
+  <topic id="fo"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>fo</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Faeroese</baseNameString></baseName>
+  </topic> 
+  <topic id="fr"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>fr</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>French</baseNameString></baseName>
+  </topic> 
+  <topic id="fy"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>fy</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Frisian</baseNameString></baseName>
+  </topic> 
+  <topic id="ga"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>ga</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Irish</baseNameString></baseName>
+  </topic> 
+  <topic id="gd"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>gd</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Scots Gaelic</baseNameString></baseName>
+  </topic> 
+  <topic id="gl"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>gl</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Galician</baseNameString></baseName>
+  </topic> 
+  <topic id="gn"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>gn</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Guarani</baseNameString></baseName>
+  </topic> 
+  <topic id="gu"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>gu</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Gujarati</baseNameString></baseName>
+  </topic> 
+  <topic id="ha"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>ha</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Hausa</baseNameString></baseName>
+  </topic> 
+  <topic id="hi"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>hi</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Hindi</baseNameString></baseName>
+  </topic> 
+  <topic id="hr"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>hr</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Croatian</baseNameString></baseName>
+  </topic> 
+  <topic id="hu"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>hu</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Hungarian</baseNameString></baseName>
+  </topic> 
+  <topic id="hy"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>hy</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Armenian</baseNameString></baseName>
+  </topic> 
+  <topic id="ia"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>ia</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Interlingua</baseNameString></baseName>
+  </topic> 
+  <topic id="ie"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>ie</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Interlingue</baseNameString></baseName>
+  </topic> 
+  <topic id="ik"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>ik</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Inupiak</baseNameString></baseName>
+  </topic> 
+  <topic id="in"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>in</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Indonesian</baseNameString></baseName>
+  </topic> 
+  <topic id="is"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>is</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Icelandic</baseNameString></baseName>
+  </topic> 
+  <topic id="it"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>it</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Italian</baseNameString></baseName>
+  </topic> 
+  <topic id="iw"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>iw</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Hebrew</baseNameString></baseName>
+  </topic> 
+  <topic id="ja"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>ja</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Japanese</baseNameString></baseName>
+  </topic> 
+  <topic id="ji"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>ji</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Yiddish</baseNameString></baseName>
+  </topic> 
+  <topic id="jw"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>jw</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Javanese</baseNameString></baseName>
+  </topic> 
+  <topic id="ka"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>ka</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Georgian</baseNameString></baseName>
+  </topic> 
+  <topic id="kk"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>kk</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Kazakh</baseNameString></baseName>
+  </topic> 
+  <topic id="kl"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>kl</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Greenlandic</baseNameString></baseName>
+  </topic> 
+  <topic id="km"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>km</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Cambodian</baseNameString></baseName>
+  </topic> 
+  <topic id="kn"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>kn</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Kannada</baseNameString></baseName>
+  </topic> 
+  <topic id="ko"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>ko</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Korean</baseNameString></baseName>
+  </topic> 
+  <topic id="ks"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>ks</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Kashmiri</baseNameString></baseName>
+  </topic> 
+  <topic id="ku"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>ku</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Kurdish</baseNameString></baseName>
+  </topic> 
+  <topic id="ky"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>ky</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Kirghiz</baseNameString></baseName>
+  </topic> 
+  <topic id="la"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>la</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Latin</baseNameString></baseName>
+  </topic> 
+  <topic id="ln"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>ln</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Lingala</baseNameString></baseName>
+  </topic> 
+  <topic id="lo"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>lo</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Laothian</baseNameString></baseName>
+  </topic> 
+  <topic id="lt"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>lt</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Lithuanian</baseNameString></baseName>
+  </topic> 
+  <topic id="lv"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>lv</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Latvian, Lettish</baseNameString></baseName>
+  </topic> 
+  <topic id="mg"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>mg</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Malagasy</baseNameString></baseName>
+  </topic> 
+  <topic id="mi"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>mi</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Maori</baseNameString></baseName>
+  </topic> 
+  <topic id="mk"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>mk</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Macedonian</baseNameString></baseName>
+  </topic> 
+  <topic id="ml"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>ml</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Malayalam</baseNameString></baseName>
+  </topic> 
+  <topic id="mn"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>mn</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Mongolian</baseNameString></baseName>
+  </topic> 
+  <topic id="mo"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>mo</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Moldavian</baseNameString></baseName>
+  </topic> 
+  <topic id="mr"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>mr</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Marathi</baseNameString></baseName>
+  </topic> 
+  <topic id="ms"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>ms</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Malay</baseNameString></baseName>
+  </topic> 
+  <topic id="mt"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>mt</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Maltese</baseNameString></baseName>
+  </topic> 
+  <topic id="my"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>my</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Burmese</baseNameString></baseName>
+  </topic> 
+  <topic id="na"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>na</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Nauru</baseNameString></baseName>
+  </topic> 
+  <topic id="ne"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>ne</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Nepali</baseNameString></baseName>
+  </topic> 
+  <topic id="nl"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>nl</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Dutch</baseNameString></baseName>
+  </topic> 
+  <topic id="no"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>no</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Norwegian</baseNameString></baseName>
+  </topic> 
+  <topic id="oc"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>oc</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Occitan</baseNameString></baseName>
+  </topic> 
+  <topic id="om"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>om</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>(Afan) Oromo</baseNameString></baseName>
+  </topic> 
+  <topic id="or"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>or</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Oriya</baseNameString></baseName>
+  </topic> 
+  <topic id="pa"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>pa</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Punjabi</baseNameString></baseName>
+  </topic> 
+  <topic id="pl"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>pl</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Polish</baseNameString></baseName>
+  </topic> 
+  <topic id="ps"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>ps</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Pashto, Pushto</baseNameString></baseName>
+  </topic> 
+  <topic id="pt"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>pt</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Portuguese</baseNameString></baseName>
+  </topic> 
+  <topic id="qu"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>qu</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Quechua</baseNameString></baseName>
+  </topic> 
+  <topic id="rm"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>rm</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Rhaeto-Romance</baseNameString></baseName>
+  </topic> 
+  <topic id="rn"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>rn</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Kirundi</baseNameString></baseName>
+  </topic> 
+  <topic id="ro"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>ro</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Romanian</baseNameString></baseName>
+  </topic> 
+  <topic id="ru"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>ru</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Russian</baseNameString></baseName>
+  </topic> 
+  <topic id="rw"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>rw</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Kinyarwanda</baseNameString></baseName>
+  </topic> 
+  <topic id="sa"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>sa</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Sanskrit</baseNameString></baseName>
+  </topic> 
+  <topic id="sd"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>sd</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Sindhi</baseNameString></baseName>
+  </topic> 
+  <topic id="sg"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>sg</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Sangro</baseNameString></baseName>
+  </topic> 
+  <topic id="sh"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>sh</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Serbo-Croatian</baseNameString></baseName>
+  </topic> 
+  <topic id="si"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>si</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Singhalese</baseNameString></baseName>
+  </topic> 
+  <topic id="sk"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>sk</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Slovak</baseNameString></baseName>
+  </topic> 
+  <topic id="sl"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>sl</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Slovenian</baseNameString></baseName>
+  </topic> 
+  <topic id="sm"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>sm</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Samoan</baseNameString></baseName>
+  </topic> 
+  <topic id="sn"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>sn</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Shona</baseNameString></baseName>
+  </topic> 
+  <topic id="so"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>so</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Somali</baseNameString></baseName>
+  </topic> 
+  <topic id="sq"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>sq</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Albanian</baseNameString></baseName>
+  </topic> 
+  <topic id="sr"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>sr</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Serbian</baseNameString></baseName>
+  </topic> 
+  <topic id="ss"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>ss</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Siswati</baseNameString></baseName>
+  </topic> 
+  <topic id="st"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>st</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Sesotho</baseNameString></baseName>
+  </topic> 
+  <topic id="su"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>su</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Sundanese</baseNameString></baseName>
+  </topic> 
+  <topic id="sv"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>sv</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Swedish</baseNameString></baseName>
+  </topic> 
+  <topic id="sw"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>sw</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Swahili</baseNameString></baseName>
+  </topic> 
+  <topic id="ta"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>ta</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Tamil</baseNameString></baseName>
+  </topic> 
+  <topic id="te"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>te</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Tegulu</baseNameString></baseName>
+  </topic> 
+  <topic id="tg"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>tg</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Tajik</baseNameString></baseName>
+  </topic> 
+  <topic id="th"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>th</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Thai</baseNameString></baseName>
+  </topic> 
+  <topic id="ti"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>ti</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Tigrinya</baseNameString></baseName>
+  </topic> 
+  <topic id="tk"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>tk</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Turkmen</baseNameString></baseName>
+  </topic> 
+  <topic id="tl"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>tl</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Tagalog</baseNameString></baseName>
+  </topic> 
+  <topic id="tn"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>tn</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Setswana</baseNameString></baseName>
+  </topic> 
+  <topic id="to"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>to</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Tonga</baseNameString></baseName>
+  </topic> 
+  <topic id="tr"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>tr</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Turkish</baseNameString></baseName>
+  </topic> 
+  <topic id="ts"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>ts</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Tsonga</baseNameString></baseName>
+  </topic> 
+  <topic id="tt"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>tt</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Tatar</baseNameString></baseName>
+  </topic> 
+  <topic id="tw"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>tw</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Twi</baseNameString></baseName>
+  </topic> 
+  <topic id="uk"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>uk</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Ukrainian</baseNameString></baseName>
+  </topic> 
+  <topic id="ur"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>ur</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Urdu</baseNameString></baseName>
+  </topic> 
+  <topic id="uz"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>uz</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Uzbek</baseNameString></baseName>
+  </topic> 
+  <topic id="vi"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>vi</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Vietnamese</baseNameString></baseName>
+  </topic> 
+  <topic id="vo"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>vo</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Volapuk</baseNameString></baseName>
+  </topic> 
+  <topic id="wo"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>wo</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Wolof</baseNameString></baseName>
+  </topic> 
+  <topic id="xh"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>xh</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Xhosa</baseNameString></baseName>
+  </topic> 
+  <topic id="yo"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>yo</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Yoruba</baseNameString></baseName>
+  </topic> 
+  <topic id="zh"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>zh</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Chinese</baseNameString></baseName>
+  </topic> 
+  <topic id="zu"> 
+    <instanceOf><topicRef xlink:href="#lang-code"/></instanceOf>
+    <baseName><scope><topicRef xlink:href="#alpha2"/></scope>
+      <baseNameString>zu</baseNameString></baseName> 
+    <baseName><scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>Zulu</baseNameString></baseName>
+  </topic> 
+
+</topicMap>
+<!-- end of language.xtm -->

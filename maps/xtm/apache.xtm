@@ -1,0 +1,1342 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!--
+<topicMap id="apache"
+          xmlns       = 'http://www.topicmaps.org/xtm/1.0/'
+          xmlns:xlink = 'http://www.w3.org/1999/xlink'>
+-->
+
+<topicMap>
+
+
+  <topic id="apache-software-foundation">
+    <instanceOf>
+      <topicRef xlink:href="#foundation"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>ASF, Apache Software Foundation</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceRef xlink:href="http://www.apache.org/foundation/"/>
+    </occurrence>
+    <occurrence>
+      <resourceData>provides support for the Apache community of open-source software projects</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceData>ASF members -- board of directors -- ASF Licence</resourceData>
+    </occurrence>
+  </topic>
+  <topic id="apache-project">
+    <instanceOf>
+      <topicRef xlink:href="#open-source-project"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Apache project(s)</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>collaborative, consensus based development process</resourceData>
+    </occurrence>
+  </topic>
+
+  <association>
+    <instanceOf>
+      <topicRef xlink:href="#organisation-runs-project"/>
+    </instanceOf>
+    <member>
+       <roleSpec>
+         <topicRef xlink:href="#organisation"/>
+       </roleSpec>
+       <topicRef xlink:href="#apache-software-foundation"/>
+    </member>
+    <member>
+       <roleSpec>
+         <topicRef xlink:href="#project"/>
+       </roleSpec>
+       <topicRef xlink:href="#apache-project"/>
+    </member>
+  </association>
+
+  <topic id="apache-httpd">
+    <instanceOf>
+      <topicRef xlink:href="#web-server"/>
+    </instanceOf>
+    <instanceOf>
+      <topicRef xlink:href="#apache-project"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Apache HTTP Server</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>VERY stable and flexible HTTP daemon for many platforms</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceRef xlink:href="http://httpd.apache.org/"/>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-httpd-13">
+    <instanceOf>
+      <topicRef xlink:href="#apache-httpd"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Apache HTTP Server, Version 1.3</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>proven HTTP daemon</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-httpd-20">
+    <instanceOf>
+      <topicRef xlink:href="#apache-httpd"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Apache HTTP Server, Version 2.0</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>complete rewrite</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-httpd-20-feature">
+    <instanceOf>
+      <topicRef xlink:href="#feature"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Apache 2.0 feature</baseNameString>
+    </baseName>
+  </topic>
+
+  <topic id="unix-threading">
+    <instanceOf>
+      <topicRef xlink:href="#apache-httpd-20-feature"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Unix Threading</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>Unix POSIX threads support -- Apache can now run in a hybrid multiprocess,     multithreaded mode -- should improve scalability</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="multi-protocol-support">
+    <instanceOf>
+      <topicRef xlink:href="#apache-httpd-20-feature"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Multiprotocol Support</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>infrastructure to support serving multiple protocols</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-api-20">
+    <instanceOf>
+      <topicRef xlink:href="#application-program-interface"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Apache API 2.0</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>module ordering is now done per-hook to allow more flexibility -- 	new calls additional module capabilities without patching the core Apache server</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="ipv6-support">
+    <instanceOf>
+      <topicRef xlink:href="#apache-httpd-20-feature"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>IPv6 Support</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>on systems with APR support</resourceData>
+    </occurrence>
+  </topic>
+
+  <association>
+    <instanceOf>
+      <topicRef xlink:href="#feature-provided-by-for"/>
+    </instanceOf>
+    <member>
+       <roleSpec>
+         <topicRef xlink:href="#feature"/>
+       </roleSpec>
+       <topicRef xlink:href="#ipv6-support"/>
+    </member>
+    <member>
+       <roleSpec>
+         <topicRef xlink:href="#provided-for"/>
+       </roleSpec>
+       <topicRef xlink:href="#apache-httpd-20"/>
+    </member>
+    <member>
+       <roleSpec>
+         <topicRef xlink:href="#provided-by"/>
+       </roleSpec>
+       <topicRef xlink:href="#apache-portable-runtime"/>
+    </member>
+  </association>
+
+  <topic id="module-filtering">
+    <instanceOf>
+      <topicRef xlink:href="#apache-httpd-20-feature"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Module Filtering</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>modules may now be written as filters -- act on the stream of content</resourceData>
+    </occurrence>
+  </topic>
+
+<!--  APR -->
+
+  <topic id="apache-portable-runtime">
+    <instanceOf>
+      <topicRef xlink:href="#software-library"/>
+    </instanceOf>
+    <instanceOf>
+      <topicRef xlink:href="#apache-project"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Apache Portable Runtime (APR)</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>free C library, a system portability layer to many operating system</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceRef xlink:href="http://apr.apache.org/"/>
+    </occurrence>
+    <occurrence>
+      <resourceData>faster and more stable code on non-Unix platforms such as BeOS, OS/2, and Windows</resourceData>
+    </occurrence>
+  </topic>
+
+<!--  Jakarta  -->
+
+  <topic id="jakarta-project">
+    <instanceOf>
+      <topicRef xlink:href="#apache-project"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Jakarta Project</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceRef xlink:href="http://jakarta.apache.org/"/>
+    </occurrence>
+    <occurrence>
+      <resourceData>server application infrastructure based on Java</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="jakarta-alexandria">
+    <instanceOf>
+      <topicRef xlink:href="#jakarta-project"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Alexandria Project</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceRef xlink:href="http://jakarta.apache.org/alexandria/index.html"/>
+    </occurrence>
+    <occurrence>
+      <resourceData>CVS/Javadoc/Source code/Documentation management system -- 	global documentation and source organization system</resourceData>
+    </occurrence>
+    <occurrence>
+      <instanceOf>
+         <topicRef xlink:href="#preview"/>
+      </instanceOf>
+      <resourceRef xlink:href="http://relativity.yi.org/alexandria/content/html/index.html"/>
+    </occurrence>
+  </topic>
+
+  <topic id="jakarta-ant">
+    <instanceOf>
+      <topicRef xlink:href="#jakarta-project"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>'make' for Java</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceRef xlink:href="http://jakarta.apache.org/ant/index.html"/>
+    </occurrence>
+  </topic>
+
+  <topic id="jakarta-cactus">
+    <instanceOf>
+      <topicRef xlink:href="#jakarta-project"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Cactus</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceRef xlink:href="http://jakarta.apache.org/cactus/index.html"/>
+    </occurrence>
+    <occurrence>
+      <resourceData>Cactus is a simple test framework for unit testing server-side java code 	 (Servlets, EJBs, Tag Libs, Filters, ...)</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="jakarta-jetspeed">
+    <instanceOf>
+      <topicRef xlink:href="#jakarta-project"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Jetspeed</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>Enterprise Information Portal, using Java and XML</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceData>syndication -- Portal Structure Markup Language -- Portlets</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceRef xlink:href="http://jakarta.apache.org/jetspeed/site/index.html"/>
+    </occurrence>
+  </topic>
+
+  <topic id="jakarta-taglibs">
+    <instanceOf>
+      <topicRef xlink:href="#jakarta-project"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Jakarta Taglibs</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceRef xlink:href="http://jakarta.apache.org/taglibs/index.html"/>
+    </occurrence>
+    <occurrence>
+      <resourceData>JSP custom taglib kit -- custom tags help separate presentation from implementation --</resourceData>
+    </occurrence>
+    <occurrence>
+      <instanceOf>
+         <topicRef xlink:href="#tutorial"/>
+      </instanceOf>
+      <resourceRef xlink:href="http://jakarta.apache.org/taglibs/tutorial.html"/>
+    </occurrence>
+  </topic>
+
+<!--  Perl -->
+
+  <topic id="apache-perl-integration-project">
+    <instanceOf>
+      <topicRef xlink:href="#apache-project"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>The Apache/Perl Integration Project</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>Perl interpreter for Apache -- access for Perl modules to Apache -- 	persistent Perl data</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceRef xlink:href="http://perl.apache.org/"/>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-xml-project">
+    <instanceOf>
+      <topicRef xlink:href="#apache-project"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Apache XML Project</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceRef xlink:href="http://xml.apache.org/"/>
+    </occurrence>
+    <occurrence>
+      <resourceData>open XML infrastructure -- XML parser, stylesheet processor, SOAP, SVG</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-xml-xerces">
+    <instanceOf>
+      <topicRef xlink:href="#xml-parser"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Xerces</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>Java, C++ parser with Perl and COM bindings</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceData>validating parser, DOM1, DOM2, SAX2 standard</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceRef xlink:href="http://xml.apache.org/xerces-j/index.html"/>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-xml-xalan">
+    <instanceOf>
+      <topicRef xlink:href="#xslt-processor"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Xalan, XSL stylesheet processors</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>Java, C++ (alpha)</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceRef xlink:href="http://xml.apache.org/xalan-j/index.html"/>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-xml-cocoon">
+    <instanceOf>
+      <topicRef xlink:href="#web-publishing-framework"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Cocoon: XML-based web publishing</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceRef xlink:href="http://xml.apache.org/cocoon2/index.html"/>
+    </occurrence>
+    <occurrence>
+      <resourceData>separation of logic, content, design -- sitemaps, generators, 	transformators, serializers, pipelines</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-xml-fop">
+    <instanceOf>
+      <topicRef xlink:href="#fop-implementation"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>FOP: XSL Formatting Object processor</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>Java, PDF support</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-xml-xang">
+    <instanceOf>
+      <topicRef xlink:href="#web-publishing-framework"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Xang</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>server-side XML, DOM and JavaScript (ECMAScript)</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceRef xlink:href="http://xml.apache.org/xang/index.html"/>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-xml-soap">
+    <instanceOf>
+      <topicRef xlink:href="#soap-implementation"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Apache SOAP</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>IBM contributed SOAP4J implementation</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceRef xlink:href="http://xml.apache.org/soap/index.html"/>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-tomcat">
+    <instanceOf>
+      <topicRef xlink:href="#apache-project"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Jakarta Tomcat</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>Tomcat is the official Reference Implementation for the Java Servlet 	and JavaServer Pages technologies</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceRef xlink:href="http://jakarta.apache.org/tomcat/index.html"/>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-lucene">
+    <instanceOf>
+      <topicRef xlink:href="#apache-project"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Lucene, Java full-text retrieval</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>indexing and search capability</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceRef xlink:href="http://www.javaworld.com/javaworld/jw-09-2000/jw-0915-lucene.html"/>
+    </occurrence>
+  </topic>
+
+<!-- # -->
+
+  <topic id="apache-architecture">
+    <instanceOf>
+      <topicRef xlink:href="#web-server-architecture"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Apache Architecture</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceRef xlink:href="http://www.grad.math.uwaterloo.ca/~oadragoi/CS746G/a1/apache_conceptual_arch.html"/>
+    </occurrence>
+    <occurrence>
+      <resourceData>http engine, module infrastructure, phases</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-component">
+    <instanceOf>
+      <topicRef xlink:href="#component"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Apache component</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>Apache is built in a modular fashion, performance, flexibility</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-core">
+    <instanceOf>
+      <topicRef xlink:href="#apache-component"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Apache Core</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>basic server functionality, utility functions (allocation) -- 	HTTP engine -- main loop -- request dispatching to modules --	basic configuration management</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-module">
+    <instanceOf>
+      <topicRef xlink:href="#module"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Apache module</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>module handlers are activated in particular phases -- sequence of activation matters	expose same interface to server: configuration handlers, phase handlersin: the most popular come with the distribution</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceData>many more by 3rd parties (mod_frontpage)</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-contributed-module">
+    <instanceOf>
+      <topicRef xlink:href="#apache-module"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Apache contributed module</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>come with the distribution</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceRef xlink:href="http://httpd.apache.org/docs/mod/index-bytype.html"/>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-3rd-party-module">
+    <instanceOf>
+      <topicRef xlink:href="#apache-module"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Apache 3rd party modules</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceRef xlink:href="http://modules.apache.org/"/>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-request-phase">
+    <instanceOf>
+      <topicRef xlink:href="#phase"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Apache request phase</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>every client request is serviced in phases</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-phase-uri-translation">
+    <instanceOf>
+      <topicRef xlink:href="#apache-request-phase"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>URI translation</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>translation from URI to file system (backend name space)</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-phase-access-check">
+    <instanceOf>
+      <topicRef xlink:href="#apache-request-phase"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Access check</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>based on host name, et. al.</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-phase-user-authentication">
+    <instanceOf>
+      <topicRef xlink:href="#apache-request-phase"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>User authentication</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>who is this user?</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-phase-user-authorization">
+    <instanceOf>
+      <topicRef xlink:href="#apache-request-phase"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>User authorization</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>can this user access a resource?</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-phase-mime-determination">
+    <instanceOf>
+      <topicRef xlink:href="#apache-request-phase"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>MIME detection</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>what is the MIME type of the requested resource?</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-phase-fixup">
+    <instanceOf>
+      <topicRef xlink:href="#apache-request-phase"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Fixup</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>resolving aliases...</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-phase-processing">
+    <instanceOf>
+      <topicRef xlink:href="#apache-request-phase"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Processing</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>processing and send data to the client</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-phase-logging">
+    <instanceOf>
+      <topicRef xlink:href="#apache-request-phase"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Event logging</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>log the request depending on the configuration</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-module-handler">
+    <instanceOf>
+      <topicRef xlink:href="#callback-function"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Module handler</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>will be activated by Apache in one of the phases -- modules define handlers --	several handlers per phase -- sequence matters -- usually written in C -- Perl Apache handler</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-mod-access">
+    <instanceOf>
+      <topicRef xlink:href="#apache-contributed-module"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>mod_access Apache module</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>Access control based on client hostname or IP address</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceData>Allow from 10.1.2.3 -- Deny from all</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceData>relative to a directory or location</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceRef xlink:href="http://httpd.apache.org/docs/mod/mod_access.html"/>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-mod-alias">
+    <instanceOf>
+      <topicRef xlink:href="#apache-contributed-module"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>mod_alias Apache module</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>Mapping different parts of the host filesystem in the document tree --	URL redirection</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceData>Alias /image /ftp/pub/image</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-mod-auth">
+    <instanceOf>
+      <topicRef xlink:href="#apache-contributed-module"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>mod_auth Apache module</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>trivial user authentication -- basic authentication -- text database</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceData>AuthType Basic -- AuthName MyPrivateFile -- Require valid-user</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-mod-autoindex">
+    <instanceOf>
+      <topicRef xlink:href="#apache-contributed-module"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>mod_autoindex Apache module</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>directory listings -- default README -- trailing slash -- directory traversing</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceData>DefaultIcon /icon/unknown.xbm</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-mod-cgi">
+    <instanceOf>
+      <topicRef xlink:href="#apache-contributed-module"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>mod_cgi Apache module</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>CGI handling -- passing parameters to CGI programs -- passing results to the client -- nph handling</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-mod-log-config">
+    <instanceOf>
+      <topicRef xlink:href="#apache-contributed-module"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>mod_log_config Apache module</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>customizable logging format -- logging to a file or process -- rotating logs</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceData>LogFormat "%h %l %u %t "%r" %>s %b" common</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-mod-mime">
+    <instanceOf>
+      <topicRef xlink:href="#apache-contributed-module"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>mod_mime Apache module</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>determine various bits of "meta information" about documents</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceData>AddLanguage en  .en</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceData>AddEncoding x-gzip .gz</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceData>AddHandler cgi-script .cgi</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceData>AddType image/gif .gif</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-mod-negotiation">
+    <instanceOf>
+      <topicRef xlink:href="#apache-contributed-module"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>mod_negotiation Apache module</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>content selection -- encoding, language, length, type (quality)</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceData>type map: explicitly lists the files containing the variants.</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceData>MultiViews search: implicit filename pattern match, choose from amongst the results</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceData>LanguagePriority en fr de</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-mod-proxy">
+    <instanceOf>
+      <topicRef xlink:href="#apache-contributed-module"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>mod_proxy Apache module</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>fully fledged proxy/cache -- cache for static documents -- memory cache, disk cache -- reverse proxy</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceData>ProxyRemote http://good.com/ http://mirror.com:800</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceData>ProxyPass /mirror/foo/ http://foo.com/</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-mod-rewrite">
+    <instanceOf>
+      <topicRef xlink:href="#apache-contributed-module"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>mod_rewrite Apache module</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>most feared module -- voodoo -- sendmail of the webservers</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceData>Swiss Army Knife of URL manipulation -- general URL rewriting engine</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceData>RewriteRule   pattern  substitute  [flag]</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceRef xlink:href="http://httpd.apache.org/docs/mod/mod_rewrite.html"/>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-mod-speling">
+    <instanceOf>
+      <topicRef xlink:href="#apache-contributed-module"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>mod_speling Apache module</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>corrects wrong user input -- case insensitive -- misspelling</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceData>CheckSpelling On</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-mod-status">
+    <instanceOf>
+      <topicRef xlink:href="#apache-contributed-module"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>mod_status Apache module</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>how well their server is performing -- number of children serving requests --	idle children -- total number of accesses and byte count served -- 	average requests per second -- current percentage CPU used by each child	current hosts and requests being processed</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceData>keeps status file</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceData>should be protected, see SNMP module</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-mod-userdir">
+    <instanceOf>
+      <topicRef xlink:href="#apache-contributed-module"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>mod_userdir Apache module</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>allows access to user directories -- security issue -- allow override of configuration</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceData>UserDir public_html</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceData>UserDir disabled root</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-mod-vhost-alias">
+    <instanceOf>
+      <topicRef xlink:href="#apache-contributed-module"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>mod_vhost_alias Apache module</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>support for dynamically configured mass virtual hosting -- easy use of a huge number of 	virtual hosts with similar configuration</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceData>UseCanonicalName  Off</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceData>VirtualDocumentRoot</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-mod-expires">
+    <instanceOf>
+      <topicRef xlink:href="#apache-contributed-module"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>mod_expires Apache module</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>explicit control on the expiry date of sent objects</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-mod-asis">
+    <instanceOf>
+      <topicRef xlink:href="#apache-contributed-module"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>mod_asis Apache module</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>document meta information is stored with the document</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-mod-so">
+    <instanceOf>
+      <topicRef xlink:href="#apache-contributed-module"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>mod_so Apache module</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>loading of executable code and modules into the server at start-up -- 	DSO, Dynamic Shared Object</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceRef xlink:href="http://httpd.apache.org/docs/mod/mod_so.html"/>
+    </occurrence>
+  </topic>
+
+  <association>
+    <instanceOf>
+      <topicRef xlink:href="#software-implements-concept"/>
+    </instanceOf>
+    <member>
+       <roleSpec>
+         <topicRef xlink:href="#software"/>
+       </roleSpec>
+       <topicRef xlink:href="#apache-mod-so"/>
+    </member>
+    <member>
+       <roleSpec>
+         <topicRef xlink:href="#concept"/>
+       </roleSpec>
+       <topicRef xlink:href="#apache-dso"/>
+    </member>
+  </association>
+
+  <topic id="apache-dso">
+    <instanceOf>
+      <topicRef xlink:href="#dynamic-loading-mechanism"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Dynamic Shared Object (DSO)</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceRef xlink:href="http://httpd.apache.org/docs/dso.html"/>
+    </occurrence>
+    <occurrence>
+      <resourceData>shared objects, LoadModule</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-mod-perl">
+    <instanceOf>
+      <topicRef xlink:href="#apache-language-module"/>
+    </instanceOf>
+    <instanceOf>
+      <topicRef xlink:href="#apache-3rd-party-module"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>mod_perl Apache module</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>Perl-Apache integration</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceData>write Apache modules entirely in Perl -- Perl interpreter part of Apache 	no startup delay with CGI scripts -- Perl modules to write	handlers, access internals -- size consideration</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceData>persistent objects via shared memory</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceData>3 million hosting servers, 200000 hosters (Netcraft Aug'01)</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceRef xlink:href="http://perl.apache.org/"/>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-mod-python">
+    <instanceOf>
+      <topicRef xlink:href="#apache-language-module"/>
+    </instanceOf>
+    <instanceOf>
+      <topicRef xlink:href="#apache-3rd-party-module"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>mod_python Apache module</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>Python interpreter integrated into Apache</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceRef xlink:href="http://www.modpython.org/"/>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-mod-php">
+    <instanceOf>
+      <topicRef xlink:href="#apache-language-module"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>mod_php Apache module</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>PHP4 interpreter integrated into Apache</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceRef xlink:href="http://www.php.net/"/>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-mod-java">
+    <instanceOf>
+      <topicRef xlink:href="#apache-language-module"/>
+    </instanceOf>
+    <instanceOf>
+      <topicRef xlink:href="#apache-3rd-party-module"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>mod_java Apache module</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>Java interpreter integrated into Apache</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceData>Jakarta project -- Tomcat Servlet engine</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceRef xlink:href="http://jakarta.apache.org/"/>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-mod-ssl">
+    <instanceOf>
+      <topicRef xlink:href="#apache-3rd-party-module"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>mod_ssl, Apache SSL module</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceRef xlink:href="http://www.modssl.org/"/>
+    </occurrence>
+    <occurrence>
+      <instanceOf>
+         <topicRef xlink:href="#download"/>
+      </instanceOf>
+      <resourceRef xlink:href="http://www.modssl.org/source/"/>
+    </occurrence>
+    <occurrence>
+      <resourceData>strong cryptotopicmapy -- SSL, TLS1.0 -- based on openssl</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-ssl">
+    <instanceOf>
+      <topicRef xlink:href="#apache-3rd-party-module"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Apache SSL</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceRef xlink:href="http://www.apache-ssl.org/"/>
+    </occurrence>
+    <occurrence>
+      <resourceData>alternative to mod_ssl</resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-backhand">
+    <instanceOf>
+      <topicRef xlink:href="#apache-3rd-party-module"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Apache Backhand</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>seamless load-balancing module -- redirection --</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceRef xlink:href="http://www.backhand.org/mod_backhand/"/>
+    </occurrence>
+    <occurrence>
+      <instanceOf>
+         <topicRef xlink:href="#presentation"/>
+      </instanceOf>
+      <resourceRef xlink:href="http://www.backhand.org/ApacheCon2000/EU/img0.htm"/>
+    </occurrence>
+  </topic>
+
+  <topic id="apache-frontpage">
+    <instanceOf>
+      <topicRef xlink:href="#apache-3rd-party-module"/>
+    </instanceOf>
+    <baseName>
+       <baseNameString>Apache Frontpage Extensions</baseNameString>
+    </baseName>
+    <occurrence>
+      <resourceData>developed bt RtR.com</resourceData>
+    </occurrence>
+    <occurrence>
+      <resourceRef xlink:href="#ftp://ftp.vr.net/pub/apache/mod_frontpage/"/>
+    </occurrence>
+  </topic>
+
+<!-- auto completion begins here -->
+
+  <topic id="apache-language-module">
+    <baseName>
+       <baseNameString>apache language module</baseNameString>
+    </baseName>
+  </topic>
+
+  <topic id="application-program-interface">
+    <baseName>
+       <baseNameString>application program interface</baseNameString>
+    </baseName>
+  </topic>
+
+  <topic id="callback-function">
+    <baseName>
+       <baseNameString>callback function</baseNameString>
+    </baseName>
+  </topic>
+
+  <topic id="component">
+    <baseName>
+       <baseNameString>component</baseNameString>
+    </baseName>
+  </topic>
+
+  <topic id="concept">
+    <baseName>
+       <baseNameString>concept</baseNameString>
+    </baseName>
+  </topic>
+
+  <topic id="download">
+    <baseName>
+       <baseNameString>download</baseNameString>
+    </baseName>
+  </topic>
+
+  <topic id="dynamic-loading-mechanism">
+    <baseName>
+       <baseNameString>dynamic loading mechanism</baseNameString>
+    </baseName>
+  </topic>
+
+  <topic id="feature">
+    <baseName>
+       <baseNameString>feature</baseNameString>
+    </baseName>
+  </topic>
+
+  <topic id="feature-provided-by-for">
+    <baseName>
+       <baseNameString>feature provided by for</baseNameString>
+    </baseName>
+  </topic>
+
+  <topic id="fop-implementation">
+    <baseName>
+       <baseNameString>fop implementation</baseNameString>
+    </baseName>
+  </topic>
+
+  <topic id="foundation">
+    <baseName>
+       <baseNameString>foundation</baseNameString>
+    </baseName>
+  </topic>
+
+  <topic id="module">
+    <baseName>
+       <baseNameString>module</baseNameString>
+    </baseName>
+  </topic>
+
+  <topic id="open-source-project">
+    <baseName>
+       <baseNameString>open source project</baseNameString>
+    </baseName>
+  </topic>
+
+  <topic id="organisation">
+    <baseName>
+       <baseNameString>organisation</baseNameString>
+    </baseName>
+  </topic>
+
+  <topic id="organisation-runs-project">
+    <baseName>
+       <baseNameString>organisation runs project</baseNameString>
+    </baseName>
+  </topic>
+
+  <topic id="phase">
+    <baseName>
+       <baseNameString>phase</baseNameString>
+    </baseName>
+  </topic>
+
+  <topic id="presentation">
+    <baseName>
+       <baseNameString>presentation</baseNameString>
+    </baseName>
+  </topic>
+
+  <topic id="preview">
+    <baseName>
+       <baseNameString>preview</baseNameString>
+    </baseName>
+  </topic>
+
+  <topic id="project">
+    <baseName>
+       <baseNameString>project</baseNameString>
+    </baseName>
+  </topic>
+
+  <topic id="provided-by">
+    <baseName>
+       <baseNameString>provided by</baseNameString>
+    </baseName>
+  </topic>
+
+  <topic id="provided-for">
+    <baseName>
+       <baseNameString>provided for</baseNameString>
+    </baseName>
+  </topic>
+
+  <topic id="soap-implementation">
+    <baseName>
+       <baseNameString>soap implementation</baseNameString>
+    </baseName>
+  </topic>
+
+  <topic id="software">
+    <baseName>
+       <baseNameString>software</baseNameString>
+    </baseName>
+  </topic>
+
+  <topic id="software-implements-concept">
+    <baseName>
+       <baseNameString>software implements concept</baseNameString>
+    </baseName>
+  </topic>
+
+  <topic id="software-library">
+    <baseName>
+       <baseNameString>software library</baseNameString>
+    </baseName>
+  </topic>
+
+  <topic id="tutorial">
+    <baseName>
+       <baseNameString>tutorial</baseNameString>
+    </baseName>
+  </topic>
+
+  <topic id="web-publishing-framework">
+    <baseName>
+       <baseNameString>web publishing framework</baseNameString>
+    </baseName>
+  </topic>
+
+  <topic id="web-server">
+    <baseName>
+       <baseNameString>web server</baseNameString>
+    </baseName>
+  </topic>
+
+  <topic id="web-server-architecture">
+    <baseName>
+       <baseNameString>web server architecture</baseNameString>
+    </baseName>
+  </topic>
+
+  <topic id="xml-parser">
+    <baseName>
+       <baseNameString>xml parser</baseNameString>
+    </baseName>
+  </topic>
+
+  <topic id="xslt-processor">
+    <baseName>
+       <baseNameString>xslt processor</baseNameString>
+    </baseName>
+    <baseName>
+       <baseNameString>The class 'XSLT processor'</baseNameString>
+    </baseName>
+    <baseName>
+       <baseNameString>XSLT processor</baseNameString>
+    </baseName>
+  </topic>
+
+<!-- auto completion ends here -->
+
+</topicMap>

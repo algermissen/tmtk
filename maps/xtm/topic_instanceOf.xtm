@@ -1,0 +1,8 @@
+<topicMap>
+  <topic id="t1" />
+  <topic id="t2">
+    <instanceOf id="t2-ins1">
+      <topicRef xlink:href="#t1" />
+    </instanceOf>
+  </topic>
+</topicMap>

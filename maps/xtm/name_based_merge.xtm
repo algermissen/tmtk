@@ -1,0 +1,13 @@
+<topicMap>
+<topic id="t1">
+  <baseName id="t1-bn1">
+    <baseNameString id="t1-bn1-bns">This is a name</baseNameString>
+  </baseName>
+</topic>
+<topic id="t2">
+  <baseName id="t2-bn1">
+    <baseNameString id="t1-bn1-bns">This is a name</baseNameString>
+  </baseName>
+</topic>
+</topicMap>
+

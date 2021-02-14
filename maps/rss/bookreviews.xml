@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE rss PUBLIC "-//Netscape Communications//DTD RSS 0.91//EN"
+"http://p.moreover.com/xml_dtds/rss-0_91.dtd">
+<rss version="0.91">
+  <channel>
+    <title>Moreover - moreover...</title>
+    <link>http://www.moreover.com</link>
+    <description>moreover... - news headlines from around the web, refreshed every 15 minutes</description>
+    <language>en-us</language>
+    <image>
+      <title>moreover...</title>
+      <url>http://i.moreover.com/pics/rss.gif</url>
+      <link>http://www.moreover.com</link>
+      <width>144</width>
+      <height>16</height>
+      <description>News headlines from more than 4,000 sources, harvested every 15 minutes...</description>
+    </image>
+    <item>
+      <title>Marriage is no cure for loneliness in 'Mrs. Kimble'</title>
+      <link>http://c.moreover.com/click/here.pl?r65761603</link>
+      <description>Boston Globe Mar 27 2003 2:14PM ET</description>
+    </item>
+    <item>
+      <title>Nature and Mortality: recollections of a philosopher in public life, by Mary Warnock</title>
+      <link>http://c.moreover.com/click/here.pl?r65717278</link>
+      <description>Independent Mar 27 2003 9:34AM ET</description>
+    </item>
+    <item>
+      <title>Eden: The Life and Times of Anthony Eden, First Earl of Avon, 1897-1977, by DR Thorpe</title>
+      <link>http://c.moreover.com/click/here.pl?r65717286</link>
+      <description>Independent Mar 27 2003 9:34AM ET</description>
+    </item>
+    <item>
+      <title>Gone</title>
+      <link>http://c.moreover.com/click/here.pl?r65680846</link>
+      <description>Salon.com Mar 27 2003 4:41AM ET</description>
+    </item>
+    <item>
+      <title>The Nanny Diaries</title>
+      <link>http://c.moreover.com/click/here.pl?r65680830</link>
+      <description>Salon.com Mar 27 2003 4:41AM ET</description>
+    </item>
+    <item>
+      <title>Everything Is Illuminated</title>
+      <link>http://c.moreover.com/click/here.pl?r65680839</link>
+      <description>Salon.com Mar 27 2003 4:41AM ET</description>
+    </item>
+    <item>
+      <title>Stud: Adventures in Breeding</title>
+      <link>http://c.moreover.com/click/here.pl?r65680827</link>
+      <description>Salon.com Mar 27 2003 4:41AM ET</description>
+    </item>
+    <item>
+      <title>The Short Sweet Dream of Eduardo Gutierrez</title>
+      <link>http://c.moreover.com/click/here.pl?r65680836</link>
+      <description>Salon.com Mar 27 2003 4:41AM ET</description>
+    </item>
+    <item>
+      <title>Book Review: Linux Apache Web Server Administration, 2nd Ed</title>
+      <link>http://c.moreover.com/click/here.pl?r65679952</link>
+      <description>Linux Journal Mar 27 2003 4:34AM ET</description>
+    </item>
+    <item>
+      <title>Book Review: 'Bush's brain' is brain dead</title>
+      <link>http://c.moreover.com/click/here.pl?r65638034</link>
+      <description>UPI Mar 26 2003 7:27PM ET</description>
+    </item>
+    <item>
+      <title>Defeat waiting to happen</title>
+      <link>http://c.moreover.com/click/here.pl?r65637862</link>
+      <description>Electronic Teletopicmap Mar 26 2003 7:26PM ET</description>
+    </item>
+    <item>
+      <title>A blend of analytical and literary, 'Amount' is inventive fiction</title>
+      <link>http://c.moreover.com/click/here.pl?r65603813</link>
+      <description>Boston Globe Mar 26 2003 2:23PM ET</description>
+    </item>
+    <item>
+      <title>The shades of ownership in antebellum Louisiana</title>
+      <link>http://c.moreover.com/click/here.pl?r65542484</link>
+      <description>Los Angeles Times Mar 26 2003 6:40AM ET</description>
+    </item>
+    <item>
+      <title>The Death of the Body - a clever, entertaining metafiction</title>
+      <link>http://c.moreover.com/click/here.pl?r65541790</link>
+      <description>dannyreviews.com Mar 26 2003 6:36AM ET</description>
+    </item>
+    <item>
+      <title>'The New Iraq' by Joseph Braude</title>
+      <link>http://c.moreover.com/click/here.pl?r65506876</link>
+      <description>Salon Mar 26 2003 1:38AM ET</description>
+    </item>
+  </channel>
+</rss>
+ 

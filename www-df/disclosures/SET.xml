@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!-- experimental stuff, curently unused -->
+<tma xmlns="http://foo/baz">
+  <name>SET</name>
+  <description>
+    FIXME
+  </description>
+
+  <property>
+    <name>Elements</name>
+    <description>
+      FIXME
+    </description>
+    <valueType>TopicSet</valueType>
+    <sidp>yes</sidp>
+  </property>
+
+  <assertionType>
+    <name>AtSetElement</name>
+    <description>The relationship between a set and one of its elements</description>
+    <role>
+      <name>RoleSet</name>
+      <description>The Set Role</description>
+    </role>
+    <role>
+      <name>RoleElement</name>
+      <description>The Element Role</description>
+    </role>
+  </assertionType>
+
+</tma>

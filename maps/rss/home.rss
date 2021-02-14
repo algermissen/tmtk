@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="http://www.w3.org/2000/08/w3c-synd/style.css" type="text/css"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:hr="http://www.w3.org/2000/08/w3c-synd/#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://purl.org/rss/1.0/">
+<channel rdf:about="http://www.w3.org/2000/08/w3c-synd/home.rss">
+<title>World Wide Web Consortium</title>
+<description>Leading the Web to its Full Potential...</description>
+<link>http://www.w3.org/</link>
+<dc:date>2003-03-27T23:35:11Z</dc:date>
+<items>
+<rdf:Seq>
+<rdf:li rdf:resource="http://www.w3.org/News/2003#item56"/>
+<rdf:li rdf:resource="http://www.w3.org/News/2003#item58"/>
+<rdf:li rdf:resource="http://www.w3.org/News/2003#item57"/>
+<rdf:li rdf:resource="http://www.w3.org/News/2003#item55"/>
+<rdf:li rdf:resource="http://www.w3.org/News/2003#item54"/>
+<rdf:li rdf:resource="http://www.w3.org/News/2003#item53"/>
+<rdf:li rdf:resource="http://www.w3.org/News/2003#item52"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://www.w3.org/News/2003#item56">
+<title>XPointer Is a W3C Recommendation</title>
+<description>25 March 2003: The World Wide Web Consortium today released XPointer as a three-part W3C Recommendation. The XPointer Framework is an extensible system for identifying regions in XML documents which provides for multiple addressing schemes. The element() scheme allows basic addressing of XML elements in terms of a document's tree structure. The xmlns() scheme is used to interpret namespace prefixes in scheme names and pointers. Read the press release and visit the XML home page. (News archive)</description>
+<link>http://www.w3.org/News/2003#item56</link>
+<dc:date>2003-03-25</dc:date>
+</item>
+<item rdf:about="http://www.w3.org/News/2003#item58">
+<title>Architecture of the World Wide Web Working Draft Updated</title>
+<description>27 March 2003: The W3C Technical Architecture Group (TAG) has released an updated Working Draft of the Architecture of the World Wide Web. Comments are welcome. The draft discusses architectural principles of the Web and the behavior of agents exchanging information within it. It addresses some social issues that contribute to the shared information space. Visit the TAG home page. (News archive)</description>
+<link>http://www.w3.org/News/2003#item58</link>
+<dc:date>2003-03-27</dc:date>
+</item>
+<item rdf:about="http://www.w3.org/News/2003#item57">
+<title>CC/PP Last Call Working Draft Published</title>
+<description>25 March 2003: The CC/PP Working Group has released a second Last Call Working Draft of Composite Capability/Preference Profiles (CC/PP): Structure and Vocabularies. Used to guide the adaptation of content, a CC/PP profile describes device capabilities and user preferences. Comments are welcome through 8 April. Read about device independence. (News archive)</description>
+<link>http://www.w3.org/News/2003#item57</link>
+<dc:date>2003-03-25</dc:date>
+</item>
+<item rdf:about="http://www.w3.org/News/2003#item55">
+<title>Comment on Final Draft of Royalty-Free Patent Policy</title>
+<description>19 March 2003: The Patent Policy Working Group has released a Working Draft of the Royalty-Free Patent Policy for review by the W3C Advisory Committee and the public. The draft governs the handling of patents in the process of producing and implementing W3C Recommendations. Comments from both W3C Members and the public are welcome through 30 April. Read an informative summary and the press release and visit the patent policy home page. (News archive)</description>
+<link>http://www.w3.org/News/2003#item55</link>
+<dc:date>2003-03-19</dc:date>
+</item>
+<item rdf:about="http://www.w3.org/News/2003#item54">
+<title>Authoring Tool Accessibility Guidelines 2.0 Working Drafts Published</title>
+<description>18 March 2003: The Authoring Tool Accessibility Guidelines Working Group has released the first public Working Draft of Authoring Tool Accessibility Guidelines 2.0 and its companion Implementation Techniques. Authoring tools can enable users ("authors") to create accessible Web content through prompts, alerts, checking and repair, help files and automation. Resulting content can be read by a broader range of readers. Read about the Web Accessibility Initiative. (News archive)</description>
+<link>http://www.w3.org/News/2003#item54</link>
+<dc:date>2003-03-18</dc:date>
+</item>
+<item rdf:about="http://www.w3.org/News/2003#item53">
+<title>China International Forum on WWW's Development Announced</title>
+<description>10 March 2003: The China International Forum on WWW's Development 2003 will be held in Beijing, China on 16-17 April. W3C Team members Judy Brewer, Martin Dürst, Ivan Herman, Philipp Hoschka and Matt May present keynotes and tutorials. Attendees will participate in panels on accessibility, SVG, mobile Web, the Semantic Web, VoiceXML and internationalization. Registration is open. The event is co-organized by the China Computer Federation and the W3C Office in Hong Kong. (News archive)</description>
+<link>http://www.w3.org/News/2003#item53</link>
+<dc:date>2003-03-10</dc:date>
+</item>
+<item rdf:about="http://www.w3.org/News/2003#item52">
+<title>Call for Participation: W3C Teleconference on Collaboration</title>
+<description>4 March 2003: W3C is pleased to announce the first in a series of teleconferences on Web accessibility research. Researchers and practitioners in document collaboration, human-computer interaction, assistive technologies, disability studies, Web accessibility, and related fields are invited. The event is sponsored by the Web Accessibility Initiative's Research and Development Interest Group. The first telecon is tentatively 14 April. Position papers are due 21 March. Please refer to the call for papers. (News archive)</description>
+<link>http://www.w3.org/News/2003#item52</link>
+<dc:date>2003-03-04</dc:date>
+</item>
+</rdf:RDF>

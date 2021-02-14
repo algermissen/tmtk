@@ -1,0 +1,32 @@
+<topicMap>
+<topic id="t1">
+  <subjectIdentity>
+    <subjectIndicatorRef xlink:href="#a1" />
+  </subjectIdentity>
+  <baseName>
+    <baseNameString>This is the reified association a1</baseNameString>
+  </baseName>
+
+</topic>
+
+<association id="a1">
+  <instanceOf>
+    <subjectIndicatorRef xlink:href="http://www.at.org/at1" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <subjectIndicatorRef xlink:href="http://www.role.org/role1" />
+    </roleSpec>
+    <subjectIndicatorRef xlink:href="http://www.member.org/member1" />
+  </member>
+  <member>
+    <roleSpec>
+      <subjectIndicatorRef xlink:href="http://www.role.org/role2" />
+    </roleSpec>
+    <subjectIndicatorRef xlink:href="http://www.member.org/member2" />
+  </member>
+
+</association>
+
+
+</topicMap>

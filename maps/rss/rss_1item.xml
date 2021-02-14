@@ -1,0 +1,15 @@
+<rss version="0.91">
+<channel>
+<title>ITpapers.com - Web Services</title>
+<link>http://www.itpapers.com/cgi/SubcatIT.pl?scid=436</link>
+<description>Web Services White Papers</description>
+<language>en-us</language>
+
+<item>
+<title>Using XML Effectively in eBusiness Architectures</title>
+<link>http://www.itpapers.com/cgi/PSummaryIT.pl?paperid=41801&amp;scid=436</link>
+<description>XML is being incorporated into the foundation of eBusiness applications in increasing numbersand in greater variety. This paper addresses how and where XML is effective and how it impactsimplementations. It addresses how to use XML, approaches to integrating transactions betweenbusiness partners, and offers approaches to selecting and designing vocabularies. It will discussesarchitectural patterns for leveraging XML at each layer of an application architecture, and new skillsets for working with XML.</description>
+</item>
+
+</channel>
+</rss>

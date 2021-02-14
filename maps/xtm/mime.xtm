@@ -1,0 +1,923 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE topicMap PUBLIC "-//TopicMaps.Org//DTD XML Topic Map (XTM) V1.0//EN" 
+                          "xtm1.dtd">
+
+<topicMap id="xtm1.0-psi-mimetypes"
+    xmlns="http://www.topicmaps.org/xtm/1.0/"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xml:base="http://www.topicmaps.org/xtm/1.0/"> 
+
+<!--
+     IANA Media Types ('MIME' Types) for XML Topic Maps (XTM)
+
+     This topic map is intended to be a machine-readable representation 
+     of MIME types within the context of the topic map paradigm.
+
+     Publically available PSI topic maps were used as a template for this document.
+
+     Listed MIME types were valid as of January 2002 according to the IANA website.
+     Extension MIME types were valid as of January 2002 according to the LANTech Knowledge Base.
+     
+     Copyright ?
+
+       Editor:   Lyndon J B Nixon <lni@fokus.fhg.de>
+       Revision: 
+       Status:   
+       PublicId: 
+       SystemId: "http://members.lycos.co.uk/madeejit/semweb/mime.xtm"
+       Revisions:
+-->
+
+  <topic id="mime-type">
+    <instanceOf><topicRef xlink:href="core.xtm#class"/></instanceOf>
+    <subjectIdentity>
+      <subjectIndicatorRef xlink:href="#mime-type-desc"/>
+    </subjectIdentity>
+    <baseName>
+      <scope><topicRef xlink:href="#en"/></scope>
+      <baseNameString>IANA MIME Type</baseNameString>
+      <variant>
+        <parameters>
+          <topicRef xlink:href="language.xtm#en"/>
+          <topicRef xlink:href="core.xtm#display"/>
+        </parameters>
+        <variantName>
+          <resourceRef xlink:href="#mime-type-desc"/>
+        </variantName>
+      </variant>
+    </baseName>
+    <occurrence>
+      <resourceData id="mime-type-desc">
+        IANA MIME Type: 'Multipurpose Internet Mail Extensions' is a specification for 
+        formatting non-ASCII messages so that they can be sent over the Internet. (Webopedia.com)
+      </resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="mime-content-type">
+    <subjectIdentity>
+      <subjectIndicatorRef xlink:href="#mime-content-type-desc"/>
+    </subjectIdentity>
+    <baseName><scope><topicRef xlink:href="language.xtm#en"/></scope>
+      <baseNameString>MIME Content Type</baseNameString>
+      <variant>
+        <parameters>
+          <topicRef xlink:href="language.xtm#en"/>
+          <topicRef xlink:href="core.xtm#display"/>
+        </parameters>
+        <variantName>
+          <resourceRef xlink:href="#mime-content-type-desc"/>
+        </variantName>
+      </variant>
+    </baseName>
+    <occurrence>
+      <resourceData id="mime-content-type-desc">
+        The purpose of the MIME content type is to describe the data it relates to
+        fully enough that the receiving user agent can pick an appropriate agent or 
+        mechanism to present the data to the user, or otherwise deal with the data in
+        an appropriate manner. (w3.org)
+      </resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="mime-content-subtype">
+     <subjectIdentity>
+      <subjectIndicatorRef xlink:href="#mime-content-subtype-desc"/>
+    </subjectIdentity>
+    <baseName><scope><topicRef xlink:href="language.xtm#en"/></scope>
+      <baseNameString>MIME Content Subtype</baseNameString>
+      <variant>
+        <parameters>
+          <topicRef xlink:href="language.xtm#en"/>
+          <topicRef xlink:href="core.xtm#display"/>
+        </parameters>
+        <variantName>
+          <resourceRef xlink:href="#mime-content-subtype-desc"/>
+        </variantName>
+      </variant>
+    </baseName>
+    <occurrence>
+      <resourceData id="mime-content-subtype-desc">
+         While the top-level content type is used to declare the general type of data, 
+         the subtype specifies a specific format for that type of data. (w3.org)
+      </resourceData>
+    </occurrence>
+  </topic>
+
+<!-- topics and associations related to mime types .................... -->
+
+<topic id="resource">
+	<baseName>
+		<baseNameString>A retrievable digital resource of a particular data format</baseNameString>
+	</baseName>
+</topic>
+
+<association id="has-mime-type">
+	<instanceOf>
+		<topicRef xlink:href="core.xtm#association"/>
+	</instanceOf>
+	<member>
+		<roleSpec><topicRef xlink:href="psi1.xtm#association-role"/></roleSpec>
+		<topicRef xlink:href="#resource"/>
+	</member>
+	<member>
+		<roleSpec><topicRef xlink:href="psi1.xtm#association-role"/></roleSpec>
+		<topicRef xlink:href="#mime-type"/>
+	</member>
+</association>	
+
+
+<!-- begin content types.................... -->
+
+    <topic id="text">
+    <instanceOf><topicRef xlink:href="#mime-content-type"/></instanceOf>
+     <subjectIdentity>
+      <subjectIndicatorRef xlink:href="#text-content-type-desc"/>
+    </subjectIdentity>
+    <baseName>
+      <baseNameString>text</baseNameString>
+      <variant>
+        <parameters>
+          <topicRef xlink:href="language.xtm#en"/>
+          <topicRef xlink:href="core.xtm#display"/>
+        </parameters>
+        <variantName>
+          <resourceRef xlink:href="#text-content-type-desc"/>
+        </variantName>
+      </variant>
+    </baseName>
+    <occurrence>
+      <resourceData id="text-content-type-desc">
+          Textual information: the primary subtype, "plain", indicates plain (unformatted)
+          text. No special software is required to get the full meaning of the text, aside
+          from support for the indicated character set. Subtypes are to be used for enriched 
+          text in forms where application software may enhance the appearance of the text, but
+          such software must not be required in order to get the general idea of the content. 
+          Possible subtypes thus include any readable word processor format. (w3.org)
+      </resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="multipart">
+    <instanceOf><topicRef xlink:href="#mime-content-type"/></instanceOf>
+     <subjectIdentity>
+      <subjectIndicatorRef xlink:href="#multipart-content-type-desc"/>
+    </subjectIdentity>
+    <baseName>
+      <baseNameString>multipart</baseNameString>
+      <variant>
+        <parameters>
+          <topicRef xlink:href="language.xtm#en"/>
+          <topicRef xlink:href="core.xtm#display"/>
+        </parameters>
+        <variantName>
+          <resourceRef xlink:href="#multipart-content-type-desc"/>
+        </variantName>
+      </variant>
+    </baseName>
+    <occurrence>
+      <resourceData id="multipart-content-type-desc">
+           Data consisting of multiple parts of independent data types. Four initial
+           subtypes are defined, including the primary "mixed" subtype, "alternative" 
+           for representing the same data in multiple formats, "parallel" for parts 
+           intended to be viewed simultaneously, and "digest" for multipart entities 
+           in which each part is of type "message". (w3.org)
+      </resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="message">
+    <instanceOf><topicRef xlink:href="#mime-content-type"/></instanceOf>
+     <subjectIdentity>
+      <subjectIndicatorRef xlink:href="#message-content-type-desc"/>
+    </subjectIdentity>
+    <baseName>
+      <baseNameString>message</baseNameString>
+      <variant>
+        <parameters>
+          <topicRef xlink:href="language.xtm#en"/>
+          <topicRef xlink:href="core.xtm#display"/>
+        </parameters>
+        <variantName>
+          <resourceRef xlink:href="#message-content-type-desc"/>
+        </variantName>
+      </variant>
+    </baseName>
+    <occurrence>
+      <resourceData id="message-content-type-desc">
+            An encapsulated message. A body of Content-Type "message" is itself a fully
+            formatted RFC 822 conformant message which may contain its own different
+            content type. The primary subtype is "rfc822". The "partial" subtype is defined
+            for partial messages, to permit the fragmented transmission of bodies that are
+            thought to be too large to be passed through mail transport facilities. Another
+            subtype, "External-body", is defined for specifying large bodies by reference 
+            to an external data source. (w3.org)
+      </resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="image">
+    <instanceOf><topicRef xlink:href="#mime-content-type"/></instanceOf>
+     <subjectIdentity>
+      <subjectIndicatorRef xlink:href="#image-content-type-desc"/>
+    </subjectIdentity>
+    <baseName>
+      <baseNameString>image</baseNameString>
+      <variant>
+        <parameters>
+          <topicRef xlink:href="language.xtm#en"/>
+          <topicRef xlink:href="core.xtm#display"/>
+        </parameters>
+        <variantName>
+          <resourceRef xlink:href="#image-content-type-desc"/>
+        </variantName>
+      </variant>
+    </baseName>
+    <occurrence>
+      <resourceData id="image-content-type-desc">
+             Image data. Image requires a display device (such as a graphical display, 
+             a printer, or a FAX machine) to view the information. Subtypes are 
+             defined for widely-used image formats, such as jpeg and gif. (w3.org)
+      </resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="audio">
+    <instanceOf><topicRef xlink:href="#mime-content-type"/></instanceOf>
+     <subjectIdentity>
+      <subjectIndicatorRef xlink:href="#audio-content-type-desc"/>
+    </subjectIdentity>
+    <baseName>
+      <baseNameString>audio</baseNameString>
+      <variant>
+        <parameters>
+          <topicRef xlink:href="language.xtm#en"/>
+          <topicRef xlink:href="core.xtm#display"/>
+        </parameters>
+        <variantName>
+          <resourceRef xlink:href="#audio-content-type-desc"/>
+        </variantName>
+      </variant>
+    </baseName>
+    <occurrence>
+      <resourceData id="audio-content-type-desc">
+              Audio data. Audio requires an audio output device (such as a speaker or 
+              a telephone) to "display" the contents. Subtypes are 
+              defined for widely-used audio formats, such as wav and mp3. (w3.org)
+      </resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="video">
+    <instanceOf><topicRef xlink:href="#mime-content-type"/></instanceOf>
+     <subjectIdentity>
+      <subjectIndicatorRef xlink:href="#video-content-type-desc"/>
+    </subjectIdentity>
+    <baseName>
+      <baseNameString>video</baseNameString>
+      <variant>
+        <parameters>
+          <topicRef xlink:href="language.xtm#en"/>
+          <topicRef xlink:href="core.xtm#display"/>
+        </parameters>
+        <variantName>
+          <resourceRef xlink:href="#video-content-type-desc"/>
+        </variantName>
+      </variant>
+    </baseName>
+    <occurrence>
+      <resourceData id="video-content-type-desc">
+               Video data. Video requires the capability to display moving images, 
+               typically including specialized hardware and software. Subtypes are 
+               defined for widely-used video formats, such as mpeg and avi. (w3.org)
+      </resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="application">
+    <instanceOf><topicRef xlink:href="#mime-content-type"/></instanceOf>
+     <subjectIdentity>
+      <subjectIndicatorRef xlink:href="#application-content-type-desc"/>
+    </subjectIdentity>
+    <baseName>
+      <baseNameString>application</baseNameString>
+      <variant>
+        <parameters>
+          <topicRef xlink:href="language.xtm#en"/>
+          <topicRef xlink:href="core.xtm#display"/>
+        </parameters>
+        <variantName>
+          <resourceRef xlink:href="#application-content-type-desc"/>
+        </variantName>
+      </variant>
+    </baseName>
+    <occurrence>
+      <resourceData id="application-content-type-desc">
+                Some other kind of data, typically either uninterpreted binary data or 
+               information to be processed by an application. The primary subtype, 
+               "octet-stream", is to be used in the case of uninterpreted binary data, 
+               in which case the simplest recommended action is to offer to write the 
+               information into a file for the user. (w3.org)
+      </resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="model">
+    <instanceOf><topicRef xlink:href="#mime-content-type"/></instanceOf>
+     <subjectIdentity>
+      <subjectIndicatorRef xlink:href="#model-content-type-desc"/>
+    </subjectIdentity>
+    <baseName>
+      <baseNameString>model</baseNameString>
+      <variant>
+        <parameters>
+          <topicRef xlink:href="language.xtm#en"/>
+          <topicRef xlink:href="core.xtm#display"/>
+        </parameters>
+        <variantName>
+          <resourceRef xlink:href="#model-content-type-desc"/>
+        </variantName>
+      </variant>
+    </baseName>
+    <occurrence>
+      <resourceData id="model-content-type-desc">
+	  A model primary MIME type is an electronically exchangeable
+        behavioral or physical representation within a given domain. (rfc2077)                
+      </resourceData>
+    </occurrence>
+  </topic>
+
+<!-- begin content subtypes.................... -->
+
+<topic id="text-plain">
+    <instanceOf><topicRef xlink:href="#mime-content-subtype"/></instanceOf>
+      <baseName>
+      <baseNameString>text/plain</baseNameString>
+      <variant>
+        <parameters>
+          <topicRef xlink:href="language.xtm#en"/>
+          <topicRef xlink:href="core.xtm#display"/>
+        </parameters>
+        <variantName>
+          <resourceRef xlink:href="#text-plain-desc"/>
+        </variantName>
+      </variant>
+    </baseName>
+    <occurrence>
+      <resourceData id="text-plain-desc">
+	  Plain text
+      </resourceData>
+    </occurrence>
+  </topic>
+
+<topic id="text-html">
+    <instanceOf><topicRef xlink:href="#mime-content-subtype"/></instanceOf>
+      <baseName>
+      <baseNameString>text/html</baseNameString>
+      <variant>
+        <parameters>
+          <topicRef xlink:href="language.xtm#en"/>
+          <topicRef xlink:href="core.xtm#display"/>
+        </parameters>
+        <variantName>
+          <resourceRef xlink:href="#text-html-desc"/>
+        </variantName>
+      </variant>
+    </baseName>
+    <occurrence>
+      <resourceData id="text-html-desc">
+	  HTML document
+      </resourceData>
+    </occurrence>
+  </topic>
+
+<topic id="text-xml">
+    <instanceOf><topicRef xlink:href="#mime-content-subtype"/></instanceOf>
+      <baseName>
+      <baseNameString>text/xml</baseNameString>
+      <variant>
+        <parameters>
+          <topicRef xlink:href="language.xtm#en"/>
+          <topicRef xlink:href="core.xtm#display"/>
+        </parameters>
+        <variantName>
+          <resourceRef xlink:href="#text-xml-desc"/>
+        </variantName>
+      </variant>
+    </baseName>
+    <occurrence>
+      <resourceData id="text-xml-desc">
+	  XML document
+      </resourceData>
+    </occurrence>
+  </topic>
+
+<topic id="application-xml">
+     <instanceOf><topicRef xlink:href="#mime-content-subtype"/></instanceOf>
+      <baseName>
+      <baseNameString>application/xml</baseNameString>
+      <variant>
+        <parameters>
+          <topicRef xlink:href="language.xtm#en"/>
+          <topicRef xlink:href="core.xtm#display"/>
+        </parameters>
+        <variantName>
+          <resourceRef xlink:href="#application-xml-desc"/>
+        </variantName>
+      </variant>
+    </baseName>
+    <occurrence>
+      <resourceData id="application-xml-desc">
+	  XML document
+      </resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="application-msword">
+     <instanceOf><topicRef xlink:href="#mime-content-subtype"/></instanceOf>
+      <baseName>
+      <baseNameString>application/msword</baseNameString>
+      <variant>
+        <parameters>
+          <topicRef xlink:href="language.xtm#en"/>
+          <topicRef xlink:href="core.xtm#display"/>
+        </parameters>
+        <variantName>
+          <resourceRef xlink:href="#application-msword-desc"/>
+        </variantName>
+      </variant>
+    </baseName>
+    <occurrence>
+      <resourceData id="application-msword-desc">
+	  Microsoft Word document
+      </resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="application-pdf">
+     <instanceOf><topicRef xlink:href="#mime-content-subtype"/></instanceOf>
+      <baseName>
+      <baseNameString>application/pdf</baseNameString>
+      <variant>
+        <parameters>
+          <topicRef xlink:href="language.xtm#en"/>
+          <topicRef xlink:href="core.xtm#display"/>
+        </parameters>
+        <variantName>
+          <resourceRef xlink:href="#application-pdf-desc"/>
+        </variantName>
+      </variant>
+    </baseName>
+    <occurrence>
+      <resourceData id="application-pdf-desc">
+	  Adobe PDF document
+      </resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="application-xhtml+xml">
+     <instanceOf><topicRef xlink:href="#mime-content-subtype"/></instanceOf>
+      <baseName>
+      <baseNameString>application/xhtml+xml</baseNameString>
+      <variant>
+        <parameters>
+          <topicRef xlink:href="language.xtm#en"/>
+          <topicRef xlink:href="core.xtm#display"/>
+        </parameters>
+        <variantName>
+          <resourceRef xlink:href="#application-xhtml+xml-desc"/>
+        </variantName>
+      </variant>
+    </baseName>
+    <occurrence>
+      <resourceData id="application-xhtml+xml-desc">
+	  XHTML document
+      </resourceData>
+    </occurrence>
+  </topic>
+
+<topic id="image-jpeg">
+     <instanceOf><topicRef xlink:href="#mime-content-subtype"/></instanceOf>
+      <baseName>
+      <baseNameString>image/jpeg</baseNameString>
+      <variant>
+        <parameters>
+          <topicRef xlink:href="language.xtm#en"/>
+          <topicRef xlink:href="core.xtm#display"/>
+        </parameters>
+        <variantName>
+          <resourceRef xlink:href="#image-jpeg-desc"/>
+        </variantName>
+      </variant>
+    </baseName>
+    <occurrence>
+      <resourceData id="image-jpeg-desc">
+	  JPEG image
+      </resourceData>
+    </occurrence>
+  </topic>
+
+<topic id="image-gif">
+     <instanceOf><topicRef xlink:href="#mime-content-subtype"/></instanceOf>
+      <baseName>
+      <baseNameString>image/gif</baseNameString>
+      <variant>
+        <parameters>
+          <topicRef xlink:href="language.xtm#en"/>
+          <topicRef xlink:href="core.xtm#display"/>
+        </parameters>
+        <variantName>
+          <resourceRef xlink:href="#image-gif-desc"/>
+        </variantName>
+      </variant>
+    </baseName>
+    <occurrence>
+      <resourceData id="image-gif-desc">
+	  GIF image
+      </resourceData>
+    </occurrence>
+  </topic>
+
+<topic id="image-png">
+    <instanceOf><topicRef xlink:href="#mime-content-subtype"/></instanceOf>
+      <baseName>
+      <baseNameString>image/png</baseNameString>
+      <variant>
+        <parameters>
+          <topicRef xlink:href="language.xtm#en"/>
+          <topicRef xlink:href="core.xtm#display"/>
+        </parameters>
+        <variantName>
+          <resourceRef xlink:href="#image-png-desc"/>
+        </variantName>
+      </variant>
+    </baseName>
+    <occurrence>
+      <resourceData id="image-png-desc">
+	  PNG image
+      </resourceData>
+    </occurrence>
+  </topic>
+
+<topic id="image-bmp">
+     <instanceOf><topicRef xlink:href="#mime-content-subtype"/></instanceOf>
+      <baseName>
+      <baseNameString>image/bmp</baseNameString>
+      <variant>
+        <parameters>
+          <topicRef xlink:href="language.xtm#en"/>
+          <topicRef xlink:href="core.xtm#display"/>
+        </parameters>
+        <variantName>
+          <resourceRef xlink:href="#image-bmp-desc"/>
+        </variantName>
+      </variant>
+    </baseName>
+    <occurrence>
+      <resourceData id="image-bmp-desc">
+	  Bitmap image
+      </resourceData>
+    </occurrence>
+  </topic>
+
+<topic id="audio-mpeg">
+     <instanceOf><topicRef xlink:href="#mime-content-subtype"/></instanceOf>
+      <baseName>
+      <baseNameString>audio/mpeg</baseNameString>
+      <variant>
+        <parameters>
+          <topicRef xlink:href="language.xtm#en"/>
+          <topicRef xlink:href="core.xtm#display"/>
+        </parameters>
+        <variantName>
+          <resourceRef xlink:href="#audio-mpeg-desc"/>
+        </variantName>
+      </variant>
+    </baseName>
+    <occurrence>
+      <resourceData id="audio-mpeg-desc">
+	  MPEG-1/2 audio
+      </resourceData>
+    </occurrence>
+  </topic>
+
+<topic id="audio-xwav">
+     <instanceOf><topicRef xlink:href="#mime-content-subtype"/></instanceOf>
+      <baseName>
+      <baseNameString>audio/x-wav</baseNameString>
+      <variant>
+        <parameters>
+          <topicRef xlink:href="language.xtm#en"/>
+          <topicRef xlink:href="core.xtm#display"/>
+        </parameters>
+        <variantName>
+          <resourceRef xlink:href="#audio-xwav-desc"/>
+        </variantName>
+      </variant>
+    </baseName>
+    <occurrence>
+      <resourceData id="audio-xwav-desc">
+	  WAV audio
+      </resourceData>
+    </occurrence>
+  </topic>
+
+  <topic id="audio-mp4alatm">
+     <instanceOf><topicRef xlink:href="#mime-content-subtype"/></instanceOf>
+      <baseName>
+      <baseNameString>audio/MP4A-LATM</baseNameString>
+      <variant>
+        <parameters>
+          <topicRef xlink:href="language.xtm#en"/>
+          <topicRef xlink:href="core.xtm#display"/>
+        </parameters>
+        <variantName>
+          <resourceRef xlink:href="#audio-mp4alatm-desc"/>
+        </variantName>
+      </variant>
+    </baseName>
+    <occurrence>
+      <resourceData id="audio-mp4alatm-desc">
+	  MPEG-4 audio
+      </resourceData>
+    </occurrence>
+  </topic>
+
+<topic id="video-mpeg">
+     <instanceOf><topicRef xlink:href="#mime-content-subtype"/></instanceOf>
+      <baseName>
+      <baseNameString>video/mpeg</baseNameString>
+      <variant>
+        <parameters>
+          <topicRef xlink:href="language.xtm#en"/>
+          <topicRef xlink:href="core.xtm#display"/>
+        </parameters>
+        <variantName>
+          <resourceRef xlink:href="#video-mpeg-desc"/>
+        </variantName>
+      </variant>
+    </baseName>
+    <occurrence>
+      <resourceData id="video-mpeg-desc">
+	  MPEG video
+      </resourceData>
+    </occurrence>
+  </topic>
+
+<topic id="video-quicktime">
+     <instanceOf><topicRef xlink:href="#mime-content-subtype"/></instanceOf>
+      <baseName>
+      <baseNameString>video/quicktime</baseNameString>
+      <variant>
+        <parameters>
+          <topicRef xlink:href="language.xtm#en"/>
+          <topicRef xlink:href="core.xtm#display"/>
+        </parameters>
+        <variantName>
+          <resourceRef xlink:href="#video-quicktime-desc"/>
+        </variantName>
+      </variant>
+    </baseName>
+    <occurrence>
+      <resourceData id="video-quicktime-desc">
+	  Quicktime video
+      </resourceData>
+    </occurrence>
+  </topic>
+
+<topic id="video-mp4ves">
+     <instanceOf><topicRef xlink:href="#mime-content-subtype"/></instanceOf>
+      <baseName>
+      <baseNameString>video/MP4V-ES</baseNameString>
+      <variant>
+        <parameters>
+          <topicRef xlink:href="language.xtm#en"/>
+          <topicRef xlink:href="core.xtm#display"/>
+        </parameters>
+        <variantName>
+          <resourceRef xlink:href="#video-mp4ves-desc"/>
+        </variantName>
+      </variant>
+    </baseName>
+    <occurrence>
+      <resourceData id="video-mp4ves-desc">
+	  MPEG-4 video
+      </resourceData>
+    </occurrence>
+  </topic>
+
+<topic id="video-xmsvideo">
+     <instanceOf><topicRef xlink:href="#mime-content-subtype"/></instanceOf>
+      <baseName>
+      <baseNameString>video/x-msvideo</baseNameString>
+      <variant>
+        <parameters>
+          <topicRef xlink:href="language.xtm#en"/>
+          <topicRef xlink:href="core.xtm#display"/>
+        </parameters>
+        <variantName>
+          <resourceRef xlink:href="#video-xmsvideo-desc"/>
+        </variantName>
+      </variant>
+    </baseName>
+    <occurrence>
+      <resourceData id="video-xmsvideo-desc">
+	  AVI video
+      </resourceData>
+    </occurrence>
+  </topic>
+
+<topic id="model-vrml">
+     <instanceOf><topicRef xlink:href="#mime-content-subtype"/></instanceOf>
+      <baseName>
+      <baseNameString>model/vrml</baseNameString>
+      <variant>
+        <parameters>
+          <topicRef xlink:href="language.xtm#en"/>
+          <topicRef xlink:href="core.xtm#display"/>
+        </parameters>
+        <variantName>
+          <resourceRef xlink:href="#model-vrml-desc"/>
+        </variantName>
+      </variant>
+    </baseName>
+    <occurrence>
+      <resourceData id="model-vrml-desc">
+	  VRML model
+      </resourceData>
+    </occurrence>
+  </topic>
+
+<association id="content-type-is-subclass-of-mime-type">
+	<instanceOf>
+		<topicRef xlink:href="core.xtm#superclass-subclass"/>
+	</instanceOf>
+	<member>
+		<roleSpec><topicRef xlink:href="core.xtm#superclass"/></roleSpec>
+		<topicRef xlink:href="#mime-type"/>
+	</member>
+	<member>
+		<roleSpec><topicRef xlink:href="core.xtm#subclass"/></roleSpec>
+		<topicRef xlink:href="#content-type"/>
+	</member>
+</association>
+
+<association id="content-subtype-is-subclass-of-content-type">
+	<instanceOf>
+		<topicRef xlink:href="core.xtm#superclass-subclass"/>
+	</instanceOf>
+	<member>
+		<roleSpec><topicRef xlink:href="core.xtm#superclass"/></roleSpec>
+		<topicRef xlink:href="#content-type"/>
+	</member>
+	<member>
+		<roleSpec><topicRef xlink:href="core.xtm#subclass"/></roleSpec>
+		<topicRef xlink:href="#content-subtype"/>
+	</member>
+</association>
+<!--
+<association id="content-subtype-has-content-type">
+	<instanceOf>
+		<topicRef xlink:href="core.xtm#association"/>
+	</instanceOf>
+</association>
+-->
+
+<association id="text-subtype-has-text-content-type">
+	<instanceOf>
+		<topicRef xlink:href="#content-subtype-has-content-type"/>
+	</instanceOf>
+	<member>
+		<roleSpec><topicRef xlink:href="#content-type"/></roleSpec>
+		<topicRef xlink:href="#text"/>
+	</member>
+	<member>
+		<roleSpec><topicRef xlink:href="#content-subtype"/></roleSpec>
+		<topicRef xlink:href="#text-plain"/>
+	</member>
+      <member>
+		<roleSpec><topicRef xlink:href="#content-subtype"/></roleSpec>
+		<topicRef xlink:href="#text-html"/>
+	</member>
+      <member>
+		<roleSpec><topicRef xlink:href="#content-subtype"/></roleSpec>
+		<topicRef xlink:href="#text-xml"/>
+	</member>
+</association>
+
+<association id="application-subtype-has-application-content-type">
+	<instanceOf>
+		<topicRef xlink:href="#content-subtype-has-content-type"/>
+	</instanceOf>
+	<member>
+		<roleSpec><topicRef xlink:href="#content-type"/></roleSpec>
+		<topicRef xlink:href="#application"/>
+	</member>
+	<member>
+		<roleSpec><topicRef xlink:href="#content-subtype"/></roleSpec>
+		<topicRef xlink:href="#application-xml"/>
+	</member>
+      <member>
+		<roleSpec><topicRef xlink:href="#content-subtype"/></roleSpec>
+		<topicRef xlink:href="#application-xhtml+xml"/>
+	</member>
+      <member>
+		<roleSpec><topicRef xlink:href="#content-subtype"/></roleSpec>
+		<topicRef xlink:href="#application-pdf"/>
+	</member>
+      <member>
+		<roleSpec><topicRef xlink:href="#content-subtype"/></roleSpec>
+		<topicRef xlink:href="#application-msword"/>
+	</member>
+</association>
+
+<association id="image-subtype-has-image-content-type">
+	<instanceOf>
+		<topicRef xlink:href="#content-subtype-has-content-type"/>
+	</instanceOf>
+	<member>
+		<roleSpec><topicRef xlink:href="#content-type"/></roleSpec>
+		<topicRef xlink:href="#image"/>
+	</member>
+	<member>
+		<roleSpec><topicRef xlink:href="#content-subtype"/></roleSpec>
+		<topicRef xlink:href="#image-jpeg"/>
+	</member>
+      <member>
+		<roleSpec><topicRef xlink:href="#content-subtype"/></roleSpec>
+		<topicRef xlink:href="#image-gif"/>
+	</member>
+      <member>
+		<roleSpec><topicRef xlink:href="#content-subtype"/></roleSpec>
+		<topicRef xlink:href="#image-png"/>
+	</member>
+      <member>
+		<roleSpec><topicRef xlink:href="#content-subtype"/></roleSpec>
+		<topicRef xlink:href="#image-bmp"/>
+	</member>
+</association>
+
+<association id="audio-subtype-has-audio-content-type">
+	<instanceOf>
+		<topicRef xlink:href="#content-subtype-has-content-type"/>
+	</instanceOf>
+	<member>
+		<roleSpec><topicRef xlink:href="#content-type"/></roleSpec>
+		<topicRef xlink:href="#audio"/>
+	</member>
+	<member>
+		<roleSpec><topicRef xlink:href="#content-subtype"/></roleSpec>
+		<topicRef xlink:href="#audio-mpeg"/>
+	</member>
+      <member>
+		<roleSpec><topicRef xlink:href="#content-subtype"/></roleSpec>
+		<topicRef xlink:href="#audio-xwav"/>
+	</member>
+      <member>
+		<roleSpec><topicRef xlink:href="#content-subtype"/></roleSpec>
+		<topicRef xlink:href="#audio-mp4alatm"/>
+	</member>
+</association>
+
+<association id="video-subtype-has-video-content-type">
+	<instanceOf>
+		<topicRef xlink:href="#content-subtype-has-content-type"/>
+	</instanceOf>
+	<member>
+		<roleSpec><topicRef xlink:href="#content-type"/></roleSpec>
+		<topicRef xlink:href="#video"/>
+	</member>
+	<member>
+		<roleSpec><topicRef xlink:href="#content-subtype"/></roleSpec>
+		<topicRef xlink:href="#video-mpeg"/>
+	</member>
+      <member>
+		<roleSpec><topicRef xlink:href="#content-subtype"/></roleSpec>
+		<topicRef xlink:href="#video-quicktime"/>
+	</member>
+      <member>
+		<roleSpec><topicRef xlink:href="#content-subtype"/></roleSpec>
+		<topicRef xlink:href="#video-mp4ves"/>
+	</member>
+      <member>
+		<roleSpec><topicRef xlink:href="#content-subtype"/></roleSpec>
+		<topicRef xlink:href="#video-xmsvideo"/>
+	</member>
+</association>
+
+<association id="model-subtype-has-model-content-type">
+	<instanceOf>
+		<topicRef xlink:href="#content-subtype-has-content-type"/>
+	</instanceOf>
+	<member>
+		<roleSpec><topicRef xlink:href="#content-type"/></roleSpec>
+		<topicRef xlink:href="#model"/>
+	</member>
+	<member>
+		<roleSpec><topicRef xlink:href="#content-subtype"/></roleSpec>
+		<topicRef xlink:href="#model-vrml"/>
+	</member>
+</association>
+
+</topicMap>

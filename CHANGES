@@ -1,0 +1,45 @@
+19 Sep 2003 "Jan Algermissen" <algermissen@acm.org>
+
+  * Cleaned up all 'Dummy Errors' and the GS_xxx error codes.
+    However, there still needs to be work done on the actual
+    erro codes.
+
+  * Fixed errors due to missing parsers. Omnivore now sets
+    the global var tmtk_error if parser is missing.
+    This can also be improved in the future.
+
+  * Improved -h output of tm a little, also added \l commad
+    to query interfac that lists the TMAs in the map.
+
+23 Sep 2003 "Jan Algermissen" <algermissen@acm.org>
+
+  * Fixed bug in Omnivore's XPath expression construction
+
+  * Added sample tm uses to the README file
+
+13 Nov 2003 "Jan Algermissen <algermissen@acm.org>"
+
+  * Changed name of value type LocatorSet to TextSet, because that's
+    what it actually is.
+
+
+27 Nov 2003 "Jan Algermissen <algermissen@acm.org>"
+
+  * Omnivore's position is now appended to error message in
+    tm_omnivore_set_error() directly.
+
+
+07 Dec 2003 "Jan Algermissen <algermissen@acm.org>"
+
+  * Reactivated 'index' view
+
+  * Some more documentation
+
+11 Dec 2003 "Jan Algermissen <algermissen@acm.org>"
+
+  * More documentation
+
+  * Minor bugfixes
+
+  * Improved tm's txt output (specialized for 'index' view)
+

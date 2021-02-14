@@ -1,0 +1,17 @@
+<topicMap>
+ 
+<topic id="t1">
+  <subjectIdentity>
+    <subjectIndicatorRef xlink:href="http://psi.org/A" />
+    <resourceRef xlink:href="http://psi.org/tutorial.pdf" />
+  </subjectIdentity>
+  <baseName>
+    <baseNameString>The magnificent tutorial</baseNameString>
+  </baseName>
+  <baseName>
+    <baseNameString>Le tutorial megnificent</baseNameString>
+  </baseName>
+</topic>
+ 
+</topicMap>
+

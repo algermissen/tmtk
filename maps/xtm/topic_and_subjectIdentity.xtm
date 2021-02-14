@@ -1,0 +1,22 @@
+<topicMap>
+
+<topic id="t1">
+  <subjectIdentity>
+<!--
+    <topicRef xlink:href="" />
+    <subjectIndicatorRef xlink:href="http://psi.org/a-subjectidentity" />
+    <topicRef xlink:href="http://psi.org/b-subjectidentity" />
+-->
+    <topicRef xlink:href="http://psi.org/a-subjectidentity" />
+  </subjectIdentity>
+</topic>
+
+<!--
+<topic id="t2">
+  <subjectIdentity>
+    <topicRef xlink:href="http://psi.org/a-subjectidentity" />
+  </subjectIdentity>
+</topic>
+-->
+
+</topicMap>

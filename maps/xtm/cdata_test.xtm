@@ -1,0 +1,32 @@
+<topicMap>
+
+<topic id="t1">
+  <baseName>
+    <baseNameString>Name</baseNameString>
+  </baseName>
+
+  <occurrence>
+    <resourceData>
+     <![CDATA[ 
+// if we are a magazin, we need the heft type in FORMAT_SPITZMARKE
+        // we also set the SPITZMARKE here to allow users not to enter it in the form
+        //alert(IWDatacapture.getItem("/TYPE/MAGAZIN/DATE_DAY"));
+        if( IWDatacapture.getItem("/TYPE/MAGAZIN/DATE_DAY") != null ) {
+                if(IWDatacapture.getItem("/FORMAT_SPITZMARKE").getValue() != '') {
+                        alert("Overwriting FORMAT SPITZMARKE");
+                }
+                var opt_index = IWDatacapture.getItem("/TYPE/MAGAZIN/MAGAZIN_TYPE").getValue();
+                var heft_typ = IWDatacapture.getItem("/TYPE/MAGAZIN/MAGAZIN_TYPE").getOptions()[opt_index].value;
+                IWDatacapture.getItem("/FORMAT_SPITZMARKE").setValue(heft_typ);
+                IWDatacapture.getItem("/SPITZMARKE").setValue("Magazin");
+        }
+        //alert("save end");
+        return true;
+
+
+     ]]>
+    </resourceData>
+  </occurrence>
+</topic>
+
+</topicMap>

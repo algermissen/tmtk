@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<!DOCTYPE tma
+[
+<!ENTITY SAM "http://www.gooseworks.org/disclosures/SAM.xml">
+<!ENTITY PSI "http://www.gooseworks.org/psi/">
+]>
+<tma>
+  <name>http://www.gooseworks.org/disclosures/DC.xml</name>
+  <description>
+    A Topic Map Application for the semantics of the Dublin Core
+    element set. Some of this is already covered by the SAM, so this
+    TMA just adds the rest on top.
+  </description>
+
+  <require>http://www.gooseworks.org/disclosures/SAM.xml</require>
+
+  <!-- Some DC elements are mapped to properties. Those that have been
+       mapped to assertion types are defined further down. -->
+
+  <property>
+    <name>Date</name>
+    <description>
+      Definition: A date of an event in the lifecycle of the resource. 
+      Comment:    Typically, Date will be associated with the creation
+                  or availability of the resource. Recommended best
+                  practice for encoding the date value is defined in a
+                  profile of ISO 8601 [W3CDTF] and includes (among
+                  others) dates of the form YYYY-MM-DD. 
+      See: http://www.dublincore.org/documents/dces/#date
+    </description>
+    <valueType>Text</valueType>
+    <sidp>no</sidp>
+  </property>
+
+  <property>
+    <name>Type</name>
+    <description>
+      Definition: The nature or genre of the content of the resource.  
+      Comment: Type includes terms describing general categories,
+               functions, genres, or aggregation levels for content.
+               Recommended best practice is to select a value from a
+               controlled vocabulary.  To describe the physical or digital
+               manifestation of the resource, use the FORMAT element.    
+      See: http://www.dublincore.org/documents/dces/#type
+    </description>
+    <valueType>Text</valueType>
+    <sidp>no</sidp>
+  </property>
+
+  <property>
+    <name>Format</name>
+    <description>
+      Definition: The physical or digital manifestation of the resource.  
+      Comment: Typically, Format may include the media-type or dimensions
+               of the resource. Format may be used to identify the software,
+               hardware, or other equipment needed to display or operate the
+               resource. Examples of dimensions include size and duration.
+               Recommended best practice is to select a value from a controlled
+               vocabulary (for example, the list of Internet Media Types
+               defining computer media formats).    
+      See: http://www.dublincore.org/documents/dces/#format
+    </description>
+    <valueType>Text</valueType>
+    <sidp>no</sidp>
+  </property>
+
+  <!-- Identifier not needed: Is covered by SAM's SubjectAddress -->
+<!--
+  <property>
+    <name></name>
+    <description>
+      Definition:  
+      Comment:    
+      See: http://www.dublincore.org/documents/dces/#
+    </description>
+    <valueType>Text</valueType>
+    <sidp>no</sidp>
+  </property>
+  <property>
+    <name></name>
+    <description>
+      Definition:  
+      Comment:    
+      See: http://www.dublincore.org/documents/dces/#
+    </description>
+    <valueType>Text</valueType>
+    <sidp>no</sidp>
+  </property>
+  <property>
+    <name></name>
+    <description>
+      Definition:  
+      Comment:    
+      See: http://www.dublincore.org/documents/dces/#
+    </description>
+    <valueType>Text</valueType>
+    <sidp>no</sidp>
+  </property>
+  <property>
+    <name></name>
+    <description>
+      Definition:  
+      Comment:    
+      See: http://www.dublincore.org/documents/dces/#
+    </description>
+    <valueType>Text</valueType>
+    <sidp>no</sidp>
+  </property>
+  <property>
+    <name></name>
+    <description>
+      Definition:  
+      Comment:    
+      See: http://www.dublincore.org/documents/dces/#
+    </description>
+    <valueType>Text</valueType>
+    <sidp>no</sidp>
+  </property>
+  <property>
+    <name></name>
+    <description>
+      Definition:  
+      Comment:    
+      See: http://www.dublincore.org/documents/dces/#
+    </description>
+    <valueType>Text</valueType>
+    <sidp>no</sidp>
+  </property>
+  <property>
+    <name></name>
+    <description>
+      Definition:  
+      Comment:    
+      See: http://www.dublincore.org/documents/dces/#
+    </description>
+    <valueType>Text</valueType>
+    <sidp>no</sidp>
+  </property>
+  <property>
+    <name></name>
+    <description>
+      Definition:  
+      Comment:    
+      See: http://www.dublincore.org/documents/dces/#
+    </description>
+    <valueType>Text</valueType>
+    <sidp>no</sidp>
+  </property>
+-->
+
+  <!-- DC Title not needed, it is equivalent to SAM's BaseName -->
+<!--
+  <assertionType>
+    <propval model="&SAM;" prop="SubjectIndicators">[&PSI;at-created-creator]</propval>
+    <role>
+      <propval model="&SAM;" prop="SubjectIndicators">[&PSI;role-created]</propval>
+    </role>
+    <role>
+      <propval model="&SAM;" prop="SubjectIndicators">[&PSI;role-creator]</propval>
+    </role>
+  </assertionType>
+  <assertionType>
+    <propval model="&SAM;" prop="SubjectIndicators">[&PSI;at-published-publisher]</propval>
+    <role>
+      <propval model="&SAM;" prop="SubjectIndicators">[&PSI;role-published]</propval>
+    </role>
+    <role>
+      <propval model="&SAM;" prop="SubjectIndicators">[&PSI;role-publisher]</propval>
+    </role>
+  </assertionType>
+  <assertionType>
+    <propval model="&SAM;" prop="SubjectIndicators">[&PSI;at-contributed_to-contributor]</propval>
+    <role>
+      <propval model="&SAM;" prop="SubjectIndicators">[&PSI;role-contributed_to]</propval>
+    </role>
+    <role>
+      <propval model="&SAM;" prop="SubjectIndicators">[&PSI;role-contributor]</propval>
+    </role>
+  </assertionType>
+
+-->
+  <!-- DC Subject not needed, it is covered by SAM's notion of occurrence -->
+  <!-- DC Description not needed, it is covered by SAM's notion of occurrence -->
+<!--
+  <assertionType>
+    <propval model="&SAM;" prop="SubjectIndicators">[&PSI;at-target-source]</propval>
+    <role>
+      <propval model="&SAM;" prop="SubjectIndicators">[&PSI;role-target]</propval>
+    </role>
+    <role>
+      <propval model="&SAM;" prop="SubjectIndicators">[&PSI;role-source]</propval>
+    </role>
+  </assertionType>
+-->
+
+
+</tma>
+

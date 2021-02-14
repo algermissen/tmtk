@@ -1,0 +1,21 @@
+<topicMap>
+
+<topic id="tutorial">
+  <baseName>
+    <baseNameString>Tutorial</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="t1">
+  <baseName>
+    <baseNameString>Name T1</baseNameString>
+  </baseName>
+  <occurrence>
+    <instanceOf>
+      <topicRef xlink:href="#tutorial" />
+    </instanceOf>
+    <resourceRef xlink:href="http://foo.org/doc1.pdf" />
+  </occurrence>
+</topic>
+</topicMap>
+

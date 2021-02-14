@@ -1,0 +1,330 @@
+Welcome to TMTK!
+
+TMTK (Topic Maps Tool Kit) is an implementation of the 'Topic Maps Reference
+Model'[1].  The 'Topic Maps Reference Model' goes beyond what Topic Maps to
+date are commonly understood to be, so the approach taken by this software
+package is propably different from what you expect. It propably helps to
+think of TMTK as a database system (just not of the relational but of the
+Topic Maps kind ;-) that allows you to store information about subjects,
+attributes of subjects and relationships between subjects. The fact that
+Topic Maps usually come in certain syntaxes is really not related to the
+principles of Topic Maps per se.
+
+This README provides only enough information to get you started. For more
+detailed documentation and information about the 'Topic Maps Reference
+Model' please go to the Gooseworks site (http://www.gooseworks.org).
+
+Please do not hesitate to contact us for help, comments, etc. regarding
+TMTK as one of the primary purposes of TMTK is to facilitate the Topic
+Maps paradigm.
+
+
+WHAT YOU NEED
+=============
+
+TMTK currently uses expat[2] as its XML parser and raptor[3] as its RDF
+parser. While expat is already available on most systems, raptor is
+likely top be missing, so you need to install it before compiling TMTK
+in order to use TMTK's RDF processing capabilities.
+
+
+LICENSE
+=======
+
+TMTK itself is subject to the MIT license. See the file COPYING for detailes.
+
+
+INSTALLATION
+============
+
+Note: The configure script isn't very picky yet. If you have problems,
+don't hesitate to contact us and ask.
+
+For standard installation, type
+
+  $ ./configure
+  $ make all
+  $ make install
+
+'make install' attempts to create a directory 'tmtk' in /usr/local and
+will then copy the neccessary parts of TMTK into that directory. If you
+want to install TMTK in another location (propably because you do not
+have root priviliges on your system and therefore cannot access /usr/local)
+pass that location to configure with the --prefix option:
+
+
+  $ ./configure --prefix=/home/esmeralda
+  $ make all
+  $ make install
+
+'make install' will then install TMTK at /home/esmeralda/tmtk.
+
+'make install' will also copy the commandline tool 'tm' to /usr/local/bin
+to have it available in your PATH.
+
+
+CLEANUP
+=======
+
+Use
+
+  $ make clean
+
+to remove all binaries and object files and
+
+  $ make distclean
+
+to also remove the files configure has created.
+
+
+To uninstall TMTK simply remove the installation directory and remove
+/usr/local/bin/tm
+
+
+GETTING STARTED
+===============
+
+TMTK comes with a commandline tool called tm for loading and
+querying topic maps. After successful compilation, it will be
+available in the bin/ directory of the installation directory
+and the bin/ directory of the source directory.
+
+Here are some terms that you will frequently come accross, so I'll
+explain what they mean in the context of TMTK:
+
+Value Type
+----------
+'Value type' is a synonym for 'data type' or 'domain' as familiar from the
+relational world. Value types are used by property definitions to express 
+what type the values of a certain property have. This is equivalent to
+defining a column (aka 'attribute') data type in an SQL CREATE TABLE
+statement.
+
+TMTK comes with a set of basic value types named 'Topic','Text','TextSet'.
+The basic types 'Integer' and 'Datetime' will be provided in one of the
+next releases...currently you have to use 'Text' as a substitute (thus
+suffering from the absence of certain specialized access paths and
+operators. Sorry.)
+
+
+
+Storage / Storage Implementation
+--------------------------------
+TMTK provides the use of diverse storage implementations by decoupling
+the topic map logic from the actual storage implementation. This makes
+it possible to use TMTK for light-weight applications that require fast
+in-memory processing of reasonably small topic maps (e.g. software agents or 
+browser plugins) as well as for developing full Topic Map Management Systems
+designed to store large topic maps.
+
+At the moment, TMTK comes with an in-memory storage only (which can actually
+handle wuite substantial maps) but persistent storage implementations (likely
+based on Berkeley DB) are scheduled for version 1.0.
+
+A storage implementation mostly consists of stores for all the value types the
+storage implementation intends to support. What this also means is that in
+order to load a particular TMA (see below) the storage used must support all
+value types needed by the properties defined in that TMA.
+
+
+
+Disclosure Framework
+--------------------
+The TMRM does not define how exactly disclosure is to be handled in a 
+particular domain (environment); it only provides the basis for doing
+so. TMTK uses the term "Disclosure Framework" for a conceptual system
+that combines 
+
+  - a TMA definition language
+  - a set of Topic Map interchange syntaxes
+  - a set of syntax processing models for the above
+  - a core TMA (that at least provides the semantics needed for
+    parsing/understanding a TMA definition)
+
+TMTK comes with a Disclosure Framework for the deployment of Topic Maps
+on the Wold Wide Web. It especially includes:
+
+  - an XML syntax for TMA definitions (have a look at the files in
+    www-df/disclosures/ ). The goal is to enable referencing and 
+    downloading TMA definitions via the Web.
+  - a general identification mechanism based on URIs (aka subject indicators)
+  - a core TMA which is a (still simplified) version of the so called
+    "Standard Application Model for Topic Maps" (SAM).
+  - processing models for XTM, ISO2788 thesauri and RDF
+    
+
+Topic Map Application (TMA) / Topic Map Model
+----------------------------------------------
+A definition of a set of semantics (properties and assertion types) that
+fulfills the disclosure requirements of the TMRM.
+
+
+Processing Model / Syntax Processing Model
+------------------------------------------
+A specification (and implementation of it) how to process (interprete)
+a given syntax using one or more TMAs.
+
+
+Topic Map Processing Overview
+-----------------------------
+
+tm allows you to process arbitrary syntaxes (given the appropriate parsers
+and processing models of course) into a topic map and to then query them.
+In theory you are also eable to choose the disclosure framework to be
+used and the storage type, but as there are currently one one available
+each TMTK defaults the disclosure framework to 'www-df' and the storage
+to MemStore.
+
+To get a feeling for this, try 
+
+  $ tm -F www-df 
+  $ tm -F foo
+
+  $ tm -S MemStore
+  $ tm -S foo
+
+The next thing is to tell tm what parser to invoke on the input file(s). This
+is done with the -i option. Curently, you can use
+
+  -i xml    (will invoke expat)
+  -i rdfxml (will invoke raptor if available)
+  -i lines  (will invoke the built-in line oriented parse, which is
+            useful for parsing data such as ISO2788 encoded thesauri)
+
+If you do not supply this option, the parse mode will default to 'xml'.
+
+tm also needs to know what syntax processing model to apply to the input
+documents. You do this with the -p option. Currently there are the following
+processing models available:
+
+   -p xtm_simple  (for a simple subset of XTM, <scope> and <variant> are
+                  ignored)
+   -p rdf_common  (recognizes parts of some common RDF namespaces,
+                  currently mostly DublinCore but this will be extended)
+   -p iso2788     (for processing ISO2788 style thesauri)
+
+If you omit the -p switch, the processing model defaults to 'xtm_simple'.
+
+
+Suppose your topic map document is /opt/maps/mymap.xtm you can now load
+it with the following commandline:
+
+  $ tm -i xml -p xtm_simple /opt/maps/mymap.xtm
+
+Go ahead and try if this works (you should see a progression bar and
+the message "100% done").
+
+Given the default values for parse mode and processing model you get
+the same result by using:
+
+  $ tm /opt/maps/mymap.xtm
+
+
+Now you are ready to get some information *out* of your map. This is
+done with the -q option that takes a query as an argument. The way to
+query TMTK is currently called 'parameterized views'. A view is a
+(frequently used) conceptual abstraction of a certain part of the 
+topic map (e.g. 'index', 'taxonomy' or role-playings of a topic).
+To a certain extend, views can be customized by parameters.
+
+Please wait for extended documentation on this subject to appear
+on the GooseWorks site. Here I'll only give you some useful examples:
+
+One of the views currently implemented is called 'index'. It is the
+abstraction of a back-of-a-book index and lists all topics with their
+occurrences. Try
+
+  $ tm /opt/maps/mymap.xtm -q "VIEW index()"
+
+Make sure your map actually has occurrences in it or your index
+will be empty!
+
+Since tm is designed to integrate well with the UNIX pipe and filter
+style, this ASCII output can also be produced without comments,
+allowing you to pass it on to other text filters:
+
+  $ tm /opt/maps/mymap.xtm -q "VIEW index()" -s -o plain
+
+The -s option suppresses the progression bar and the -o option
+specifies the output format (defaults to 'txt'). More on that later.
+
+So, now that the comments are gone, you can for example sort the
+output like this:
+
+  $ tm /opt/maps/mymap.xtm -q "VIEW index()" -s -o plain \
+    | sort | less -S
+
+The output a view produces is actually more structured than the
+ASCII format shows. Using the 'xml' format reveals this structure:
+
+  $ tm /opt/maps/mymap.xtm -q "VIEW index()" -o xml
+
+(In combination with XSLT this output enables quite a few interesting
+use cases!)
+
+Finally, there is 'rast' output to make all SGML oldtimers happy ;-)
+
+(Note: 'xml' and 'rast' are not producing 100% corect output. If
+you do need this feature seriously, let me know and I'll fix that
+immediately - it's just not on top of *my* list right now).
+
+
+Another view that is currently implemented is called 'hitlist'. Right now
+it provides the possibility to query the map for a list of topics that
+match a certain query. You invoke 'hitlist' like this:
+
+  $ tm /opt/maps/mymap.xtm -q "VIEW hitlist(query=mystring)"
+
+The result will be a hitlist (currently unsorted) of topics which basenames
+include the string 'mystring'.
+
+
+[To be continued....]
+
+
+
+
+
+REFERENCES
+==========
+
+[1] 'The Topic Maps Reference Model', Steven R. Newcomb, Steve Hunting,
+    Jan Algermissen, Patrick Durusau, 2002,2003
+    http://www.isotopicmaps.org/tmrm/ 
+
+[2] http://www.jclark.com/xml/expat.html or http://expat.sourceforge.net
+
+[3] http://www.redland.opensource.ac.uk/raptor/
+
+
+
+
+-----
+
+
+http://www.google.de/search?q=topic+map+engine&ie=ISO-8859-1&hl=de&meta=
+..denotes an abstraction of a certain piece of knowledge. It varies over time!!!
+
+foo/nagios_checks.xtm also denotes varying knowledge
+
+SWServer must hold a list of TMs that it keeps merged, according to expires date
+
+#URI						Expires		parsemode	PM
+http://www.google.de/search?q=topic+map+engine  next week	HTML		Google
+file:///opt/maps/mymap.foo			never		xml		xtm_simple
+
+
+
+
+
+Request
+GET -sirUri- HTTP/1.0
+Accept: application/xml+xtm
+...
+
+Repsonse:
+<topicMap>
+<topic id="topic-id">
+  <all properties>
+</topic> 
+</topicMap>

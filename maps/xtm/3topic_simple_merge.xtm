@@ -1,0 +1,29 @@
+<topicMap>
+
+<topic id="t1" />
+<topic id="t2" />
+
+<topic id="t3">
+  <subjectIdentity>
+    <topicRef xlink:href="#t1" />
+    <topicRef xlink:href="#t2" />
+  </subjectIdentity>
+</topic>
+
+<topic id="t4" />
+<topic id="t5" />
+<topic id="t6">
+  <subjectIdentity>
+    <topicRef xlink:href="#t5" />
+    <topicRef xlink:href="#t4" />
+  </subjectIdentity>
+</topic>
+<topic id="t7">
+  <subjectIdentity>
+    <topicRef xlink:href="#t3" />
+    <topicRef xlink:href="#t6" />
+  </subjectIdentity>
+</topic>
+
+</topicMap>
+

@@ -1,0 +1,9 @@
+<topicMap>
+<topic id="t1">
+  <subjectIdentity>
+    <resourceRef xlink:href="http://www.some.org/a_document.pdf" />
+    <resourceRef xlink:href="http://www.some.org/b_document.pdf" />
+  </subjectIdentity>
+</topic>
+</topicMap>
+

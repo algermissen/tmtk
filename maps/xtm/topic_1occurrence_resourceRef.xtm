@@ -1,0 +1,8 @@
+<topicMap>
+<topic id="t1">
+ <occurrence>
+   <resourceRef xlink:href="ftp://ftp.uni-hamburg.de/somefile.txt" />
+ </occurrence>
+</topic>
+</topicMap>
+

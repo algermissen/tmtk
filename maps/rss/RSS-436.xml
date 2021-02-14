@@ -1,0 +1,44 @@
+<rss version="0.91">
+<channel>
+<title>ITpapers.com - Web Services</title>
+<link>http://www.itpapers.com/cgi/SubcatIT.pl?scid=436</link>
+<description>Web Services White Papers</description>
+<language>en-us</language>
+
+<item>
+<title>Using XML Effectively in eBusiness Architectures</title>
+<author>algermissen@acm.org</author>
+<link>http://www.itpapers.com/cgi/PSummaryIT.pl?paperid=41801&amp;scid=436</link>
+<description>XML is being incorporated into the foundation of eBusiness applications in increasing numbersand in greater variety. This paper addresses how and where XML is effective and how it impactsimplementations. It addresses how to use XML, approaches to integrating transactions betweenbusiness partners, and offers approaches to selecting and designing vocabularies. It will discussesarchitectural patterns for leveraging XML at each layer of an application architecture, and new skillsets for working with XML.</description>
+</item>
+
+<item>
+<title>Enterprise JavaBeans Components: The Building Blocks of Web Services</title>
+<link>http://www.itpapers.com/cgi/PSummaryIT.pl?paperid=41756&amp;scid=436</link>
+<description>This White papers describes how EJB is used to develop distributed business functionality for the new Web services paradigm. It shows how using EJB components dramatically simplify developing, deploying, and maintaining smart Web services. It describes how EJB enables developers to focus on the specifics of programming their business logic, their core expertise while relying on various backend services to provide the infrastructure, and client-side applications to provide the robust user interaction.
+</description>
+</item>
+
+<item>
+<title>Datastream 7i: Technology that Matters White Paper</title>
+<link>http://www.itpapers.com/cgi/PSummaryIT.pl?paperid=41749&amp;scid=436</link>
+<description>This white paper explores how Datastream uses new technologies, including Web-architecture and Web Services, to enhance asset management functionality and create the most advanced solutions available.
+</description>
+</item>
+
+<item>
+<title>Extending and Customizing Web Services Implementations Through The Use of Message Handlers</title>
+<link>http://www.itpapers.com/cgi/PSummaryIT.pl?paperid=41712&amp;scid=436</link>
+<description>Web services are an important approach to integration, but Web services standards are only beginning to address enterprise qualities-of-service issues, such as security, transactional semantics, and reliable message delivery. This paper describes the use of message handlers in IONAs XMLBus. Message handlers can intercept Web services communications at various points along the message path, and thereby allow customized processing of the message. In this way, XMLBus APIs let you extend a Web service implementation to address additional requirements and standards, without having to change basic implementation and WSDL definition.
+</description>
+</item>
+
+<item>
+<title>Web Services and the Business of Broadband</title>
+<link>http://www.itpapers.com/cgi/PSummaryIT.pl?paperid=41707&amp;scid=436</link>
+<description>This paper provides an introduction to Web Services and an overview of its concepts. Once the general concepts and terminology of Web Services are explained, terminology specific to the Web Services business model, such as micropayment, is presented. These concepts are a vital part of generating sustainable revenue from Web Services technologies.
+</description>
+</item>
+
+</channel>
+</rss>

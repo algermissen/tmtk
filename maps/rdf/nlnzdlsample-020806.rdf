@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:dcq="http://purl.org/dc/terms/"
+  xmlns:ead="http://www.natlib.govt.nz/dl#"
+  xmlns:nlnzdl="http://www.natlib.govt.nz/dl#">
+  <rdf:Description rdf:about="hdl:1727.11.11/00000653">
+    <dc:title>Buy lemons and make fresh lemonade.  [1920s].</dc:title>
+    <dc:creator>[Moran, Joseph Bruno]  d 1952</dc:creator>
+    <dc:subject>Fairies</dc:subject>
+    <dc:subject>Fruit</dc:subject>
+    <dc:subject>Lemon </dc:subject>
+    <dc:subject>Lemonade</dc:subject>
+    <dc:subject>Art deco </dc:subject>
+    <dc:subject>To market, to market (exhibition) (as a related subject)</dc:subject>
+    <nlnzdl:category>
+      <nlnzdl:NZCT>
+        <rdf:value>A-VA-03-02</rdf:value>
+        <rdfs:label>Food</rdfs:label>
+      </nlnzdl:NZCT>
+    </nlnzdl:category>
+    <dc:description>Shows small female figure holding up tray with large glass of lemonade. At top  a bunch of five lemons on the branch of a tree hang down. The bottom half  contains elements of Art deco design. ; 
+Commissioned as one of a series of posters for display in greengrocers' shops,  in about the 1920s or 1930s. (See neg. no. 37528 1/2 in Pictorial Reference Section - file print filed under 725. Shops. Greengrocers). May be on of the posters mentioned in the "Dominion Mark fruit book" of 1934l, inside  back cover (NZ&amp;P Box 641.64 DOM 1934).</dc:description>
+    <dc:publisher>National Library of New Zealand - Te Puna Matauranga o Aotearoa</dc:publisher>
+    <dc:type>
+      <dcq:DCMIType>
+        <rdf:value>Image</rdf:value>
+      </dcq:DCMIType>
+    </dc:type>
+    <dc:type>
+      <nlnzdl:LCTGM2>
+        <rdf:value>Posters</rdf:value>
+      </nlnzdl:LCTGM2>
+    </dc:type>
+    <dc:type>
+      <nlnzdl:LCTGM2>
+        <rdf:value>Ephemera</rdf:value>
+      </nlnzdl:LCTGM2>
+    </dc:type>
+    <dcq:medium>
+      <dcq:IMT>
+        <rdf:value>image/jpeg</rdf:value>
+      </dcq:IMT>
+    </dcq:medium>
+    <dcq:extent>51 KB</dcq:extent>
+    <dc:format>Ephemera; Lithograph, coloured  760 x 505 mm; Vertical</dc:format>
+    <nlnzdl:local>
+      <nlnzdl:ATLNo>
+        <rdf:value>Eph-D-MORAN-1920s</rdf:value>
+      </nlnzdl:ATLNo>
+    </nlnzdl:local>
+    <nlnzdl:pid rdf:resource="hdl:1727.11.11/00000653"/>
+    <nlnzdl:object rdf:resource="http://hdl.handle.net/1727.11.11/00000653"/>
+    <dcq:temporal>
+      <dcq:W3CDTF>
+        <rdf:value>1920/1935</rdf:value>
+      </dcq:W3CDTF>
+    </dcq:temporal>
+    <dc:rights>Permission of the Alexander Turnbull Library, National Library of New Zealand, Te Puna Matauranga o Aotearoa, must be obtained before any re-use of this item.</dc:rights>
+    <ead:daoloc ead:href="http://digital.natlib.govt.nz/20020604/ephdmoran1920s_00000653_tn.jpg" ead:role="thumbnail" ead:behavior="image/jpeg"/>
+    <ead:daoloc ead:href="http://digital.natlib.govt.nz/20020604/ephdmoran1920s_00000653_pv.jpg" ead:role="display" ead:behavior="image/jpeg"/>
+    <ead:daoloc ead:href="http://digital.natlib.govt.nz/20020604/ephdmoran1920s_00000653_df.jpg" ead:role="reference" ead:title="Digital image of Buy lemons and make fresh lemonade.  [1920s]. (51 KB)" ead:behavior="image/jpeg"/>
+    <ead:daoloc ead:href="http://digital.natlib.govt.nz/source/20020605/ephdmoran1920s_00000653_ds.tif" ead:role="source" ead:title="Digital source image of Buy lemons and make fresh lemonade.  [1920s]. (51 KB)" ead:behavior="image/tiff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hdl:1727.11.11/00001594">
+    <dc:title>White Terraces, Rotomahana.</dc:title>
+    <dc:creator>Burton Brothers (Dunedin), 1868-1898 (as the photographer)</dc:creator>
+    <dc:subject>Muir and Moodie  fl 1898-1916 (as a related subject)</dc:subject>
+    <nlnzdl:category>
+      <nlnzdl:NZCT>
+        <rdf:value>A-VA-07-01-02</rdf:value>
+        <rdfs:label>Burton Brothers (Dunedin) 1868-1898</rdfs:label>
+      </nlnzdl:NZCT>
+    </nlnzdl:category>
+    <dc:description>White Terraces at Rotomahana. Photograph taken by the Burton Brothers circa 1880.; 
+Inscriptions: Photographer's title on negative - bottom left - 3899 - The hot water basins - White Terrace.  Late   Burton Bros. Dunedin Muir &amp;  Moodie</dc:description>
+    <dc:publisher>National Library of New Zealand - Te Puna Matauranga o Aotearoa</dc:publisher>
+    <dcq:created>[ca 1880]</dcq:created>
+    <dcq:created>
+      <dcq:W3CDTF>
+        <rdf:value>1880</rdf:value>
+      </dcq:W3CDTF>
+    </dcq:created>
+    <dc:type>
+      <dcq:DCMIType>
+        <rdf:value>Image</rdf:value>
+      </dcq:DCMIType>
+    </dc:type>
+    <dcq:medium>
+      <dcq:IMT>
+        <rdf:value>image/jpeg</rdf:value>
+      </dcq:IMT>
+    </dcq:medium>
+    <dcq:extent>84 KB</dcq:extent>
+    <dc:format>Single negative; Horizontal</dc:format>
+    <nlnzdl:local>
+      <nlnzdl:ATLNo>
+        <rdf:value>BB-3899-1/1</rdf:value>
+      </nlnzdl:ATLNo>
+    </nlnzdl:local>
+    <nlnzdl:pid rdf:resource="hdl:1727.11.11/00001594"/>
+    <nlnzdl:object rdf:resource="http://hdl.handle.net/1727.11.11/00001594"/>
+    <dcq:isPartOf>Gray, T M :Assorted Burton Brothers negatives (PAColl-5770)</dcq:isPartOf>
+    <dcq:temporal>
+      <dcq:W3CDTF>
+        <rdf:value>1868/1886</rdf:value>
+      </dcq:W3CDTF>
+    </dcq:temporal>
+    <dcq:spatial>White Terraces</dcq:spatial>
+    <dc:rights>Permission of the Alexander Turnbull Library, National Library of New Zealand, Te Puna Matauranga o Aotearoa, must be obtained before any re-use of this item.</dc:rights>
+    <ead:daoloc ead:href="http://digital.natlib.govt.nz/20020604/bb3899_00001594_tn.jpg" ead:role="thumbnail" ead:behavior="image/jpeg"/>
+    <ead:daoloc ead:href="http://digital.natlib.govt.nz/20020604/bb3899_00001594_pv.jpg" ead:role="display" ead:behavior="image/jpeg"/>
+    <ead:daoloc ead:href="http://digital.natlib.govt.nz/20020604/bb3899_00001594_df.jpg" ead:role="reference" ead:title="Digital image of White Terraces, Rotomahana. (84 KB)" ead:behavior="image/jpeg"/>
+    <ead:daoloc ead:href="http://digital.natlib.govt.nz/source/20020605/bb3899_00001594_ds.tif" ead:role="source" ead:title="Digital source image of White Terraces, Rotomahana. (84 KB)" ead:behavior="image/tiff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hdl:1727.11/00002125">
+    <dc:title>Construction at veterinary complex, Silverdale.</dc:title>
+    <dc:creator>Dashper, Julian, 1960-</dc:creator>
+    <nlnzdl:category>
+      <nlnzdl:NZCT>
+        <rdf:value>A-VA-02</rdf:value>
+        <rdfs:label>Post-Modernism in Contemporary New Zealand Art During the 1980s and Early 1990s</rdfs:label>
+      </nlnzdl:NZCT>
+    </nlnzdl:category>
+    <dcq:issued>1987.</dcq:issued>
+    <dc:type>
+      <dcq:DCMIType>
+        <rdf:value>Image</rdf:value>
+      </dcq:DCMIType>
+    </dc:type>
+    <dc:type>
+      <nlnzdl:LCTGM2>
+        <rdf:value>Abstract works</rdf:value>
+      </nlnzdl:LCTGM2>
+    </dc:type>
+    <dc:type>Mixed media [lctmg]</dc:type>
+    <dc:format>Mixed media on paper, 790 x 1200 mm (sight).</dc:format>
+    <dcq:extent>71KB</dcq:extent>
+    <dcq:medium>
+      <dcq:IMT>
+        <rdf:value>image/jpeg</rdf:value>
+      </dcq:IMT>
+    </dcq:medium>
+    <nlnzdl:pid rdf:resource="hdl:1727.11/00002125"/>
+    <nlnzdl:object rdf:resource="http://hdl.handle.net/1727.11/00002125"/>
+    <nlnzdl:local>
+      <nlnzdl:CAC>
+        <rdf:value>CAC-1987-16-2</rdf:value>
+      </nlnzdl:CAC>
+    </nlnzdl:local>
+    <dc:language>
+      <dcq:ISO639-2>
+        <rdf:value>eng</rdf:value>
+      </dcq:ISO639-2>
+    </dc:language>
+    <dc:relation>Also available as an electronic resource.</dc:relation>
+    <dcq:isPartOf>Contemporary New Zealand Art Collection, National Library of New Zealand</dcq:isPartOf>
+    <dcq:spatial>Silverdale</dcq:spatial>
+    <dcq:temporal>1987</dcq:temporal>
+    <dc:rights>Reproduction rights for this item do not belong to the National Library of New Zealand, Te Puna Matauranga o Aotearoa. It must not be reproduced in any way without the prior permission of the copyright owner  and the Library.</dc:rights>
+    <ead:daoloc ead:href="http://digital.natlib.govt.nz/20020604/c25580_00002125_ds.tif" ead:role="source" ead:behavior="image/tiff"/>
+    <ead:daoloc ead:href="http://digital.natlib.govt.nz/20020604/c25580_00002125_df.jpg" ead:role="reference" ead:title="Digital image of  Construction at veterinary complex, Silverdale." ead:behavior="image/jpeg"/>
+    <ead:daoloc ead:href="http://digital.natlib.govt.nz/20020604/c25580_00002125_pv.jpg" ead:role="display" ead:behavior="image/jpeg"/>
+    <ead:daoloc ead:href="http://digital.natlib.govt.nz/20020604/c25580_00002125_tn.jpg" ead:role="thumbnail" ead:behavior="image/jpeg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hdl:1727.11/00002171">
+    <dc:title>One fine day.</dc:title>
+    <dc:creator>Buckman, Rosina, 1881-1948</dc:creator>
+    <dc:subject>Operas - Excerpts - Recordings</dc:subject>
+    <dc:subject>Opera singers</dc:subject>
+    <nlnzdl:category>
+      <nlnzdl:NZCT>
+        <rdf:value>A-M-05-06</rdf:value>
+        <rdfs:label>Solo</rdfs:label>
+      </nlnzdl:NZCT>
+    </nlnzdl:category>
+    <dc:description>Excerpt from track 18 of compact disk 2, Madam Butterfly /  Puccini. Wellington, N.Z. : National Library of New Zealand : Manufactured and distributed by Kiwi Pacific, p1995.</dc:description>
+    <dc:description>Compact disc digitally remastered from original commercial recordings (HMV D893-906) held in the Alexander Turnbull Library.</dc:description>
+    <dc:contributor>Puccini, Giacomo, 1858-1924, composer</dc:contributor>
+    <dc:contributor>National Library of New Zealand</dc:contributor>
+    <dcq:issued>1995</dcq:issued>
+    <dc:type>
+      <dcq:DCMIType>
+        <rdf:value>Sound</rdf:value>
+      </dcq:DCMIType>
+    </dc:type>
+    <dc:format>Digital stereo sound recording, 1.15 min.</dc:format>
+    <dcq:extent>978KB</dcq:extent>
+    <dcq:medium>
+      <dcq:IMT>
+        <rdf:value>audio/mpeg</rdf:value>
+      </dcq:IMT>
+    </dcq:medium>
+    <nlnzdl:pid rdf:resource="hdl:1727.11/00002171"/>
+    <nlnzdl:object rdf:resource="http://hdl.handle.net/1727.11/00002171"/>
+    <dc:language>
+      <dcq:ISO639-2>
+        <rdf:value>eng</rdf:value>
+      </dcq:ISO639-2>
+    </dc:language>
+    <dc:relation>Also available as an electronic resource.</dc:relation>
+    <dcq:temporal>1995</dcq:temporal>
+    <dc:rights>Item provided by the Alexander Turnbull Library, National Library of New Zealand, Te Puna Matauranga o Aotearoa. Reproduction rights do not belong to the Alexander Turnbull Library. It must not be reproduced in any way without the prior permission of the copyright owner  and the Library.</dc:rights>
+    <ead:daoloc ead:href="http://digital.natlib.govt.nz/20020604/cd48track04_00002171_ds.wav" ead:role="source" ead:behavior="audio/wav"/>
+    <ead:daoloc ead:href="http://digital.natlib.govt.nz/20020604/cd48track04_00002171_df.mp3" ead:role="reference" ead:title="Digital audio extract from One fine day." ead:behavior="audio/mpeg"/>
+    <ead:daoloc ead:href="http://digital.natlib.govt.nz/20020604/audioicon_pv.jpg" ead:role="display" ead:behavior="image/jpeg"/>
+    <ead:daoloc ead:href="http://digital.natlib.govt.nz/20020604/audioicon_tn.jpg" ead:role="thumbnail" ead:behavior="image/jpeg"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,13 @@
+<topicMap>
+
+<topic id="t1" />
+
+<topic id="t2">
+  <subjectIdentity>
+    <topicRef xlink:href="#t1" />
+  </subjectIdentity>
+</topic>
+
+
+</topicMap>
+

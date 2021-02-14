@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<rdf:RDF 
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns="http://purl.org/rss/1.0/"
+         xmlns:mn="http://usefulinc.com/rss/manifest/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+ >
+
+  <channel rdf:about="http://xmlhack.com/rss10.php">
+      <title>XMLhack</title>
+      <link>http://xmlhack.com/</link>
+      <dc:source rdf:resource="http://xmlhack.com/" />
+      <description>
+         Developer news from the XML community
+      </description>
+      <dc:language>en-us</dc:language>
+      <dc:publisher>Edd Dumbill (mailto:webmaster@xmlhack.com)</dc:publisher>
+      <dc:creator>Edd Dumbill (mailto:editor@xmlhack.com)</dc:creator>
+      <dc:rights>Copyright 1999-2001, xmlhack team.</dc:rights>
+
+      <image rdf:resource="http://xmlhack.com/images/mynetscape88.gif" />
+
+      <items>
+          <rdf:Seq>
+            <rdf:li rdf:resource="http://xmlhack.com/read.php?item=2050" />
+            <rdf:li rdf:resource="http://xmlhack.com/read.php?item=2047" />
+            <rdf:li rdf:resource="http://xmlhack.com/read.php?item=2040" />
+            <rdf:li rdf:resource="http://xmlhack.com/read.php?item=2038" />
+            <rdf:li rdf:resource="http://xmlhack.com/read.php?item=2025" />
+            <rdf:li rdf:resource="http://xmlhack.com/read.php?item=2024" />
+            <rdf:li rdf:resource="http://xmlhack.com/read.php?item=2020" />
+            <rdf:li rdf:resource="http://xmlhack.com/read.php?item=2017" />
+          </rdf:Seq>
+      </items>
+
+  </channel>
+
+  <image rdf:about="http://xmlhack.com/images/mynetscape88.gif">
+    <title>xmlhack</title>
+    <url>http://xmlhack.com/images/mynetscape88.gif</url>
+    <link>http://xmlhack.com</link>
+    <dc:description>News, opinions, tips and issues concerning XML development</dc:description>
+  </image>
+
+    <item rdf:about="http://xmlhack.com/read.php?item=2050">
+        <title>XML Security Library 1.1.1</title>
+        <link>http://xmlhack.com/read.php?item=2050</link>
+        <dc:description>Aleksey Sanin has released version 1.1.1 of the XML Security
+     Library (xmlsec), an open-source implementation of the joint
+     IETF/W3C XML
+     Signature (dsig) and W3C XML Encryption
+
+     (xenc) specifications. This release adds X509Data node templates
+     support to the NSS implementation, includes new functions for
+     reading keys and certificates from memory, and fixes several
+     problems in configuration files and a bug in URI attribute
+     XInclude processing.</dc:description>
+        <dc:subject>Tools</dc:subject>
+        <dc:subject>E-Commerce</dc:subject>
+    </item>
+
+    <item rdf:about="http://xmlhack.com/read.php?item=2047">
+        <title>libxml2 2.5.10 and libxslt 1.0.32 released</title>
+        <link>http://xmlhack.com/read.php?item=2047</link>
+        <dc:description>Daniel Veillard has released new versions of libxml2 and libxslt,
+      classifying the libxml2 release as a "major bugfix release", and
+      writing that libxml2 2.5.9 and 2.5.10 "include a lot of bugfixes
+      spanning the whole library; upgrading is strongly recommended."
+      The libxslt 1.0.32 release is also significant in that it is the
+      first to include Python bindings for extension elements.
+</dc:description>
+        <dc:subject>Tools</dc:subject>
+    </item>
+
+    <item rdf:about="http://xmlhack.com/read.php?item=2040">
+        <title>Overheard at Extreme Markup Languages 2003</title>
+        <link>http://xmlhack.com/read.php?item=2040</link>
+        <dc:description>Extreme Markup Languages had its usual thought-provoking intensity this past week in Montreal.  The following bits may provoke yet a few more thoughts.</dc:description>
+        <dc:subject>Community</dc:subject>
+    </item>
+
+    <item rdf:about="http://xmlhack.com/read.php?item=2038">
+        <title>Trends in modular XML specifications at the W3C</title>
+        <link>http://xmlhack.com/read.php?item=2038</link>
+        <dc:description>The recent publication of three W3C documents, XForms Proposed Recommendation, XML Events Proposed Recommendation, and xml:id Requirements may mark a new trend toward fewer standalone XML vocabularies and more "building block" specifications.</dc:description>
+        <dc:subject>W3C</dc:subject>
+        <dc:subject>XHTML</dc:subject>
+    </item>
+
+    <item rdf:about="http://xmlhack.com/read.php?item=2025">
+        <title>Elsevier proposes PRISM module for RSS 1.0</title>
+        <link>http://xmlhack.com/read.php?item=2025</link>
+        <dc:description>Tony Hammond from Elsevier has announced a PRISM module for RSS 1.0, and provided some example data feeds, including one for Nature.</dc:description>
+        <dc:subject>RDF</dc:subject>
+    </item>
+
+    <item rdf:about="http://xmlhack.com/read.php?item=2024">
+        <title>Extreme Markup Languages 2003: complete program available</title>
+        <link>http://xmlhack.com/read.php?item=2024</link>
+        <dc:description>The complete program of all sessions scheduled for
+the Extreme Markup
+  Languages 2003 conference ("an unabashedly hard-core
+conference for the technically-oriented members of the information
+interchange and knowledge representation community" taking place
+in Montreal on August 5-8) is now available. Details about
+pre-conference tutorials being held on Monday, August 4, are also
+available (both full day and half-day morning and half-day afternoon tutorials).</dc:description>
+        <dc:subject>Community</dc:subject>
+    </item>
+
+    <item rdf:about="http://xmlhack.com/read.php?item=2020">
+        <title>RealNetworks open sources SMIL 2.0 implementation</title>
+        <link>http://xmlhack.com/read.php?item=2020</link>
+        <dc:description>Rob Lanphier from RealNetworks writes with news that they have released their implementation of the W3C's Synchronized Multimedia Integration Language as open source.</dc:description>
+        <dc:subject>Browsers</dc:subject>
+        <dc:subject>SVG</dc:subject>
+    </item>
+
+    <item rdf:about="http://xmlhack.com/read.php?item=2017">
+        <title>CSS3 User Interface module reaches Last Call</title>
+        <link>http://xmlhack.com/read.php?item=2017</link>
+        <dc:description>The specification for Basic User
+Interface, one of the 29 modules that constitute CSS3 (the
+next generation of the Cascading Style Sheets formatting language)
+has been published as a Last Call Working Draft.</dc:description>
+        <dc:subject>CSS</dc:subject>
+        <dc:subject>W3C</dc:subject>
+    </item>
+
+    <rdf:Description ID="manifest">
+      <mn:channels>
+      <rdf:Seq>
+        <rdf:li rdf:resource="http://xmlhack.com/rss10.php" />
+      </rdf:Seq>
+      </mn:channels>
+    </rdf:Description>
+
+</rdf:RDF>

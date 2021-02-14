@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xsi:schemaLocation="http://purl.org/rss/1.0/ l:\files\rss.xsd" xmlns:mcj="http://www.jeckle.de/rss" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://purl.org/rss/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+   <channel rdf:about="http://www.jeckle.de/news.rss">
+		
+      <title>jeckle.de online -- News and Updates</title>
+		
+      <description>jeckle.de online -- News and Updates. Aktuelle Neuigkeiten rund um die durch jeckle.de behandelten Themen.</description>
+		
+      <link>http://www.jeckle.de/</link>
+		
+      <dc:language>de-DE</dc:language>
+		
+      <dc:publisher>Mario Jeckle (mailto:webmaster@jeckle.de)</dc:publisher>
+		
+      <dc:creator>Mario Jeckle (mailto:mario@jeckle.de)</dc:creator>
+		
+      <dc:rights>Copyright 2002, Mario Jeckle.</dc:rights>
+		
+      <dc:date>2002-09-07</dc:date>
+		
+      <items>
+			
+         <rdf:Seq>
+				
+            <rdf:li rdf:resource="http://www.jeckle.de/rss/item3"/>
+				
+            <rdf:li rdf:resource="http://www.jeckle.de/rss/item14"/>
+				
+            <rdf:li rdf:resource="http://www.jeckle.de/rss/item16"/>
+				
+            <rdf:li rdf:resource="http://www.jeckle.de/rss/item29"/>
+				
+            <rdf:li rdf:resource="http://www.jeckle.de/rss/item30"/>
+				
+            <rdf:li rdf:resource="http://www.jeckle.de/rss/item35"/>
+				
+            <rdf:li rdf:resource="http://www.jeckle.de/rss/item37"/>
+				
+            <rdf:li rdf:resource="http://www.jeckle.de/rss/item38"/>
+				
+            <rdf:li rdf:resource="http://www.jeckle.de/rss/item40"/>
+				
+            <rdf:li rdf:resource="http://www.jeckle.de/rss/item42"/>
+				
+            <rdf:li rdf:resource="http://www.jeckle.de/rss/item43"/>
+				
+            <rdf:li rdf:resource="http://www.jeckle.de/rss/item46"/>
+				
+            <rdf:li rdf:resource="http://www.jeckle.de/rss/item47"/>
+				
+            <rdf:li rdf:resource="http://www.jeckle.de/rss/item48"/>
+				
+            <rdf:li rdf:resource="http://www.jeckle.de/rss/item49"/>
+				
+            <rdf:li rdf:resource="http://www.jeckle.de/rss/item50"/>
+				
+            <rdf:li rdf:resource="http://www.jeckle.de/rss/item52"/>
+				
+            <rdf:li rdf:resource="http://www.jeckle.de/rss/item54"/>
+				
+            <rdf:li rdf:resource="http://www.jeckle.de/rss/item55"/>
+				
+            <rdf:li rdf:resource="http://www.jeckle.de/rss/item56"/>
+				
+            <rdf:li rdf:resource="http://www.jeckle.de/rss/item57"/>
+				
+            <rdf:li rdf:resource="http://www.jeckle.de/rss/item58"/>
+				
+            <rdf:li rdf:resource="http://www.jeckle.de/rss/item59"/>
+			
+         </rdf:Seq>
+		
+      </items>
+	
+   </channel>
+	
+   <image rdf:about="http://www.jeckle.de/images/jeckleDeLogo.gif">
+		
+      <title>jeckle.de</title>
+		
+      <url>http://www.jeckle.de/images/jeckleDeLogo.gif</url>
+		
+      <link>http://www.jeckle.de</link>
+	
+   </image>
+	
+   <item rdf:about="http://www.jeckle.de/rss/item3">
+		
+      <title>Übersetzungen zu W3C-Spezifikationen verfügbar</title>
+		
+      <description>Es enthält die Übersetzungen der wichtigsten XML-Spezifikationen. Darunter: XML v1.0 2nd edition, XML Namensräume, XPath, XML Schema, XLink, XML Base und Infoset. Neben der deutschen Umsetzung enthält das Buch auch eine Vielzahl von hilfreichen Kommentaren der Übersetzer.</description>
+		
+      <link>http://www.edition-w3c.de</link>
+		
+      <dc:date>2002-09-09</dc:date>
+		
+	
+   </item>
+	
+   <item rdf:about="http://www.jeckle.de/rss/item14">
+		
+      <title>FAZ: Web Services ändern Internet-Nutzung</title>
+		
+      <description>Europäische CIOs sind überzeugt, daß Web Services das Geschäftsleben radikal verändern werden. 
+        Nach einer Umfrage von SWR Worldwide sind 54 Prozent der 320 befragten IT-Verantwortlichen der Meinung, daß Web Services die Art wie Unternehmen das Internet nutzen, verändern werden.
+        59 Prozent der Befragten erklären, daß ihr Unternehmen den Nutzen von Web Services klar erkannt habe.
+        Gut die Hälfte der befragten IT-Manager nutzt Web Services bereits im eigenen Unternehmen. 
+        34 Prozent der Befragten zeigten sich zufrieden mit den Ergebnissen, 20 Prozent waren dagegen unzufrieden.
+        Die Vorteile der Web Services liegen in engeren Beziehungen mit Kunden und Partnern und der Möglichkeit, Dienste schneller und kostengünstiger zu Verfügung zu stellen.
+        Zweifel an der Sicherheit von Web Services führen jedoch bei 48 Prozent der europäischen Unternehmen zur Zurückhaltung.
+        24 Prozent der Befragten planen, in den den nächsten zwölf Monaten zwischen 100 000 und 500 000 Euro in Web Services zu investieren, vornehmlich im Bereich Finanzdienstleistungen.
+        An zweiter Stelle in der Prioritätenliste folgt die Besserung der Geschäftsprozesse.</description>
+		
+      <link>http://www.jeckle.de/webServices/index.html</link>
+		
+      <dc:date>2002-09-30</dc:date>
+	
+   </item>
+	
+   <item rdf:about="http://www.jeckle.de/rss/item16">
+		
+      <title>XMIForum.org öffnet seine Pforten</title>
+		
+      <description>XMIForum.org ist ein Community-Portal welches herstellerunabhängige Informationen rund um das XML Metadata Interchange (XMI)
+        Format der OMG zusammenstellt. Darüberhinaus bietet XMIForum.org auch eine Plattform zur offenen Diskussion an. Schrittweise soll XMLForum.org auch
+        als Portal für Open-Source-Implementierungen die das XMI-Format verwenden ausgebaut werden.</description>
+		
+      <link>http://www.xmiforum.org</link>
+		
+      <dc:date>2002-10-04</dc:date>
+		
+	
+   </item>
+	
+   <item rdf:about="http://www.jeckle.de/rss/item30">
+		
+      <title>CrypTool -- ein interessantes Werkzeug rund um Kryptotopicmapie</title>
+		
+      <description>Unter Mitwirkung der Deutschen Bank entstand mit CrypTool ein nettes kleines
+        (Windows-)Werkzeug, daß verschiedenste kryptotopicmapische Algorithmen implementiert. Die Palette der angebotenen Funktionalität reicht von klassischen Verfahren wie Caesar- oder Vigenerechiffren über gängige Verfahren (IDEA, DES, Rijndael, ...) bis hin zu Analystools um gezielte Angriffe untersuchen und nachvollziehen zu können.</description>
+		
+      <link>http://www.cryptool.de</link>
+		
+      <dc:date>2002-11-17</dc:date>
+	
+   </item>
+	
+   <item rdf:about="http://www.jeckle.de/rss/item35">
+		
+      <title>jeckle.de unterstützt link prefetching</title>
+		
+      <description>jeckle.de unterstützt ab sofort testweise die durch den Web Browser Mozilla in der Version 1.2 eingeführte
+        Möglichkeit häufig besuchte Seiten, oder Seiten die mit hoher Wahrscheinlichkeit als nächstes angefragt werden, im 
+        Hintergrund zu laden. Hierdurch sollte sich die Ladezeit idealerweise deutlich verkürzen lassen.</description>
+		
+      <link>http://www.mozilla.org/projects/netlib/Link_Prefetching_FAQ.html</link>
+		
+      <dc:date>2002-11-28</dc:date>
+		
+	
+   </item>
+	
+   <item rdf:about="http://www.jeckle.de/rss/item37">
+		
+      <title>Wie schreibt man eigentlich Web Service?!</title>
+		
+      <description>Oder: Ein Web-Service ist ein Web Service ist ein WebService ist ein Webservice ...?!
+Neben der unten dargestellten Vielfalt der Sinngebungen was ein Web-Service ist oder sein soll existiert parallel dazu ein beachtlich unterhaltsam geführter Streit wie die korrekte Schreibung des Begriffs zu handhaben sei, was ein weiteres Indiz dafür liefert, daß im Deutschen bisweilen wahrhafte orthotopicmapische Grabenkämpfe hinsichtlich Fragen des "richtigen" Buchstabengebrauchs ausgefochten werden.
+So konstatierte jüngst die Zeitschrift DER SPIEGEL --- nach überstandenem Angriff einer Phalanx unberechtigt gesetzter Apostrophierungen und Heeren verwaister öffnender Klammern --- einen weiteren Todesritt auf die kulturelle Identität des (untergehenden) Abendlandes. So droht der unkontrollierte Zustrom einer Flut angelsächsischer Leerzeichen die germanischen Bindestriche von ihrem angestammten Platze im Symbolsystem zu verdrängen und gleichzeitig die hergebrachten Bindungen ehedem konkateniert existierender Worte zu zerstören.
+So ist die Schreibung "Web Service" in deutschen Texten gradewegs abzulehenen, selbst wenn sich das Schriftstück mit modernster Web- und Fadentechnik beschäftigt. Ebenso ist jeglich teutonischer Assimilierungsversuch durch Bindestriche (à la "Web-Service") zum Scheitern verurteilt, auch wenn dieser im vorliegenden Falle versucht eine Brücke zwischen den (Sprach-)Welten zu schlagen ...
+Noch durchsichtiger müssen in diesem Lichte Ansätze der Zusammenführung wirken die Konglomerate wie "WebServices" zu "Webservices" umzuschreiben suchen ...
+Daher! Angesichts der Bedrohung kann die einzig korrekte Schreibung, welche sich bis dato aus nicht nachvollziehbaren Gründen nicht im Duden findet, ausschließlich "Weltweitnetzdienstleistung" (W2NDL) lauten!
+... Allerdings müssen wir diese puristische Konkretisierung mit einem geringen -- vernachlässigbaren -- Mächtigkeitsverlust unserer Kommunikation bezahlen. Schlichtweg scheint auch hier -- wie allzuoft in der Informatik oder IT -- die deutsche muttersprachliche Korrektheit dem vereinfachten Bedeutungstransport diametral entgegengesetzt zu sein.</description>
+		
+      <link>http://www.jeckle.de/webServices/index.html</link>
+		
+      <dc:date>2002-11-29</dc:date>
+	
+   </item>
+	
+   <item rdf:about="http://www.jeckle.de/rss/item38">
+		
+      <title>Vortragsfolien Web Services Architecture verfügbar</title>
+		
+      <description>Der Vortrag vermittelt einen ersten Eindruck der Aufgaben, Zielsetzungen und Vorgehensweise der
+        Arbeitsgruppe Web Services Architecture des World Wide Web Consortiums.</description>
+		
+      <link>http://www.jeckle.de/publikat.htm#w3c-de-at-2002</link>
+		
+      <dc:date>2002-11-30</dc:date>
+		
+      <TickerText xmlns="http://www.jeckle.de/rss">
+			
+			
+			
+			
+		
+      </TickerText>
+	
+   </item>
+	
+   <item rdf:about="http://www.jeckle.de/rss/item40">
+		
+      <title>IBM übernimmt Rational</title>
+		
+      <description>IBM wird den UML-Werkzeughersteller Rational Software (mehr als 80% Marktanteil) übernehmen und das bekannte
+        Produkt Rose sowie die neue Produktlinie XDE unter der Marke Rational fortführen.</description>
+		
+      <link>http://www.rational.com</link>
+		
+      <dc:date>2002-12-06</dc:date>
+		
+      <TickerText xmlns="http://www.jeckle.de/rss">
+			
+			
+		
+      </TickerText>
+	
+   </item>
+	
+   <item rdf:about="http://www.jeckle.de/rss/item42">
+		
+      <title>W3C verabschiedet Verschlüsselungsstands für XML</title>
+		
+      <description>Mit der Freigabe der beiden noch ausstehenden Standards (als W3C Recommendation) zur Sicherung von XML-Inhalten durch
+        digitale Signaturen und Verschlüsselungsmechanismen komplettiert das W3C seine Palette an Spezifikationen
+        rund um XML-Sicherheit.</description>
+		
+      <link>http://www.jeckle.de/xml/security/index.html</link>
+		
+      <dc:date>2002-12-10</dc:date>
+	
+   </item>
+	
+   <item rdf:about="http://www.jeckle.de/rss/item43">
+		
+      <title>Chat zur Vorlesung XML</title>
+		
+      <description>Am 2002-12-19 findet um 18 Uhr der nächste Chat begleitend zur Teleteachingvorlesung XML statt.</description>
+		
+      <link>http://www.jeckle.de/vorlesung/chat/index.html</link>
+		
+      <dc:date>2002-12-12</dc:date>
+		
+	
+   </item>
+	
+   <item rdf:about="http://www.jeckle.de/rss/item46">
+		
+      <title>Wie schreibt man eigentlich Web Service -- Nachtrag</title>
+		
+      <description> Nichts scheint so nebensächlich, als daß es nicht Gegenstand von durchaus hitzig geführten Debatten werden könnte ...
+Kurze Zeit nach dem ich meine Betrachtungen zur richtigen Schreibung des Begriffs Web Service ins Netz stellte entspann sich in den W3C Arbeitsgruppen Web Service Description und Web Service Architecture eine durchaus heiter zu beobachtender Streit über eben jene Schreibung ...
+(Vorerst) Normativ kann daher festgestellt werden, daß sich bisher knapp Web Service gegenüber Web service durchgesetzt zu haben scheint. Die Verfechter der Groß-Klein-Variante haben jedoch schon angekündigt die Entscheidung zentraler Bedeutung und Tragweite im Kreise der Technical Architecture Group des W3C diskutiert wissen zu wollen, da ausschließlich dieser Entscheidungen über die grundlegenden Prinzipien des Web obliegen -- und Neuschreib scheint inzwischen eins davon zu sein.</description>
+		
+      <link>http://www.jeckle.de/webServices</link>
+		
+      <dc:date>2002-12-15</dc:date>
+	
+   </item>
+	
+   <item rdf:about="http://www.jeckle.de/rss/item47">
+		
+      <title>XML-Informationen für Führungskräfte und Entscheider: xml-strategie.de</title>
+		
+      <description>Mit der Web-Site xml-strategie.de geht ein deutschsprachiges Portal für an den Start, 
+        das es sich zum Ziel setzt Informationen rund um XML für technische Führungskräfte und Entscheider aufzubereiten.
+        Über die Internetseite kann ein regelmäßiger werbefreier Newsletter aboniert werden, der Aktuelles
+        aufgreift und über Neuigkeiten des XML-Umfeldes berichtet.</description>
+		
+      <link>http://www.xml-strategie.de</link>
+		
+      <dc:date>2002-12-17</dc:date>
+		
+	
+   </item>
+	
+   <item rdf:about="http://www.jeckle.de/rss/item48">
+		
+      <title>jeckle.de unterstützt das Semantic Web -- RDF-Beschreibungen für alle Seiten verfügbar</title>
+		
+      <description>Ab sofort stehen für alle Seiten auf jeckle.de Inhaltsbeschreibungen im XML-Format des 
+        Resource Description Frameworks (RDF) zur Verfügung.
+        Diese können durch automatisierte Werkzeuge verarbeitet werden um beispielsweise Suchmaschinen der nächsten Generation
+        zu befüllen. Die RDF-Beschreibungen sind im Fuße jeder Seite verlinkt.</description>
+		
+      <link>http://www.jeckle.de</link>
+		
+      <dc:date>2002-12-17</dc:date>
+		
+	
+   </item>
+	
+   <item rdf:about="http://www.jeckle.de/rss/item49">
+		
+      <title>Web Services vermehren sich wie die Karnickel</title>
+		
+      <description>Einige Aussagen von mir über laufende Web Service-Projekte bei DaimlerChrysler sowie den Stand der Standardisierung und Technik.</description>
+		
+      <link>http://news.zdnet.de/story/0,,t101-s2127866,00.html</link>
+		
+      <dc:date>2002-12-20</dc:date>
+	
+   </item>
+	
+   <item rdf:about="http://www.jeckle.de/rss/item50">
+		
+      <title>SOAP wird W3C Candidate Recommendation</title>
+		
+      <description>Nach mehr als zwei Jahren Arbeit übergibt die W3C Arbeitsgruppe XML Protocols ihre standardisierte Fassung des SOAP-Protokolls
+        welches die Basis der Web Service Technik bildet der Weböffentlichkeit zur Beurteilung. Nach Sichtung des Spezifikationsentwurfs durch
+        die W3C-Mitglieder sowie interessierte Externe ist mit der endgültigen Verabschiedung des Standards als W3C Recommendation im
+        Frühjahr des kommenden Jahres zu rechnen.</description>
+		
+      <link>http://www.jeckle.de/xml/protocols.html</link>
+		
+      <dc:date>2002-12-21</dc:date>
+		
+	
+   </item>
+	
+   <item rdf:about="http://www.jeckle.de/rss/item52">
+		
+      <title>Vortragsfolien: Java und XML/XML und Java verfügbar</title>
+		
+      <description>Der Vortrag faßt Informationen über die aktuelle und zukünftige Verfügbarkeit verschiedener XML-Schnittstellen für Java zusammen.</description>
+		
+      <link>http://www.jeckle.de/publikat.htm</link>
+		
+      <dc:date>2003-01-07</dc:date>
+	
+   </item>
+	
+   <item rdf:about="http://www.jeckle.de/rss/item54">
+		
+      <title>Überarbeitete Vorschläge zu UML v2 eingereicht</title>
+		
+      <description>Inzwischen nimmt die nächste größere Überarbeitung der UML nähere Gestalt an.
+   Verschiedene an der Standardisierung beteiligte Firmen haben sich inzwischen zu größeren    Arbeitsgruppen zusammengeschlossen, die gemeinsam an Vorschlägen arbeiten.
+   Die höchsten Chancen auf eine spätere Mehrheit bei der Verabschiedung der neuen UML-Version       sind den Vorschlägen der U2 Partners und ihrer 
+   Unterstützer einzuräumen, da sie sowohl die breiteste Mehrheit hinter sich versammeln, als auch    die umfangreichsten und gleichermaßen ausgereiftesten Vorschläge präsentierten.</description>
+		
+      <link>http://www.jeckle.de/unified.htm</link>
+		
+      <dc:date>2003-01-11</dc:date>
+	
+   </item>
+	
+   <item rdf:about="http://www.jeckle.de/rss/item55">
+		
+      <title>SUN integriert UML Tool in SUN ONE Studio</title>
+		
+      <description>SUN hat angekündigt das UML-Werkzeug Describe von Embarcadero Technologies in seine SUN ONE Studio Entwicklungsumgebung zu integrieren.</description>
+		
+      <link>http://www.jeckle.de/umltools.html#describe</link>
+		
+      <dc:date>2003-01-30</dc:date>
+	
+   </item>
+	
+   <item rdf:about="http://www.jeckle.de/rss/item56">
+		
+      <title>Vortragsfolien zum Einsatz von XML-Namensräumen in der Praxis verfügbar</title>
+		
+      <description>XML-Namensräume stellen eine der zentralen Spezifikationen des W3C rund um XML dar. Der Vortrag stellt im Überblick die durch Namensräume angesprochene Problemstellung dar und gibt Beispiele für den gegenwärtigen Einsatz in der Praxis. Abschließend diskutiert er bekannte Probleme mit diesem Ansatz und zeigt einen Lösungsansatz auf</description>
+		
+      <link>http://www.jeckle.de/publikat.htm#xmlnsW3C</link>
+		
+      <dc:date>2003-02-07</dc:date>
+	
+   </item>
+	
+   <item rdf:about="http://www.jeckle.de/rss/item57">
+		
+      <title>Veranstaltungshinweis: The 2003 International Conference on Web Services (ICWS'03)</title>
+		
+      <description>The 2003 International Conference on Web Services (ICWS'03) will be held in Las Vegas, Nevada, June 23 - 26, 2003. It is an international academic conference focusing on Web Services. The ICWS'03 is a forum for researchers and industry practioner to exchange information regarding advancements in the state of the art and practice of Web Services, as well as to identify the emerging research topics and define the future of Web Services computing. The ICWS'03 Conference will be held simultaneously (ie, same location and dates) with a number of other international conferences and workshops (CISST'03, IC-AI'03, IC'03, METMBS'03, CIC'03, ...; see http://www.ashland.edu/~iajwa/conferences/ for the complete list). Web services are Internet-based, modular applications that provide standard interfaces and communication protocols for efficient and effective business application integration. Typical application areas are business-to-business integration, business process integration and management, content management, e-sourcing, composite Web Service creation, and design collaboration for computer engineering. Currently, Grid computing has also started to leverage Web services to define standard interfaces for business services like business process outsourcing, a higher level outsourcing model of e-business on demand.</description>
+		
+      <link>http://tab.computer.org/tfec/icws03/</link>
+		
+      <dc:date>2003-02-25</dc:date>
+	
+   </item>
+	
+   <item rdf:about="http://www.jeckle.de/rss/item58">
+		
+      <title>Veranstaltungshinweis: IEEE Conference on Electronic Commerce</title>
+		
+      <description>IEEE Conference on E-Commerce (CEC'03), formerly known as  WECWIS (International Workshop on E-Commerce and Web-based Information Systems), is an international forum for business and software engineering researchers to exchange information regarding advancements in the state of the art and practice of e-commerce and Web-based information systems, as well as to identify the emerging research topics and define the future of E-Commerce and service computing. In this conference, we are interested in the infrastructure issues and enabling technologies to facilitate dynamic e-business and Web-based information systems. These include the design and analysis of distributed architectures and emerging technologies (e.g. Grid Computing, Web Services, etc.) for developing advanced E-Commerce systems. The technical program of CEC_03 will consist of workshops, tutorials, invited talks, paper presentations, and panel discussions.</description>
+		
+      <link>http://tab.computer.org/tfec/cec03/</link>
+		
+      <dc:date>2003-02-25</dc:date>
+	
+   </item>
+	
+   <item rdf:about="http://www.jeckle.de/rss/item59">
+		
+      <title>jeckle.de übernimmt Hosting der Liste der deutschen UML-Begriffe</title>
+		
+      <description>Ab sofort übernimmt jeckle.de die Listung der deutschen UML-Begriffsübersetzungen. Die Zusammenstellung wurde auf Initiative verschiedener namhafter deutscher UML-Buchautoren gegründet
+        und umfaßt inzwischen eine Reihe von Übersetzungen der englischen Originalbegriffe.
+       Die Tabelle wurde von verschiedenen Zeitschriften aufgegriffen, die ihre UML-bezogenen Beiträge entsprechend redigieren.</description>
+		
+      <link>http://www.jeckle.de/uml.de/index.html</link>
+		
+      <dc:date>2003-03-12</dc:date>
+		
+	
+   </item>
+</rdf:RDF>

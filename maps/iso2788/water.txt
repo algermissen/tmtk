@@ -1,0 +1,25 @@
+# This is a sample ISO 2788 thesaurus
+# -----------------------------------
+#
+
+beverages
+  NT soda water
+
+water
+  NT drinking water
+  NT destilled water
+  NT waste water
+
+drinking water
+  NT soda water
+  NT mineral water
+
+# another comment
+
+waste water
+  NT contaminated water
+
+dogs
+	HI my dog
+	HI your dog
+

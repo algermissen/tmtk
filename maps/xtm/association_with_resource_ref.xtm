@@ -1,0 +1,31 @@
+<topicMap>
+
+<topic id="assoctype" />
+<topic id="role1" />
+<topic id="role2" />
+<topic id="T1" />
+<topic id="T2" />
+
+
+<association id="a1">
+  <instanceOf>
+    <subjectIndicatorRef xlink:href="#assoctype" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <subjectIndicatorRef xlink:href="#role1" />
+    </roleSpec>
+    <subjectIndicatorRef xlink:href="#T1" />
+  </member>
+  <member>
+    <roleSpec>
+      <subjectIndicatorRef xlink:href="#role2" />
+    </roleSpec>
+	<!--
+    <resourceRef xlink:href="http://www.my.org/foo.pdf" />
+	-->
+    <subjectIndicatorRef xlink:href="#T2" />
+  </member>
+</association>
+</topicMap>
+

@@ -1,0 +1,13 @@
+<topicMap>
+<topic id="AbandoningSomething">
+  <subjectIdentity>
+<!--
+    <subjectIndicatorRef xlink:href="http://www.cyc.com/cyc-2-1/vocab/poss-transfer-vocab.html#AbandoningSomething" />
+-->
+    <subjectIndicatorRef xlink:href="#id1" />
+  </subjectIdentity>
+  <occurrence id="occ1">
+    <resourceData id="id1">The collection of events in which some #$Agent deliberately gives up possession of something, without giving it to another.</resourceData>
+  </occurrence>
+</topic>
+</topicMap>

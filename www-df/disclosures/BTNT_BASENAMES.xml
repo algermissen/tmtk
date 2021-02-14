@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!-- experimental stuff, currently unused. It shows how to add basenames to atypes
+     and roles, but this is actually simply a topic map -->
+<tma xmlns="http://foo/baz">
+  <name>BTNT_BASENAMES</name>
+  <description>
+	FIXME
+  </description>
+
+  <require>IS13250</require>
+  <require>BTNT</require>
+  <require>SAM</require>
+
+  <topic>
+    <propval model="IS13250" prop="UniqueName">AtClassInstance</propval>
+    <propval model="SAM" prop="BaseNames">[Class-Instance]</propval>
+  </topic>
+  <topic>
+    <propval model="IS13250" prop="UniqueName">RoleClass</propval>
+    <propval model="SAM" prop="BaseNames">[Type]</propval>
+  </topic>
+  <topic>
+    <propval model="IS13250" prop="UniqueName">RoleInstance</propval>
+    <propval model="SAM" prop="BaseNames">[Instance]</propval>
+  </topic>
+
+  <topic>
+    <propval model="IS13250" prop="UniqueName">AtSuperclassSubclass</propval>
+    <propval model="SAM" prop="BaseNames">[generic]</propval>
+  </topic>
+  <topic>
+    <propval model="IS13250" prop="UniqueName">RoleSuperclass</propval>
+    <propval model="SAM" prop="BaseNames">[less-specific]</propval>
+  </topic>
+  <topic>
+    <propval model="IS13250" prop="UniqueName">RoleSubclass</propval>
+    <propval model="SAM" prop="BaseNames">[more-specific]</propval>
+  </topic>
+
+  <topic>
+    <propval model="IS13250" prop="UniqueName">AtConstitutedConstituent</propval>
+    <propval model="SAM" prop="BaseNames">[perspective-hierarchy]</propval>
+  </topic>
+  <topic>
+    <propval model="IS13250" prop="UniqueName">RoleConstituted</propval>
+    <propval model="SAM" prop="BaseNames">[pertains-to]</propval>
+  </topic>
+  <topic>
+    <propval model="IS13250" prop="UniqueName">RoleConstituent</propval>
+    <propval model="SAM" prop="BaseNames">[consists-of]</propval>
+  </topic>
+</tma>

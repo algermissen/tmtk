@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<tma>
+  <name>http://www.gooseworks.org/IS13250.xml</name>
+  <description>
+    This is a simplified version of the core TMA implicitly defined by the
+    Topic Maps Reference Model. 
+  </description>
+
+  <property>
+    <name>UniqueName</name>
+    <description>
+      This property stores the implicit name of assertion types and
+      roles provided by the &lt;name&gt; elements inside assertion type
+      definitions in TMAs. Explicitly defining this property has the advantage
+      that assertion types and roles can be identified by their name in queries.
+    </description>
+    <valueType>Text</valueType>
+    <sidp>yes</sidp>
+  </property>
+
+  <property>
+    <name>a-sidp</name>
+    <description>
+      This property is used to express the subject of an assertion
+      (the A-topic). Every value of this property represents exactly
+      one assertion (the proxy for a relationship) by connecting
+      the T-,R-,x-, and A-topics of an assertion.
+      Note that C-topics are only represented implicitly in this simplified
+      IS13250 TMA, mostly in order to keep the a-sidp's value type as simple
+      as possible.
+    </description>
+    <valueType>ASIDP</valueType>
+    <sidp>yes</sidp>
+  </property>
+
+  
+<!--
+  Note:
+  x-op isn't yet defined as it depends on a-sidp and property
+  dependencies are not yet implemented.
+  <property>
+    <name>x-op</name>
+    <description>
+      This property ...
+    </description>
+    <valueType>XOP</valueType>
+    <sidp>no</sidp>
+    <equality/>
+    <combination>union</combination>
+  </property>
+-->
+
+
+</tma>
+

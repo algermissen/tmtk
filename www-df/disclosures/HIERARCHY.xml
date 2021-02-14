@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<tma>
+  <name>http://www.gooseworks.org/disclosures/HIERARCHY.xml</name>
+  <description>
+    A TMA that defines the semantics of various hierarchical relationships.
+  </description>
+
+  <assertionType>
+    <name>AtSuperclassSubclass</name>
+    <description>The superclass subclass relationship</description>
+    <role>
+      <name>RoleSuperclass</name>
+      <description>The superclass role</description>
+    </role>
+    <role>
+      <name>RoleSubclass</name>
+      <description>The subclass role</description>
+    </role>
+  </assertionType>
+
+  <assertionType>
+    <name>AtClassInstance</name>
+    <description>The class-instance relationship</description>
+    <role>
+      <name>RoleClass</name>
+      <description>The class role</description>
+    </role>
+    <role>
+      <name>RoleInstance</name>
+      <description>The instance role</description>
+    </role>
+  </assertionType>
+
+  <assertionType>
+    <name>AtPartWhole</name>
+    <description>The physical part/whole relationship</description>
+    <role>
+      <name>RoleWhole</name>
+      <description>The role the whole plays</description>
+    </role>
+    <role>
+      <name>RolePart</name>
+      <description>The role the part plays</description>
+    </role>
+  </assertionType>
+
+  <assertionType>
+    <name>AtConstitutedConstituent</name>
+    <description>The perspective part/whole relationship</description>
+    <role>
+      <name>RoleConstituted</name>
+      <description>The role the whole plays</description>
+    </role>
+    <role>
+      <name>RoleConstituent</name>
+      <description>The role the part plays</description>
+    </role>
+  </assertionType>
+
+  <assertionType>
+    <name>AtSpatialContainerSpatialContainee</name>
+    <description>The spatial part/whole relationship</description>
+    <role>
+      <name>RoleSpatialContainer</name>
+      <description>The role the spatial whole plays</description>
+    </role>
+    <role>
+      <name>RoleSpatialContainee</name>
+      <description>The role the spacial part plays</description>
+    </role>
+  </assertionType>
+
+  <assertionType>
+    <name>AtTemporalContainerTemporalContainee</name>
+    <description>The temporal part/whole relationship</description>
+    <role>
+      <name>RoleTemporalContainer</name>
+      <description>The role the temporal whole plays</description>
+    </role>
+    <role>
+      <name>RoleTemporalContainee</name>
+      <description>The role the temporal part plays</description>
+    </role>
+  </assertionType>
+
+
+</tma>

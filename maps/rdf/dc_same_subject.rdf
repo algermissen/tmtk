@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<rdf:RDF 
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns="http://purl.org/rss/1.0/"
+         xmlns:mn="http://usefulinc.com/rss/manifest/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+ >
+
+    <item rdf:about="http://xmlhack.com/read.php?item=2061">
+        <title>James Clark unveils a new XML mode for GNU Emacs</title>
+        <link>http://xmlhack.com/read.php?item=2061</link>
+        <dc:subject>Tools</dc:subject>
+	<!--
+        <dc:subject>Schemas</dc:subject>
+	-->
+    </item>
+
+    <item rdf:about="http://xmlhack.com/read.php?item=2050">
+        <title>XML Security Library 1.1.1</title>
+        <link>http://xmlhack.com/read.php?item=2050</link>
+        <dc:subject>Tools</dc:subject>
+	<!--
+        <dc:subject>E-Commerce</dc:subject>
+	-->
+    </item>
+
+</rdf:RDF>

@@ -1,0 +1,34 @@
+<topicMap>
+
+<topic id="assoctype" />
+<topic id="role1" />
+<topic id="role2" />
+<topic id="T1" />
+<topic id="T2" />
+<topic id="theme1" />
+<topic id="theme2" />
+
+
+<association id="a1">
+  <instanceOf>
+    <subjectIndicatorRef xlink:href="#assoctype" />
+  </instanceOf>
+  <scope>
+    <topicRef xlink:href="#theme1" />
+    <topicRef xlink:href="#theme2" />
+  </scope>
+  <member>
+    <roleSpec>
+      <subjectIndicatorRef xlink:href="#role1" />
+    </roleSpec>
+    <subjectIndicatorRef xlink:href="#T1" />
+  </member>
+  <member>
+    <roleSpec>
+      <subjectIndicatorRef xlink:href="#role2" />
+    </roleSpec>
+    <subjectIndicatorRef xlink:href="#T2" />
+  </member>
+</association>
+</topicMap>
+

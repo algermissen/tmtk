@@ -1,0 +1,19 @@
+<topicMap>
+
+<topic id="Type" />
+<topic id="role1" />
+<topic id="T1" />
+
+<association id="a1">
+  <instanceOf>
+    <subjectIndicatorRef xlink:href="#Type" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <subjectIndicatorRef xlink:href="#role1" />
+    </roleSpec>
+    <subjectIndicatorRef xlink:href="#T1" />
+  </member>
+</association>
+</topicMap>
+
