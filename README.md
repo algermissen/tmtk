@@ -1,4 +1,4 @@
-Welcome to TMTK!
+# Welcome to TMTK!
 
 TMTK (Topic Maps Tool Kit) is an implementation of the 'Topic Maps Reference
 Model'[1].  The 'Topic Maps Reference Model' goes beyond what Topic Maps to
